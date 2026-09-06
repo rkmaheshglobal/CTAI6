@@ -12,6 +12,12 @@ export const metadata: Metadata = {
   title: "CT & AI Learn — CBSE Class 6",
   description:
     "Interactive learning companion for CBSE Computational Thinking and Artificial Intelligence — Class 6 Student Handbook",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "CTAI6",
+  },
 };
 
 export default function RootLayout({

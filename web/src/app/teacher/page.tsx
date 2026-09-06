@@ -12,9 +12,10 @@ import {
   ResponsiveContainer,
   Cell,
 } from "recharts";
-import { Users, BookOpen, TrendingUp, LogOut, Copy, Check } from "lucide-react";
+import { Users, BookOpen, TrendingUp, LogOut, Copy, Check, Download } from "lucide-react";
 import { useAppStore, getCompletionPercent } from "@/lib/store";
 import { ALL_CHAPTERS, CT_CHAPTERS, AI_CHAPTERS } from "@/data/curriculum";
+import { generateClassCsv, downloadCsv } from "@/lib/export";
 
 export default function TeacherDashboard() {
   const router = useRouter();
@@ -74,6 +75,16 @@ export default function TeacherDashboard() {
     }
   }
 
+  function handleExportCsv() {
+    if (!selectedClass || !room) return;
+    const csvData = generateClassCsv(room.name, selectedClass, students, (id) =>
+      getStudentSnapshot(id)
+    );
+    const safeName = room.name.replace(/[^a-zA-Z0-9_-]/g, "_");
+    const filename = `CTAI6_${safeName}_${selectedClass}_${new Date().toISOString().slice(0, 10)}.csv`;
+    downloadCsv(filename, csvData);
+  }
+
   return (
     <div className="min-h-screen bg-slate-50">
       <header className="border-b border-slate-200 bg-white">
@@ -120,11 +131,21 @@ export default function TeacherDashboard() {
               <button
                 type="button"
                 onClick={copyCode}
-                className="flex items-center gap-2 rounded-xl bg-teal-100 px-4 py-2 text-sm font-semibold text-teal-800"
+                className="flex items-center gap-2 rounded-xl bg-teal-100 px-4 py-2 text-sm font-semibold text-teal-800 hover:bg-teal-200 transition"
               >
                 {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
                 {room ? `${room.name} (${selectedClass})` : `Class code: ${selectedClass}`}
               </button>
+              {students.length > 0 && (
+                <button
+                  type="button"
+                  onClick={handleExportCsv}
+                  className="flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition"
+                  title="Download class roster and chapter progress as CSV"
+                >
+                  <Download className="h-4 w-4 text-teal-400" /> Export Gradebook (CSV)
+                </button>
+              )}
             </div>
 
             <div className="mt-8 grid gap-4 md:grid-cols-3">
@@ -179,7 +200,21 @@ export default function TeacherDashboard() {
             </section>
 
             <section className="mt-10">
-              <h2 className="font-bold text-slate-800">Student roster</h2>
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                  <h2 className="font-bold text-slate-800">Student roster</h2>
+                  <p className="text-sm text-slate-500">Track student progress, XP, and chapter completions</p>
+                </div>
+                {students.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={handleExportCsv}
+                    className="flex items-center gap-2 rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition"
+                  >
+                    <Download className="h-4 w-4 text-teal-400" /> Download Roster (CSV)
+                  </button>
+                )}
+              </div>
               {students.length === 0 ? (
                 <p className="mt-4 rounded-xl bg-amber-50 p-4 text-sm text-amber-800">
                   No students have joined yet. Share class code <strong>{selectedClass}</strong> with your class.
