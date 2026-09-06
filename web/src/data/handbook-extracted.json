@@ -1,0 +1,4264 @@
+{
+  "ct-patterns": [
+    {
+      "id": "ct-patterns-q1",
+      "num": 1,
+      "prompt": "The following series follows a fixed pattern: 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, \u2026 If the pattern continues, determine how many times the number 9 appears in the NEXT 20 terms.",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "correct": "c"
+    },
+    {
+      "id": "ct-patterns-q2",
+      "num": 2,
+      "prompt": "The following number series is based on a pattern. One term is incorrect. Identify the incorrect term. 2, 3, 6, 11, 18, 25, 38, 51, 66, 83",
+      "options": [
+        {
+          "id": "a",
+          "text": "11"
+        },
+        {
+          "id": "b",
+          "text": "25"
+        },
+        {
+          "id": "c",
+          "text": "51"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "correct": "c"
+    },
+    {
+      "id": "ct-patterns-q3",
+      "num": 3,
+      "prompt": "What will come in place of \"?\" in the given series? 1@3, #5#, 7@9, #11#, 13@15, ?, 19@21",
+      "options": [
+        {
+          "id": "a",
+          "text": "@17@"
+        },
+        {
+          "id": "b",
+          "text": "#15#"
+        },
+        {
+          "id": "c",
+          "text": "16#18"
+        },
+        {
+          "id": "d",
+          "text": "#17#"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "correct": "d"
+    },
+    {
+      "id": "ct-patterns-q4",
+      "num": 4,
+      "prompt": "The first four terms of a block series are shown below. If the pattern continues in the same manner, which term of the series will be the first to contain more than 20 blocks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5th term"
+        },
+        {
+          "id": "b",
+          "text": "6th term"
+        },
+        {
+          "id": "c",
+          "text": "7th term"
+        },
+        {
+          "id": "d",
+          "text": "8th term"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "requiresDiagram": true,
+      "correct": "b"
+    },
+    {
+      "id": "ct-patterns-q5",
+      "num": 5,
+      "prompt": "What will come in place of \"?\" in the given series?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (see handbook diagram)"
+        },
+        {
+          "id": "b",
+          "text": "Option B (see handbook diagram)"
+        },
+        {
+          "id": "c",
+          "text": "Option C (see handbook diagram)"
+        },
+        {
+          "id": "d",
+          "text": "Option D (see handbook diagram)"
+        }
+      ],
+      "handbookPage": 11,
+      "requiresDiagram": true,
+      "imageOnlyOptions": true,
+      "correct": "d"
+    },
+    {
+      "id": "ct-patterns-q6",
+      "num": 6,
+      "prompt": "What will come in place of \"?\" in the given series?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (see handbook diagram)"
+        },
+        {
+          "id": "b",
+          "text": "Option B (see handbook diagram)"
+        },
+        {
+          "id": "c",
+          "text": "Option C (see handbook diagram)"
+        },
+        {
+          "id": "d",
+          "text": "Option D (see handbook diagram)"
+        }
+      ],
+      "handbookPage": 11,
+      "requiresDiagram": true,
+      "imageOnlyOptions": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-patterns-q7",
+      "num": 7,
+      "prompt": "The first five terms of a series formed using grey hexagons and white diamonds are given below. If the same pattern continues, how many diamonds will be present in the term where the number of hexagons is 144?",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "135"
+        },
+        {
+          "id": "c",
+          "text": "121"
+        },
+        {
+          "id": "d",
+          "text": "169"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-patterns-q8",
+      "num": 8,
+      "prompt": "Given below are two sets of numbers, P and Q. Which number from Set P can be interchanged with a number from Set Q such that both new sets follow a particular series or pattern? Set P: (18, 22, 24, 27, 30) Set Q: (21, 24, 27, 31, 36)",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 12,
+      "correct": "c"
+    },
+    {
+      "id": "ct-patterns-q9",
+      "num": 9,
+      "prompt": "The first three terms of a series of circles are shown below. If the pattern continues in the same manner, how many circles will be there in term 91?",
+      "options": [
+        {
+          "id": "a",
+          "text": "184"
+        },
+        {
+          "id": "b",
+          "text": "180"
+        },
+        {
+          "id": "c",
+          "text": "194"
+        },
+        {
+          "id": "d",
+          "text": "204"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 11,
+      "requiresDiagram": true,
+      "correct": "a"
+    },
+    {
+      "id": "ct-patterns-q11",
+      "num": 11,
+      "prompt": "You must shoot exactly one item from each box, to eliminate it from its box. When an item is shot, the same item in the adjacent box is also eliminated. What is the MAXIMUM number of items that can be eliminated, after all 3 shots?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "handbookPage": 13,
+      "requiresDiagram": true,
+      "correct": "d"
+    }
+  ],
+  "ct-lines-angles": [
+    {
+      "id": "ct-lines-angles-q1",
+      "num": 1,
+      "prompt": "Eight friends (A, B, C, D, E, F, G, H) are sitting at equidistant positions around a circular table, each facing towards the centre, as shown below. - A is facing North-East - B and D are facing perpendicular directions - B is to the immediate left of A; while C is exactly between E and F - B and F are facing opposite directions If G is sitting exactly between B and D, what is the angle between the directions that A and C are facing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45 degrees"
+        },
+        {
+          "id": "b",
+          "text": "90 degrees"
+        },
+        {
+          "id": "c",
+          "text": "135 degrees"
+        },
+        {
+          "id": "d",
+          "text": "180 degrees"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q2",
+      "num": 2,
+      "prompt": "Avi and Sam attend dance sessions in the afternoon. - Avi\u2019s session starts when the angle between the hour hand and the minute hand of the clock is 60 degrees - Sam\u2019s session starts at 1:55 PM What is the least possible difference between the starting times of both sessions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 minutes"
+        },
+        {
+          "id": "b",
+          "text": "5 minutes"
+        },
+        {
+          "id": "c",
+          "text": "10 minutes"
+        },
+        {
+          "id": "d",
+          "text": "15 minutes"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "correct": "b"
+    },
+    {
+      "id": "ct-lines-angles-q3",
+      "num": 3,
+      "prompt": "An equilateral triangle (all the angles are equal) is given below. At minimum, by how many degrees should the given triangle be rotated anticlockwise so that it looks exactly like the original triangle?",
+      "options": [
+        {
+          "id": "a",
+          "text": "30 degrees"
+        },
+        {
+          "id": "b",
+          "text": "60 degrees"
+        },
+        {
+          "id": "c",
+          "text": "120 degrees"
+        },
+        {
+          "id": "d",
+          "text": "90 degrees"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q4",
+      "num": 4,
+      "prompt": "What will come in place of \"?\"",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (see handbook diagram)"
+        },
+        {
+          "id": "b",
+          "text": "Option B (see handbook diagram)"
+        },
+        {
+          "id": "c",
+          "text": "Option C (see handbook diagram)"
+        },
+        {
+          "id": "d",
+          "text": "Option D (see handbook diagram)"
+        }
+      ],
+      "handbookPage": 14,
+      "requiresDiagram": true,
+      "imageOnlyOptions": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q5",
+      "num": 5,
+      "prompt": "A and B visit a park in the evening. When A visited, the minute hand pointed at 12, and the other hand was 150\u00b0 clockwise from it. When B visited, the hour hand pointed at 5, and the other hand was 210\u00b0 clockwise from it. Which statement is true?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A visited the park before B"
+        },
+        {
+          "id": "b",
+          "text": "B visited the park before A"
+        },
+        {
+          "id": "c",
+          "text": "A and B visited exactly at the same time"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "handbookPage": 15,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q6",
+      "num": 6,
+      "prompt": "What will come in place of \u201c?\u201d",
+      "options": [
+        {
+          "id": "a",
+          "text": "40\u00b0"
+        },
+        {
+          "id": "b",
+          "text": "60\u00b0"
+        },
+        {
+          "id": "c",
+          "text": "90\u00b0"
+        },
+        {
+          "id": "d",
+          "text": "30\u00b0"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "correct": "d"
+    },
+    {
+      "id": "ct-lines-angles-q7",
+      "num": 7,
+      "prompt": "How many times in a day, on a 12 - hour format clock, do the minute and hour hands form a straight line (i.e., an angle of 180\u00b0)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "11"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q8",
+      "num": 8,
+      "prompt": "In the given figure, Triangle 2 is a right-angled triangle. Both triangles are arranged such that the red circles completely overlap, meaning both triangles meet at point P. The triangles cannot be rotated or flipped. If an angle of 30\u00b0 is formed between Triangle 1 and Triangle 2 at point P, find the value of \u2220APD?",
+      "options": [
+        {
+          "id": "a",
+          "text": "110\u00b0"
+        },
+        {
+          "id": "b",
+          "text": "120\u00b0"
+        },
+        {
+          "id": "c",
+          "text": "130\u00b0"
+        },
+        {
+          "id": "d",
+          "text": "150\u00b0"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "correct": "b"
+    },
+    {
+      "id": "ct-lines-angles-q9",
+      "num": 9,
+      "prompt": "Sam draws three line segments AB, BC, and BD (with a common point B) on a sheet of paper \u2220ABC = 108\u00b0 and \u2220CBD = 162\u00b0, and these angles lie on either side of the line segment BC. Later, he draws a pair of parallel line segments EF and GH, both perpendicularly intersecting BD. How many pairs of parallel line segments appear on the sheet, finally?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 14,
+      "correct": "c"
+    },
+    {
+      "id": "ct-lines-angles-q10",
+      "num": 10,
+      "prompt": "A line segment AB is shown. Five points C, D, E, F, and G lie on AB at equal intervals. CB = GD; E is immediately right of C; F cannot be next to E or D. Which segment is the longest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GC"
+        },
+        {
+          "id": "b",
+          "text": "FE"
+        },
+        {
+          "id": "c",
+          "text": "GE"
+        },
+        {
+          "id": "d",
+          "text": "FD"
+        }
+      ],
+      "handbookPage": 16,
+      "requiresDiagram": true,
+      "correct": "d"
+    },
+    {
+      "id": "ct-lines-angles-q11",
+      "num": 11,
+      "prompt": "Four ropes A, B, C, and D have different lengths and colours (Blue, Red, Green, Yellow). Rope B is longer than only the Green rope. The Blue rope is longer than B but shorter than C. Rope A is not Blue. If the Yellow rope is the longest, which rope is Red?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "handbookPage": 16,
+      "correct": "b"
+    }
+  ],
+  "ct-number-play": [
+    {
+      "id": "ct-number-play-q1",
+      "num": 1,
+      "prompt": "Sachin plays a game using a standard die numbered 1 to 6. At each roll he scores points equal to the number shown. He may roll the die any number of times. The game ends when the number 6 appears three times (the three 6\u2019s need not be consecutive). If the total score at the end of the game is 29, what is the minimum number of rolls Sachin could have made?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 17,
+      "correct": "c"
+    },
+    {
+      "id": "ct-number-play-q2",
+      "num": 2,
+      "prompt": "In the given grid, each white square contains 1, 2, 3, or 4 hidden coins. Each black square shows the maximum number of coins present in any of its adjacent white squares. If every row has the same total number of coins, what is the MAXIMUM possible number of white squares that contain exactly one coin? Note: Two squares are adjacent only if they share a common side. Squares that share a common corner alone, are NOT considered as adjacent.",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 17,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-number-play-q3",
+      "num": 3,
+      "prompt": "If each of the given terms follows the same theme, what will be the value of P + Q + R + S?",
+      "options": [
+        {
+          "id": "a",
+          "text": "134"
+        },
+        {
+          "id": "b",
+          "text": "136"
+        },
+        {
+          "id": "c",
+          "text": "119"
+        },
+        {
+          "id": "d",
+          "text": "142"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 17,
+      "requiresDiagram": true,
+      "correct": "b"
+    },
+    {
+      "id": "ct-number-play-q4",
+      "num": 4,
+      "prompt": "An arrow between any two squares, always points towards the square having a larger number. A and B are two DIFFERENT numbers. If the largest 5-digit number is formed using all five squares, what will be the difference between the final number and 10000?",
+      "options": [
+        {
+          "id": "a",
+          "text": "44332"
+        },
+        {
+          "id": "b",
+          "text": "54545"
+        },
+        {
+          "id": "c",
+          "text": "54432"
+        },
+        {
+          "id": "d",
+          "text": "44432"
+        }
+      ],
+      "handbookPage": 18,
+      "correct": "d"
+    },
+    {
+      "id": "ct-number-play-q5",
+      "num": 5,
+      "prompt": "How many different triangles can be formed by connecting the black dots in the image below, where the sum of the numbers at their corners is 12?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 18,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-number-play-q6",
+      "num": 6,
+      "prompt": "Amat and Ankit each picked three numbers from the set {1, 2, 3, 4, 5, 6}. - 3 different numbers picked by Amat add up to give the highest possible sum - 3 different numbers picked by Ankit add up to the second highest possible sum Which pair of numbers were picked by both Amat and Ankit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 and 4"
+        },
+        {
+          "id": "b",
+          "text": "4 and 5"
+        },
+        {
+          "id": "c",
+          "text": "5 and 6"
+        },
+        {
+          "id": "d",
+          "text": "2 and 5"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 18,
+      "correct": "c"
+    },
+    {
+      "id": "ct-number-play-q7",
+      "num": 7,
+      "prompt": "A box contains six numbered circles coloured black and white. A 6-digit number must be formed using all six circles, and the colours must alternate throughout the number. The first circle may be either black or white. Among all such numbers that can be formed, take the second smallest number and the second largest number. What is the difference between these two numbers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "683233"
+        },
+        {
+          "id": "b",
+          "text": "684324"
+        },
+        {
+          "id": "c",
+          "text": "685314"
+        },
+        {
+          "id": "d",
+          "text": "583297"
+        }
+      ],
+      "handbookPage": 18,
+      "correct": "b"
+    },
+    {
+      "id": "ct-number-play-q8",
+      "num": 8,
+      "prompt": "I am a 5-digit number made up of both even and odd digits. I read the same backwards and forwards (palindrome). The greatest difference between at least two of my digits is 9. What is the smallest possible sum of my digits?",
+      "options": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 19,
+      "correct": "b"
+    },
+    {
+      "id": "ct-number-play-q9",
+      "num": 9,
+      "prompt": "Count the number of blocks that are connected to at least one block containing a smaller number and one block containing a larger number than the number in it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "handbookPage": 19,
+      "correct": "d"
+    },
+    {
+      "id": "ct-number-play-q10",
+      "num": 10,
+      "prompt": "A 3 \u00d7 3 grid of digits is given below. Avi, Sam, Riya, and Maya each select a different digit from the grid such that: The sum of the digits chosen by Avi and Sam is equal to the digit chosen by Maya; The digit chosen by Riya is the largest among the four chosen digits. Which of the following options shows a possible set of cells chosen by all four friends? Note: You cannot rotate the question or option images",
+      "options": [
+        {
+          "id": "a",
+          "text": "Option A (see handbook diagram)"
+        },
+        {
+          "id": "b",
+          "text": "Option B (see handbook diagram)"
+        },
+        {
+          "id": "c",
+          "text": "Option C (see handbook diagram)"
+        },
+        {
+          "id": "d",
+          "text": "Option D (see handbook diagram)"
+        }
+      ],
+      "handbookPage": 19,
+      "imageOnlyOptions": true,
+      "requiresDiagram": true,
+      "correct": "a"
+    }
+  ],
+  "ct-data-handling": [
+    {
+      "id": "ct-data-handling-q3",
+      "num": 3,
+      "prompt": "Sales of 4 milk stores are given below, in the form of a pictograph. If each symbol in the pictograph represents \u2018x\u2019 litres, where x is a whole number and the sales made by any store is less than 100 litres, what is the MAXIMUM possible quantity of milk sold (in litres) by all the stores in total?",
+      "options": [
+        {
+          "id": "a",
+          "text": "255 L"
+        },
+        {
+          "id": "b",
+          "text": "272 L"
+        },
+        {
+          "id": "c",
+          "text": "306 L"
+        },
+        {
+          "id": "d",
+          "text": "283 L"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 20,
+      "requiresDiagram": true,
+      "correct": "b"
+    },
+    {
+      "id": "ct-data-handling-q5",
+      "num": 5,
+      "prompt": "The bar graph shows the number of marbles collected by Monica, Rachel, Ross, Chandler, and Joey. - Rachel has collected more marbles than Joey and less than that of Chandler - Monica has collected as much as Rachel and Ross collected together How many marbles did Chandler collect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "20"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 20,
+      "correct": "c"
+    },
+    {
+      "id": "ct-data-handling-q10",
+      "num": 10,
+      "prompt": "Raj saved some amount of money every month from January to June. \u25cf He saved a total of Rs. 30,000 in the first three months and Rs. 30,000 again in the last three months as well \u25cf He did not save any money in February \u25cf The maximum total saved in any two consecutive months is Rs. 40,000 \u25cf While drawing the chart, Raj arranged the savings in increasing order without matching them with the month names written below What was the actual amount saved in June?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rs. 22000"
+        },
+        {
+          "id": "b",
+          "text": "Rs. 9000"
+        },
+        {
+          "id": "c",
+          "text": "Rs. 3000"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 20,
+      "correct": "d"
+    }
+  ],
+  "ct-prime-time": [
+    {
+      "id": "ct-prime-time-q1",
+      "num": 1,
+      "prompt": "How many steps did it take to reach the starting point?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Three"
+        },
+        {
+          "id": "b",
+          "text": "Four"
+        },
+        {
+          "id": "c",
+          "text": "Five"
+        },
+        {
+          "id": "d",
+          "text": "Six"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "d"
+    },
+    {
+      "id": "ct-prime-time-q2",
+      "num": 2,
+      "prompt": "If \"X\" is a number formed by the addition of two or more DIFFERENT single-digit prime numbers, which of the following options CANNOT be a value of the number \"X\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "b"
+    },
+    {
+      "id": "ct-prime-time-q3",
+      "num": 3,
+      "prompt": "The sum of three consecutive natural numbers is equal to Y. Which of the following numbers will Y always be divisible by?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "a"
+    },
+    {
+      "id": "ct-prime-time-q4",
+      "num": 4,
+      "prompt": "A two-digit number is 1 more than a multiple of 3. How many different possible values can it have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "29"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "32"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "a"
+    },
+    {
+      "id": "ct-prime-time-q5",
+      "num": 5,
+      "prompt": "The product of a number 'PQ' and 7 is 'RSQ', where P, Q, R, and S are distinct digits. Which of the following CANNOT be the possible value of 'RSQ'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "210"
+        },
+        {
+          "id": "b",
+          "text": "315"
+        },
+        {
+          "id": "c",
+          "text": "420"
+        },
+        {
+          "id": "d",
+          "text": "105"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "d"
+    },
+    {
+      "id": "ct-prime-time-q6",
+      "num": 6,
+      "prompt": "Nausheen thinks of 5 consecutive numbers. 3 of these numbers are prime and 3 of these are even numbers. What is the sum of these numbers?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "20"
+        },
+        {
+          "id": "d",
+          "text": "Cannot be determined"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "c"
+    },
+    {
+      "id": "ct-prime-time-q7",
+      "num": 7,
+      "prompt": "In a certain language, if 3 is coded as \u2018free\u2019, 5 is coded as \u2018dive\u2019, 10 is coded as \u2018hen\u2019, then what",
+      "options": [
+        {
+          "id": "a",
+          "text": "heighten"
+        },
+        {
+          "id": "b",
+          "text": "throwing"
+        },
+        {
+          "id": "c",
+          "text": "routine"
+        },
+        {
+          "id": "d",
+          "text": "titan"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "a"
+    },
+    {
+      "id": "ct-prime-time-q8",
+      "num": 8,
+      "prompt": "If \"X\" is a number formed by the multiplication of 2 single-digit prime numbers, which of the following options is ALWAYS TRUE about the number \"X\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The number \"X\" cannot be even"
+        },
+        {
+          "id": "b",
+          "text": "The number \"X\" is a 2-digit number"
+        },
+        {
+          "id": "c",
+          "text": "The number \"X\" is a multiple of 4"
+        },
+        {
+          "id": "d",
+          "text": "The number \"X\" is less than 50"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "d"
+    },
+    {
+      "id": "ct-prime-time-q9",
+      "num": 9,
+      "prompt": "In the letter grid below, the spelling of which prime number is immediately followed by the spelling of its succeeding number in the number series? ONEFIIVESIXTWOTHREENINETENELEVNTWELVEONEFOURSIXSEVEN",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 25,
+      "correct": "d"
+    }
+  ],
+  "ct-perimeter-area": [
+    {
+      "id": "ct-perimeter-area-q2",
+      "num": 2,
+      "prompt": "The perimeter of a square X is 16 cm. The square is cut along its diagonal to form two identical triangles. Which of these statements is DEFINITELY FALSE based on the above information?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two sides of the triangle meet each other perpendicularly"
+        },
+        {
+          "id": "b",
+          "text": "The length of at least one side of each triangle is 4 cm"
+        },
+        {
+          "id": "c",
+          "text": "The combined area of the triangles is 16 cm2"
+        },
+        {
+          "id": "d",
+          "text": "The combined perimeter of the triangles is 16 cm"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 30,
+      "correct": "d"
+    },
+    {
+      "id": "ct-perimeter-area-q3",
+      "num": 3,
+      "prompt": "A larger block is formed using 4 small cubes (2 grey cubes and 2 white cubes), as shown below. How many faces of the larger block have equal grey and white areas?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "2"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 30,
+      "requiresDiagram": true,
+      "correct": "a"
+    },
+    {
+      "id": "ct-perimeter-area-q4",
+      "num": 4,
+      "prompt": "How many times should the given paper sheet be folded in half so that the perimeter of the new shape is 16 cm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 30,
+      "correct": "b"
+    },
+    {
+      "id": "ct-perimeter-area-q7",
+      "num": 7,
+      "prompt": "If figures A, B, and C are all of the same dimensions, which of the following coloured blocks has the largest area?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Red"
+        },
+        {
+          "id": "b",
+          "text": "Yellow"
+        },
+        {
+          "id": "c",
+          "text": "Green"
+        },
+        {
+          "id": "d",
+          "text": "All of them have an equal area"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 30,
+      "correct": "a"
+    }
+  ],
+  "ct-fractions": [
+    {
+      "id": "ct-fractions-q2",
+      "num": 2,
+      "prompt": "What will come in place of \u201c?\u201d",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "a"
+    },
+    {
+      "id": "ct-fractions-q3",
+      "num": 3,
+      "prompt": "Arrange the given fractions in ascending order. Which option can be placed exactly in the middle of the new arrangement so that the order remains ascending? 10/15, 8/9, 17/18, 5/6",
+      "options": [
+        {
+          "id": "a",
+          "text": "68/90"
+        },
+        {
+          "id": "b",
+          "text": "71/90"
+        },
+        {
+          "id": "c",
+          "text": "77/90"
+        },
+        {
+          "id": "d",
+          "text": "84/90"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "c"
+    },
+    {
+      "id": "ct-fractions-q4",
+      "num": 4,
+      "prompt": "Two numbers, 23/18 and 7/54 are taken. A binary operation is performed on them and the result obtained is 31/27. What operation might have been performed on the numbers taken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Addition"
+        },
+        {
+          "id": "b",
+          "text": "Subtraction"
+        },
+        {
+          "id": "c",
+          "text": "Multiplication"
+        },
+        {
+          "id": "d",
+          "text": "None of these"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "b"
+    },
+    {
+      "id": "ct-fractions-q5",
+      "num": 5,
+      "prompt": "In a class of 50 students, 20 are boys and the remaining are girls. Of the girls in the class, one third like singing and two thirds like dancing. Some girls like both singing and dancing. If 5 girls like neither singing nor dancing, what fraction of the girls like both activities?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/3"
+        },
+        {
+          "id": "b",
+          "text": "1/4"
+        },
+        {
+          "id": "c",
+          "text": "1/5"
+        },
+        {
+          "id": "d",
+          "text": "1/6"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "d"
+    },
+    {
+      "id": "ct-fractions-q6",
+      "num": 6,
+      "prompt": "Tim has some sons, some daughters, and 27 grandchildren. - 2/3 of his children are male and the rest are female - Each of his sons has 2 sons and 1 daughter - Each of his daughters has 2 daughters and 1 son How many daughters does Tim have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "b"
+    },
+    {
+      "id": "ct-fractions-q9",
+      "num": 9,
+      "prompt": "Raju\u2019s age is 2/3 of his brother\u2019s age. Currently, if one of them is 30 years old, which of these options DOES NOT represent the possible age of Raju\u2019s brother?",
+      "options": [
+        {
+          "id": "a",
+          "text": "45 years"
+        },
+        {
+          "id": "b",
+          "text": "30 years"
+        },
+        {
+          "id": "c",
+          "text": "27 years"
+        },
+        {
+          "id": "d",
+          "text": "None of these"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 34,
+      "correct": "d"
+    }
+  ],
+  "ct-constructions": [
+    {
+      "id": "ct-constructions-q2",
+      "num": 2,
+      "prompt": "Given below is an arrangement of squares. What is the minimum number of straight lines required so that the total number of square shapes that appear in the final image (including the existing ones) is more than 5?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 36,
+      "requiresDiagram": true,
+      "correct": "a"
+    },
+    {
+      "id": "ct-constructions-q7",
+      "num": 7,
+      "prompt": "When Figure A is placed over Figure B to form a square grid, which same digits will be positioned exactly on top of each other?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 36,
+      "correct": "c"
+    },
+    {
+      "id": "ct-constructions-q9",
+      "num": 9,
+      "prompt": "Two identical paper sheets are joined together at one of their sides to form a square. Which of the following CAN DEFINITELY NOT be the shape of each of the paper sheets?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Triangle"
+        },
+        {
+          "id": "b",
+          "text": "Square"
+        },
+        {
+          "id": "c",
+          "text": "Rectangle"
+        },
+        {
+          "id": "d",
+          "text": "None of these"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 36,
+      "correct": "b"
+    }
+  ],
+  "ct-symmetry": [
+    {
+      "id": "ct-symmetry-q1",
+      "num": 1,
+      "prompt": "Image A is placed exactly on top of Image B (exactly overlapping it). How many shapes with vertical symmetry overlap letters that also have vertical symmetry? Note: Rotation of the images is not allowed",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "correct": "d"
+    },
+    {
+      "id": "ct-symmetry-q4",
+      "num": 4,
+      "prompt": "A symmetrical transparent sheet of paper is folded in half along the dotted line AB. When the sheet is unfolded, what is the total number of triangles seen? Note: Line AB is not a part of the shape",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "correct": "b"
+    },
+    {
+      "id": "ct-symmetry-q5",
+      "num": 5,
+      "prompt": "The given shape is first folded vertically, then horizontally, and then cut along the dotted line as shown below. After unfolding, if the resultant shape has equal sides (edges), how many lines of symmetry does the resultant shape have?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "requiresDiagram": true,
+      "correct": "b"
+    },
+    {
+      "id": "ct-symmetry-q7",
+      "num": 7,
+      "prompt": "Along which line should I cut the given paper sheet to get two identical Pentagons?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AB"
+        },
+        {
+          "id": "b",
+          "text": "CD"
+        },
+        {
+          "id": "c",
+          "text": "DE"
+        },
+        {
+          "id": "d",
+          "text": "None of These"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "correct": "a"
+    },
+    {
+      "id": "ct-symmetry-q8",
+      "num": 8,
+      "prompt": "Eight shapes are shown below, each having a dotted line. Count the number of shapes in which the dotted line is a line of symmetry.",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "requiresDiagram": true,
+      "correct": "c"
+    },
+    {
+      "id": "ct-symmetry-q9",
+      "num": 9,
+      "prompt": "How many of the following letters have at least one line of symmetry? RISTLHPACE",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 letters"
+        },
+        {
+          "id": "b",
+          "text": "6 letters"
+        },
+        {
+          "id": "c",
+          "text": "8 letters"
+        },
+        {
+          "id": "d",
+          "text": "10 letters"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 40,
+      "correct": "a"
+    }
+  ],
+  "ct-negative-numbers": [
+    {
+      "id": "ct-negative-numbers-q1",
+      "num": 1,
+      "prompt": "In the following series, which of these English alphabets would appear first alongside a negative number?",
+      "options": [
+        {
+          "id": "a",
+          "text": "M"
+        },
+        {
+          "id": "b",
+          "text": "N"
+        },
+        {
+          "id": "c",
+          "text": "O"
+        },
+        {
+          "id": "d",
+          "text": "P"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "c"
+    },
+    {
+      "id": "ct-negative-numbers-q2",
+      "num": 2,
+      "prompt": "In the given grid, the empty cells in Column 2 must be filled using either \u201c>\u201d or \u201c<\u201d. Three symbol stacks are provided, and each stack must be placed as given (without changing the order) into Column 2. Which two stacks, when placed in Column 2, result in the same number of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stacks A and B"
+        },
+        {
+          "id": "b",
+          "text": "Stacks B and C"
+        },
+        {
+          "id": "c",
+          "text": "Stacks A and C"
+        },
+        {
+          "id": "d",
+          "text": "All stacks A, B and C"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "a"
+    },
+    {
+      "id": "ct-negative-numbers-q3",
+      "num": 3,
+      "prompt": "What will come in place of \u201c?\u201d in the given series? -12, 2, -10, 4, -8, 6, -6, ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "-4"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "b"
+    },
+    {
+      "id": "ct-negative-numbers-q4",
+      "num": 4,
+      "prompt": "If C is a positive integer, which of these options will have the LARGEST value, where \u201c+\u201d means \u201c-\u201d and \u201c-\u201d means \u201c+\u201d?",
+      "options": [
+        {
+          "id": "a",
+          "text": "C + 151 - 41"
+        },
+        {
+          "id": "b",
+          "text": "C - 80 + 357"
+        },
+        {
+          "id": "c",
+          "text": "C + 50 + 93"
+        },
+        {
+          "id": "d",
+          "text": "C + 200 - 68"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "d"
+    },
+    {
+      "id": "ct-negative-numbers-q8",
+      "num": 8,
+      "prompt": "A number line has equally spaced points with values following a pattern, where some values are hidden. A rabbit starts at -8 and jumps on the 9th point to the right. From its new position, it then jumps on the 7th point to the left. What is the sum of the values of all the points it lands on, including the starting point?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "-2"
+        },
+        {
+          "id": "d",
+          "text": "-4"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "c"
+    },
+    {
+      "id": "ct-negative-numbers-q9",
+      "num": 9,
+      "prompt": "In the box below, each square represents +10, and each triangle represents -15. How many more such squares or triangles should be added to the box, such that the sum of all the shapes of the",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 triangles"
+        },
+        {
+          "id": "b",
+          "text": "1 triangle"
+        },
+        {
+          "id": "c",
+          "text": "8 squares"
+        },
+        {
+          "id": "d",
+          "text": "5 squares"
+        }
+      ],
+      "imageOnlyOptions": false,
+      "handbookPage": 44,
+      "correct": "d"
+    }
+  ],
+  "ai-intro": [
+    {
+      "id": "ai-intro-mcq1",
+      "num": 1,
+      "prompt": "What is labelled data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data without any tags"
+        },
+        {
+          "id": "b",
+          "text": "Data with predefined labels or tags"
+        },
+        {
+          "id": "c",
+          "text": "Random data"
+        },
+        {
+          "id": "d",
+          "text": "Incorrect data"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-intro-mcq2",
+      "num": 2,
+      "prompt": "Who introduced the Turing Test?",
+      "options": [
+        {
+          "id": "a",
+          "text": "John McCarthy"
+        },
+        {
+          "id": "b",
+          "text": "Alan Turing"
+        },
+        {
+          "id": "c",
+          "text": "Charles Babbage"
+        },
+        {
+          "id": "d",
+          "text": "Isaac Newton"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-intro-mcq3",
+      "num": 3,
+      "prompt": "In supervised learning, data is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unlabelled"
+        },
+        {
+          "id": "b",
+          "text": "Random"
+        },
+        {
+          "id": "c",
+          "text": "Labelled"
+        },
+        {
+          "id": "d",
+          "text": "Deleted"
+        }
+      ],
+      "correct": "c"
+    },
+    {
+      "id": "ai-intro-mcq4",
+      "num": 4,
+      "prompt": "Predicting exam marks based on the trained data uses:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supervised Learning"
+        },
+        {
+          "id": "b",
+          "text": "Unsupervised Learning"
+        },
+        {
+          "id": "c",
+          "text": "Reinforcement Learning"
+        },
+        {
+          "id": "d",
+          "text": "All of the above"
+        }
+      ],
+      "correct": "a"
+    },
+    {
+      "id": "ai-intro-mcq5",
+      "num": 5,
+      "prompt": "Which of the following is not AI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Voice assistant"
+        },
+        {
+          "id": "b",
+          "text": "Face recognition"
+        },
+        {
+          "id": "c",
+          "text": "Traditional traffic signal"
+        },
+        {
+          "id": "d",
+          "text": "Smart chatbot"
+        }
+      ],
+      "correct": "c"
+    },
+    {
+      "id": "ai-intro-fib1",
+      "num": 6,
+      "prompt": "Intelligence includes the ability to learn and _____________ problems.",
+      "options": [
+        {
+          "id": "a",
+          "text": "solve"
+        },
+        {
+          "id": "b",
+          "text": "copy"
+        },
+        {
+          "id": "c",
+          "text": "ignore"
+        },
+        {
+          "id": "d",
+          "text": "memorise"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-fib2",
+      "num": 7,
+      "prompt": "AI is a technique to make intelligent _________________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "machines"
+        },
+        {
+          "id": "b",
+          "text": "rules"
+        },
+        {
+          "id": "c",
+          "text": "timers"
+        },
+        {
+          "id": "d",
+          "text": "engines only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-fib3",
+      "num": 8,
+      "prompt": "Automation works on fixed _______________ and preset instructions.",
+      "options": [
+        {
+          "id": "a",
+          "text": "rules"
+        },
+        {
+          "id": "b",
+          "text": "emotions"
+        },
+        {
+          "id": "c",
+          "text": "labels"
+        },
+        {
+          "id": "d",
+          "text": "rewards"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-fib4",
+      "num": 9,
+      "prompt": "Unsupervised learning is mainly used for ________________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "clustering"
+        },
+        {
+          "id": "b",
+          "text": "labelling emails"
+        },
+        {
+          "id": "c",
+          "text": "fixed timers"
+        },
+        {
+          "id": "d",
+          "text": "copying homework"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-fib5",
+      "num": 10,
+      "prompt": "Machine Learning allows machines to learn from _______________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "data"
+        },
+        {
+          "id": "b",
+          "text": "luck"
+        },
+        {
+          "id": "c",
+          "text": "fixed timers"
+        },
+        {
+          "id": "d",
+          "text": "human memory only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-saq1",
+      "num": 11,
+      "prompt": "Define intelligence in your own words. Which is the best definition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The ability to learn, think, and solve problems"
+        },
+        {
+          "id": "b",
+          "text": "The ability to copy answers quickly"
+        },
+        {
+          "id": "c",
+          "text": "Following fixed instructions without change"
+        },
+        {
+          "id": "d",
+          "text": "Memorising facts without understanding"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-saq2",
+      "num": 12,
+      "prompt": "State two differences between automation and AI. Which pair is correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automation follows fixed rules; AI learns from data"
+        },
+        {
+          "id": "b",
+          "text": "Both always learn from experience"
+        },
+        {
+          "id": "c",
+          "text": "Automation thinks; AI never changes"
+        },
+        {
+          "id": "d",
+          "text": "Neither uses any instructions"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-saq3",
+      "num": 13,
+      "prompt": "What is reinforcement learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Learning through trial and error using rewards and penalties"
+        },
+        {
+          "id": "b",
+          "text": "Learning only from labelled examples with correct answers"
+        },
+        {
+          "id": "c",
+          "text": "Grouping data without any labels"
+        },
+        {
+          "id": "d",
+          "text": "Copying data without understanding patterns"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-saq4",
+      "num": 14,
+      "prompt": "Name the three types of Machine Learning.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supervised, Unsupervised, and Reinforcement learning"
+        },
+        {
+          "id": "b",
+          "text": "Numerical, Text, and Image learning"
+        },
+        {
+          "id": "c",
+          "text": "Fast, Slow, and Medium learning"
+        },
+        {
+          "id": "d",
+          "text": "Human, Animal, and Machine learning"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-saq5",
+      "num": 15,
+      "prompt": "Give two examples of AI used in daily life.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Voice assistants and face recognition"
+        },
+        {
+          "id": "b",
+          "text": "Microwave timers and standard traffic lights"
+        },
+        {
+          "id": "c",
+          "text": "Fixed washing-machine cycles only"
+        },
+        {
+          "id": "d",
+          "text": "Manual chalkboards and paper notebooks"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-apply1",
+      "num": 16,
+      "prompt": "Grouping customers based on shopping habits without labels uses which type of learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unsupervised learning"
+        },
+        {
+          "id": "b",
+          "text": "Supervised learning"
+        },
+        {
+          "id": "c",
+          "text": "Reinforcement learning"
+        },
+        {
+          "id": "d",
+          "text": "No machine learning"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-apply2",
+      "num": 17,
+      "prompt": "Predicting house prices based on past labelled data uses which type of learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supervised learning"
+        },
+        {
+          "id": "b",
+          "text": "Unsupervised learning"
+        },
+        {
+          "id": "c",
+          "text": "Reinforcement learning"
+        },
+        {
+          "id": "d",
+          "text": "Random guessing"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-apply3",
+      "num": 18,
+      "prompt": "A game AI improving after winning or losing uses which type of learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reinforcement learning"
+        },
+        {
+          "id": "b",
+          "text": "Supervised learning"
+        },
+        {
+          "id": "c",
+          "text": "Unsupervised learning"
+        },
+        {
+          "id": "d",
+          "text": "Fixed-rule automation"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-apply4",
+      "num": 19,
+      "prompt": "Sorting emails into spam and not spam uses which type of learning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supervised learning"
+        },
+        {
+          "id": "b",
+          "text": "Unsupervised learning"
+        },
+        {
+          "id": "c",
+          "text": "Reinforcement learning"
+        },
+        {
+          "id": "d",
+          "text": "Automation only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 58
+    },
+    {
+      "id": "ai-intro-class1",
+      "num": 20,
+      "prompt": "Classify: 'Traffic light changing at fixed intervals' \u2014 is this AI or Automation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automation"
+        },
+        {
+          "id": "b",
+          "text": "AI"
+        },
+        {
+          "id": "c",
+          "text": "Machine Learning"
+        },
+        {
+          "id": "d",
+          "text": "Reinforcement learning"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 59
+    },
+    {
+      "id": "ai-intro-class2",
+      "num": 21,
+      "prompt": "Classify: 'Face Recognition System' \u2014 is this AI or Automation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AI"
+        },
+        {
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
+          "text": "Fixed rules only"
+        },
+        {
+          "id": "d",
+          "text": "Manual counting"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 59
+    },
+    {
+      "id": "ai-intro-class3",
+      "num": 22,
+      "prompt": "Classify: 'Washing machine with preset timer' \u2014 is this AI or Automation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automation"
+        },
+        {
+          "id": "b",
+          "text": "AI"
+        },
+        {
+          "id": "c",
+          "text": "Supervised learning"
+        },
+        {
+          "id": "d",
+          "text": "Unsupervised learning"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 59
+    },
+    {
+      "id": "ai-intro-class4",
+      "num": 23,
+      "prompt": "Classify: 'Voice assistant answering questions' \u2014 is this AI or Automation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "AI"
+        },
+        {
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
+          "text": "Fixed timer device"
+        },
+        {
+          "id": "d",
+          "text": "Non-learning machine"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 59
+    }
+  ],
+  "ai-data": [
+    {
+      "id": "ai-data-mcq1",
+      "num": 1,
+      "prompt": "A teacher analyses last year\u2019s exam results to improve teaching methods. This is an example of:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guesswork"
+        },
+        {
+          "id": "b",
+          "text": "Using data for decision-making"
+        },
+        {
+          "id": "c",
+          "text": "Random selection"
+        },
+        {
+          "id": "d",
+          "text": "Entertainment"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-data-mcq2",
+      "num": 2,
+      "prompt": "A fitness app counts your daily steps and shows weekly progress. What type of data is mainly collected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Image Data"
+        },
+        {
+          "id": "b",
+          "text": "Text Data"
+        },
+        {
+          "id": "c",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "d",
+          "text": "Sound Data"
+        }
+      ],
+      "correct": "c"
+    },
+    {
+      "id": "ai-data-mcq3",
+      "num": 3,
+      "prompt": "A weather app predicts rain using satellite information. This shows that data helps in:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Playing games"
+        },
+        {
+          "id": "b",
+          "text": "Making future predictions"
+        },
+        {
+          "id": "c",
+          "text": "Writing stories"
+        },
+        {
+          "id": "d",
+          "text": "Sending messages"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-data-mcq4",
+      "num": 4,
+      "prompt": "A security camera records activities at the school gate. What type of data is mainly collected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Text Data"
+        },
+        {
+          "id": "b",
+          "text": "Video Data"
+        },
+        {
+          "id": "c",
+          "text": "Image Data"
+        },
+        {
+          "id": "d",
+          "text": "Numerical Data"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-data-mcq5",
+      "num": 5,
+      "prompt": "Which of the following is an example of Image data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Your name"
+        },
+        {
+          "id": "b",
+          "text": "Your address"
+        },
+        {
+          "id": "c",
+          "text": "Your age"
+        },
+        {
+          "id": "d",
+          "text": "Your photograph"
+        }
+      ],
+      "correct": "d"
+    },
+    {
+      "id": "ai-data-fib1",
+      "num": 6,
+      "prompt": "Data means raw _____________ and figures.",
+      "options": [
+        {
+          "id": "a",
+          "text": "information"
+        },
+        {
+          "id": "b",
+          "text": "stories"
+        },
+        {
+          "id": "c",
+          "text": "guesses"
+        },
+        {
+          "id": "d",
+          "text": "emotions"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-fib2",
+      "num": 7,
+      "prompt": "Tables arrange data in rows and _____________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "columns"
+        },
+        {
+          "id": "b",
+          "text": "circles"
+        },
+        {
+          "id": "c",
+          "text": "random piles"
+        },
+        {
+          "id": "d",
+          "text": "passwords"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-fib3",
+      "num": 8,
+      "prompt": "Text data is made up of letters, words, and _____________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sentences"
+        },
+        {
+          "id": "b",
+          "text": "numbers only"
+        },
+        {
+          "id": "c",
+          "text": "videos only"
+        },
+        {
+          "id": "d",
+          "text": "temperatures"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-fib4",
+      "num": 9,
+      "prompt": "Grouping similar kinds of data is called _____________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "classification"
+        },
+        {
+          "id": "b",
+          "text": "spamming"
+        },
+        {
+          "id": "c",
+          "text": "hacking"
+        },
+        {
+          "id": "d",
+          "text": "phishing"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-fib5",
+      "num": 10,
+      "prompt": "Saving data in secure systems is known as _____________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "storage"
+        },
+        {
+          "id": "b",
+          "text": "deletion"
+        },
+        {
+          "id": "c",
+          "text": "guessing"
+        },
+        {
+          "id": "d",
+          "text": "spamming"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-saq1",
+      "num": 11,
+      "prompt": "What is Data? Choose the best definition.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Raw information that can be processed and analysed for insights"
+        },
+        {
+          "id": "b",
+          "text": "Only numbers written on paper"
+        },
+        {
+          "id": "c",
+          "text": "Random guesses without facts"
+        },
+        {
+          "id": "d",
+          "text": "Entertainment content only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-saq2",
+      "num": 12,
+      "prompt": "State any two important aspects of Data in daily life.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decision making and personalised user experience"
+        },
+        {
+          "id": "b",
+          "text": "Only playing games"
+        },
+        {
+          "id": "c",
+          "text": "Ignoring past results"
+        },
+        {
+          "id": "d",
+          "text": "Avoiding all measurements"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-saq3",
+      "num": 13,
+      "prompt": "Name the four main types of Data mentioned in the handbook.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical, Text, Image, and Sound data"
+        },
+        {
+          "id": "b",
+          "text": "Only video and automation"
+        },
+        {
+          "id": "c",
+          "text": "AI, CT, and robotics only"
+        },
+        {
+          "id": "d",
+          "text": "Rows, columns, and charts only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-saq4",
+      "num": 14,
+      "prompt": "What is the difference between a table and a chart?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tables show exact values in rows and columns; charts show visual comparisons"
+        },
+        {
+          "id": "b",
+          "text": "They are exactly the same"
+        },
+        {
+          "id": "c",
+          "text": "Charts never use numbers"
+        },
+        {
+          "id": "d",
+          "text": "Tables cannot organise information"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-saq5",
+      "num": 15,
+      "prompt": "Define classification and labelling in Organising Data.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Classification groups similar data; labelling gives clear descriptive names"
+        },
+        {
+          "id": "b",
+          "text": "Classification deletes files; labelling hides data"
+        },
+        {
+          "id": "c",
+          "text": "Both mean copying data illegally"
+        },
+        {
+          "id": "d",
+          "text": "Neither helps organisation"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-apply1",
+      "num": 16,
+      "prompt": "A student measures the height of a plant every week. What type of data is being collected?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical data"
+        },
+        {
+          "id": "b",
+          "text": "Image data"
+        },
+        {
+          "id": "c",
+          "text": "Text data"
+        },
+        {
+          "id": "d",
+          "text": "Sound data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-apply2",
+      "num": 17,
+      "prompt": "A teacher wants to compare the marks of students clearly. Should she use a table or a bar chart?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bar chart \u2014 it makes visual comparison of categories easy"
+        },
+        {
+          "id": "b",
+          "text": "Table only \u2014 charts never help"
+        },
+        {
+          "id": "c",
+          "text": "Neither \u2014 ignore the data"
+        },
+        {
+          "id": "d",
+          "text": "Random list with no structure"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-apply3",
+      "num": 18,
+      "prompt": "A shopping app suggests products based on your previous searches. How is data being used?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To personalise recommendations using your past activity"
+        },
+        {
+          "id": "b",
+          "text": "To delete your account automatically"
+        },
+        {
+          "id": "c",
+          "text": "Only for entertainment with no pattern"
+        },
+        {
+          "id": "d",
+          "text": "To ignore your preferences"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-apply4",
+      "num": 19,
+      "prompt": "Your desktop has many mixed files with random names. What is the best organising step?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Classify files into folders and use clear labels"
+        },
+        {
+          "id": "b",
+          "text": "Delete everything immediately"
+        },
+        {
+          "id": "c",
+          "text": "Leave files random forever"
+        },
+        {
+          "id": "d",
+          "text": "Share all files publicly online"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 68
+    },
+    {
+      "id": "ai-data-class1",
+      "num": 20,
+      "prompt": "Classify the data type for: 'Exam Marks'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "b",
+          "text": "Text Data"
+        },
+        {
+          "id": "c",
+          "text": "Sound Data"
+        },
+        {
+          "id": "d",
+          "text": "Video Data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 69
+    },
+    {
+      "id": "ai-data-class2",
+      "num": 21,
+      "prompt": "Classify the data type for: 'A voice message'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sound Data"
+        },
+        {
+          "id": "b",
+          "text": "Image Data"
+        },
+        {
+          "id": "c",
+          "text": "Numerical Data only"
+        },
+        {
+          "id": "d",
+          "text": "Video Data only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 69
+    },
+    {
+      "id": "ai-data-class3",
+      "num": 22,
+      "prompt": "Classify the data type for: 'School ID photo'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Image Data"
+        },
+        {
+          "id": "b",
+          "text": "Text Data"
+        },
+        {
+          "id": "c",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "d",
+          "text": "Sound Data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 69
+    },
+    {
+      "id": "ai-data-class4",
+      "num": 23,
+      "prompt": "Classify the data type for: 'Your home address'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Text Data"
+        },
+        {
+          "id": "b",
+          "text": "Image Data"
+        },
+        {
+          "id": "c",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "d",
+          "text": "Video Data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 69
+    },
+    {
+      "id": "ai-data-class5",
+      "num": 24,
+      "prompt": "Classify the data type for: 'Number of students in the class'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "b",
+          "text": "Text Data"
+        },
+        {
+          "id": "c",
+          "text": "Image Data"
+        },
+        {
+          "id": "d",
+          "text": "Sound Data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 69
+    }
+  ],
+  "ai-patterns": [
+    {
+      "id": "ai-patterns-mcq1",
+      "num": 1,
+      "prompt": "A student notices that every morning, he wakes up, brushes his teeth and eats breakfast in the same order. What does this represent?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A random action"
+        },
+        {
+          "id": "b",
+          "text": "A pattern"
+        },
+        {
+          "id": "c",
+          "text": "A single event"
+        },
+        {
+          "id": "d",
+          "text": "A mistake"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-patterns-mcq2",
+      "num": 2,
+      "prompt": "Making observations from data means:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Changing the data"
+        },
+        {
+          "id": "b",
+          "text": "Looking for patterns and key findings"
+        },
+        {
+          "id": "c",
+          "text": "Making guesses"
+        },
+        {
+          "id": "d",
+          "text": "Hiding results"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-patterns-mcq3",
+      "num": 3,
+      "prompt": "Arranging data by its attributes to find similar groups is called:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Machine learning"
+        },
+        {
+          "id": "b",
+          "text": "Sorting and Filtering"
+        },
+        {
+          "id": "c",
+          "text": "Entertainment"
+        },
+        {
+          "id": "d",
+          "text": "Prediction"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-patterns-mcq4",
+      "num": 4,
+      "prompt": "Drawing a conclusion means:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Copying data"
+        },
+        {
+          "id": "b",
+          "text": "Understanding and applying observations"
+        },
+        {
+          "id": "c",
+          "text": "Creating confusion"
+        },
+        {
+          "id": "d",
+          "text": "Repeating the same data"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-patterns-mcq5",
+      "num": 5,
+      "prompt": "Decision-making means:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Acting without thinking"
+        },
+        {
+          "id": "b",
+          "text": "Choosing an action after thinking"
+        },
+        {
+          "id": "c",
+          "text": "Ignoring facts"
+        },
+        {
+          "id": "d",
+          "text": "Random guessing"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-patterns-fib1",
+      "num": 6,
+      "prompt": "A pattern is a repeated and predictable _____________ of elements.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sequence"
+        },
+        {
+          "id": "b",
+          "text": "accident"
+        },
+        {
+          "id": "c",
+          "text": "password"
+        },
+        {
+          "id": "d",
+          "text": "virus"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-fib2",
+      "num": 7,
+      "prompt": "Identifying patterns means looking for repeated _____________ or similarities in data.",
+      "options": [
+        {
+          "id": "a",
+          "text": "sequences"
+        },
+        {
+          "id": "b",
+          "text": "errors only"
+        },
+        {
+          "id": "c",
+          "text": "spam emails"
+        },
+        {
+          "id": "d",
+          "text": "deleted files"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-fib3",
+      "num": 8,
+      "prompt": "Making observations from data means looking for patterns, trends, and ____________ findings.",
+      "options": [
+        {
+          "id": "a",
+          "text": "key"
+        },
+        {
+          "id": "b",
+          "text": "hidden"
+        },
+        {
+          "id": "c",
+          "text": "illegal"
+        },
+        {
+          "id": "d",
+          "text": "random"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-fib4",
+      "num": 9,
+      "prompt": "Drawing a conclusion means understanding observations to answer a _____________.",
+      "options": [
+        {
+          "id": "a",
+          "text": "question"
+        },
+        {
+          "id": "b",
+          "text": "virus"
+        },
+        {
+          "id": "c",
+          "text": "password"
+        },
+        {
+          "id": "d",
+          "text": "advertisement"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-fib5",
+      "num": 10,
+      "prompt": "Decision making means choosing an action after thinking carefully about the _____________ available.",
+      "options": [
+        {
+          "id": "a",
+          "text": "information"
+        },
+        {
+          "id": "b",
+          "text": "weather only"
+        },
+        {
+          "id": "c",
+          "text": "colours only"
+        },
+        {
+          "id": "d",
+          "text": "noise"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-saq1",
+      "num": 11,
+      "prompt": "Define a pattern and give one example from daily life. Best answer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A regular repeated sequence \u2014 e.g. morning routine of wake, brush, breakfast"
+        },
+        {
+          "id": "b",
+          "text": "A one-time accident"
+        },
+        {
+          "id": "c",
+          "text": "A computer virus"
+        },
+        {
+          "id": "d",
+          "text": "Copying without thinking"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-saq2",
+      "num": 12,
+      "prompt": "Name two methods to recognise repeated actions or events.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sorting and filtering; time series analysis"
+        },
+        {
+          "id": "b",
+          "text": "Hacking and phishing"
+        },
+        {
+          "id": "c",
+          "text": "Spamming and piracy"
+        },
+        {
+          "id": "d",
+          "text": "Deleting all data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-saq3",
+      "num": 13,
+      "prompt": "Why is predictability important when identifying patterns?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It helps forecast what may happen next based on the pattern"
+        },
+        {
+          "id": "b",
+          "text": "It makes data impossible to read"
+        },
+        {
+          "id": "c",
+          "text": "It removes all observations"
+        },
+        {
+          "id": "d",
+          "text": "It prevents any conclusions"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-saq4",
+      "num": 14,
+      "prompt": "What is statistical analysis used for when studying large datasets?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To group similar data, find connections, and understand relationships"
+        },
+        {
+          "id": "b",
+          "text": "To delete all observations"
+        },
+        {
+          "id": "c",
+          "text": "To avoid drawing conclusions"
+        },
+        {
+          "id": "d",
+          "text": "Only to hide irregularities"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-saq5",
+      "num": 15,
+      "prompt": "Explain the difference between making an observation and drawing a conclusion.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Observation notes what you see; conclusion explains what it means"
+        },
+        {
+          "id": "b",
+          "text": "They are exactly the same step"
+        },
+        {
+          "id": "c",
+          "text": "Conclusion comes before observation"
+        },
+        {
+          "id": "d",
+          "text": "Neither uses data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-apply1",
+      "num": 16,
+      "prompt": "A student measures plant height every week. What is the student mainly doing with the data?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Collecting numerical measurements to observe growth over time"
+        },
+        {
+          "id": "b",
+          "text": "Posting private information online"
+        },
+        {
+          "id": "c",
+          "text": "Deleting all records"
+        },
+        {
+          "id": "d",
+          "text": "Ignoring any pattern"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-apply2",
+      "num": 17,
+      "prompt": "A student notices afternoon temperatures are higher than mornings for several days. What is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Making an observation from data"
+        },
+        {
+          "id": "b",
+          "text": "Drawing a final legal verdict"
+        },
+        {
+          "id": "c",
+          "text": "Hacking a weather server"
+        },
+        {
+          "id": "d",
+          "text": "Random guessing"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-apply3",
+      "num": 18,
+      "prompt": "A student notices daily practice improves basketball performance. What decision follows?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Continue practising regularly to keep improving"
+        },
+        {
+          "id": "b",
+          "text": "Stop practising entirely"
+        },
+        {
+          "id": "c",
+          "text": "Ignore all past performance"
+        },
+        {
+          "id": "d",
+          "text": "Act without thinking"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-apply4",
+      "num": 19,
+      "prompt": "A class survey shows more students like cricket than football. What can the teacher conclude?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cricket is more popular in this class based on the survey"
+        },
+        {
+          "id": "b",
+          "text": "No student likes any sport"
+        },
+        {
+          "id": "c",
+          "text": "The survey data should be hidden"
+        },
+        {
+          "id": "d",
+          "text": "Football is equally popular"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 74
+    },
+    {
+      "id": "ai-patterns-class1",
+      "num": 20,
+      "prompt": "Identify the method used: 'Watching daily rainfall for a month'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Time series analysis"
+        },
+        {
+          "id": "b",
+          "text": "Sorting and filtering"
+        },
+        {
+          "id": "c",
+          "text": "Phishing"
+        },
+        {
+          "id": "d",
+          "text": "Plagiarism"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 75
+    },
+    {
+      "id": "ai-patterns-class2",
+      "num": 21,
+      "prompt": "Identify the method used: 'Arranging students by height'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sorting and filtering"
+        },
+        {
+          "id": "b",
+          "text": "Reinforcement learning"
+        },
+        {
+          "id": "c",
+          "text": "Spamming"
+        },
+        {
+          "id": "d",
+          "text": "Hacking"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 75
+    },
+    {
+      "id": "ai-patterns-class3",
+      "num": 22,
+      "prompt": "Identify the method used: 'Using graphs to compare sales'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data visualisation"
+        },
+        {
+          "id": "b",
+          "text": "Software piracy"
+        },
+        {
+          "id": "c",
+          "text": "Password theft"
+        },
+        {
+          "id": "d",
+          "text": "Plagiarism"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 75
+    },
+    {
+      "id": "ai-patterns-class4",
+      "num": 23,
+      "prompt": "Identify the method used: 'Studying trends over five years'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Time series analysis"
+        },
+        {
+          "id": "b",
+          "text": "Copying homework"
+        },
+        {
+          "id": "c",
+          "text": "Ignoring data"
+        },
+        {
+          "id": "d",
+          "text": "Random clicking"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 75
+    },
+    {
+      "id": "ai-patterns-class5",
+      "num": 24,
+      "prompt": "Identify the method used: 'Using an algorithm to recognise faces'",
+      "options": [
+        {
+          "id": "a",
+          "text": "Machine learning"
+        },
+        {
+          "id": "b",
+          "text": "Fixed timer automation"
+        },
+        {
+          "id": "c",
+          "text": "Manual guesswork only"
+        },
+        {
+          "id": "d",
+          "text": "Deleting datasets"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 75
+    }
+  ],
+  "intro-start": [
+    {
+      "id": "intro-q1",
+      "num": 1,
+      "prompt": "Which of the following is NOT one of the six CT skills listed in the handbook introduction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decomposition"
+        },
+        {
+          "id": "b",
+          "text": "Pattern Recognition"
+        },
+        {
+          "id": "c",
+          "text": "Memorisation"
+        },
+        {
+          "id": "d",
+          "text": "Algorithm Design"
+        }
+      ],
+      "correct": "c"
+    },
+    {
+      "id": "intro-q2",
+      "num": 2,
+      "prompt": "How many hours per year are allocated to Introductory AI Concepts in Class 6?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 hours"
+        },
+        {
+          "id": "b",
+          "text": "20 hours"
+        },
+        {
+          "id": "c",
+          "text": "100 hours"
+        },
+        {
+          "id": "d",
+          "text": "10 hours"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "intro-q3",
+      "num": 3,
+      "prompt": "According to the handbook, what matters more when solving CT puzzles?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Getting the right answer on the first try"
+        },
+        {
+          "id": "b",
+          "text": "The process of thinking"
+        },
+        {
+          "id": "c",
+          "text": "Finishing fastest"
+        },
+        {
+          "id": "d",
+          "text": "Copying the teacher's method"
+        }
+      ],
+      "correct": "b"
+    }
+  ],
+  "ai-ethics": [
+    {
+      "id": "ai-ethics-mcq1",
+      "num": 1,
+      "prompt": "Copying text from a website without credit is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hacking"
+        },
+        {
+          "id": "b",
+          "text": "Plagiarism"
+        },
+        {
+          "id": "c",
+          "text": "Spamming"
+        },
+        {
+          "id": "d",
+          "text": "Phishing"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-ethics-mcq2",
+      "num": 2,
+      "prompt": "You get a message: 'Win a free phone! Share your password.' You should:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Send it"
+        },
+        {
+          "id": "b",
+          "text": "Inform your parents"
+        },
+        {
+          "id": "c",
+          "text": "Post online"
+        },
+        {
+          "id": "d",
+          "text": "Give fake information"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-ethics-mcq3",
+      "num": 3,
+      "prompt": "A pop-up says: Scan viruses, win $1000! Safest action:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Click"
+        },
+        {
+          "id": "b",
+          "text": "Ignore"
+        },
+        {
+          "id": "c",
+          "text": "Ask someone else"
+        },
+        {
+          "id": "d",
+          "text": "Download scanner"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-ethics-mcq4",
+      "num": 4,
+      "prompt": "Checking bank on public Wi-Fi. Best action:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Check now"
+        },
+        {
+          "id": "b",
+          "text": "Use secure network"
+        },
+        {
+          "id": "c",
+          "text": "Ask someone else"
+        },
+        {
+          "id": "d",
+          "text": "Install random app"
+        }
+      ],
+      "correct": "b"
+    },
+    {
+      "id": "ai-ethics-mcq5",
+      "num": 5,
+      "prompt": "Posting helpful tips online while thinking about who sees them is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active footprint"
+        },
+        {
+          "id": "b",
+          "text": "Passive footprint"
+        },
+        {
+          "id": "c",
+          "text": "Hacker footprint"
+        },
+        {
+          "id": "d",
+          "text": "Phishing footprint"
+        }
+      ],
+      "correct": "a"
+    },
+    {
+      "id": "ai-ethics-fib1",
+      "num": 6,
+      "prompt": "Responsible use of technology means thinking before you _____________ online.",
+      "options": [
+        {
+          "id": "a",
+          "text": "click"
+        },
+        {
+          "id": "b",
+          "text": "share passwords"
+        },
+        {
+          "id": "c",
+          "text": "download illegally"
+        },
+        {
+          "id": "d",
+          "text": "ignore parents"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-fib2",
+      "num": 7,
+      "prompt": "Never give out your _____________ information to strangers online.",
+      "options": [
+        {
+          "id": "a",
+          "text": "personal"
+        },
+        {
+          "id": "b",
+          "text": "favourite colour"
+        },
+        {
+          "id": "c",
+          "text": "homework topic"
+        },
+        {
+          "id": "d",
+          "text": "class timetable only"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-fib3",
+      "num": 8,
+      "prompt": "Ethics in technology help prevent _____________, plagiarism, and hacking.",
+      "options": [
+        {
+          "id": "a",
+          "text": "cybercrimes"
+        },
+        {
+          "id": "b",
+          "text": "learning"
+        },
+        {
+          "id": "c",
+          "text": "kindness"
+        },
+        {
+          "id": "d",
+          "text": "teamwork"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-fib4",
+      "num": 9,
+      "prompt": "A phishing attempt is an illegal attempt to obtain _____________ information.",
+      "options": [
+        {
+          "id": "a",
+          "text": "confidential"
+        },
+        {
+          "id": "b",
+          "text": "public weather"
+        },
+        {
+          "id": "c",
+          "text": "classroom seating"
+        },
+        {
+          "id": "d",
+          "text": "sports scores"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-fib5",
+      "num": 10,
+      "prompt": "Active digital footprints are created when you _____________ online intentionally.",
+      "options": [
+        {
+          "id": "a",
+          "text": "post"
+        },
+        {
+          "id": "b",
+          "text": "sleep"
+        },
+        {
+          "id": "c",
+          "text": "eat lunch"
+        },
+        {
+          "id": "d",
+          "text": "walk in the park offline"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-saq1",
+      "num": 11,
+      "prompt": "Define responsible Digital Citizenship and give one example.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Using technology wisely and respectfully \u2014 e.g. thinking before posting online"
+        },
+        {
+          "id": "b",
+          "text": "Sharing passwords with strangers"
+        },
+        {
+          "id": "c",
+          "text": "Clicking every pop-up ad"
+        },
+        {
+          "id": "d",
+          "text": "Copying essays without credit"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-saq2",
+      "num": 12,
+      "prompt": "Name two ways to protect your privacy online.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Limit personal sharing and read privacy policies before signing up"
+        },
+        {
+          "id": "b",
+          "text": "Post your full address publicly"
+        },
+        {
+          "id": "c",
+          "text": "Share bank details in chat"
+        },
+        {
+          "id": "d",
+          "text": "Use weak passwords forever"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-saq3",
+      "num": 13,
+      "prompt": "What is the difference between active and passive digital footprints?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active footprints come from intentional posts; passive from background tracking"
+        },
+        {
+          "id": "b",
+          "text": "They are identical"
+        },
+        {
+          "id": "c",
+          "text": "Passive means you never use the internet"
+        },
+        {
+          "id": "d",
+          "text": "Active footprints cannot be created"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-saq4",
+      "num": 14,
+      "prompt": "Why use strong passwords and change them periodically?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To prevent unauthorized access and protect accounts from hacking"
+        },
+        {
+          "id": "b",
+          "text": "To make login impossible for yourself"
+        },
+        {
+          "id": "c",
+          "text": "Because weak passwords are encouraged"
+        },
+        {
+          "id": "d",
+          "text": "Passwords do not matter online"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-saq5",
+      "num": 15,
+      "prompt": "Explain software piracy and one step to prevent it.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unauthorized copying of software \u2014 prevent by buying licensed copies"
+        },
+        {
+          "id": "b",
+          "text": "Sharing licensed copies freely is legal"
+        },
+        {
+          "id": "c",
+          "text": "Piracy means helping authors"
+        },
+        {
+          "id": "d",
+          "text": "Download only from unknown sites"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-apply1",
+      "num": 16,
+      "prompt": "A student posts a picture of a school project online. Which type of digital footprint is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Active digital footprint"
+        },
+        {
+          "id": "b",
+          "text": "Passive digital footprint"
+        },
+        {
+          "id": "c",
+          "text": "Hacker footprint"
+        },
+        {
+          "id": "d",
+          "text": "Phishing footprint"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-apply2",
+      "num": 17,
+      "prompt": "Your friend receives an email asking for bank details. What should they do?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do not share details and inform a parent or guardian"
+        },
+        {
+          "id": "b",
+          "text": "Reply with full bank information"
+        },
+        {
+          "id": "c",
+          "text": "Post the email publicly"
+        },
+        {
+          "id": "d",
+          "text": "Click every link in the email"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-apply3",
+      "num": 18,
+      "prompt": "A social media app recommends content based on your likes. How is your data used?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To personalise content using your interests and activity"
+        },
+        {
+          "id": "b",
+          "text": "To delete your account without notice"
+        },
+        {
+          "id": "c",
+          "text": "Only to print homework"
+        },
+        {
+          "id": "d",
+          "text": "Data is never collected"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-apply4",
+      "num": 19,
+      "prompt": "You want to download a new game safely. What steps should you follow?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Use official stores, check permissions, and ask a parent if unsure"
+        },
+        {
+          "id": "b",
+          "text": "Download from random pop-up links"
+        },
+        {
+          "id": "c",
+          "text": "Disable antivirus first"
+        },
+        {
+          "id": "d",
+          "text": "Share your password to unlock"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-apply5",
+      "num": 20,
+      "prompt": "Someone copies your school assignment without permission. Which ethical rule is broken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plagiarism / intellectual property violation"
+        },
+        {
+          "id": "b",
+          "text": "Responsible digital citizenship"
+        },
+        {
+          "id": "c",
+          "text": "Good password hygiene"
+        },
+        {
+          "id": "d",
+          "text": "Active digital footprint creation"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 81
+    },
+    {
+      "id": "ai-ethics-class1",
+      "num": 21,
+      "prompt": "Identify the term: Sending fake emails or messages to steal personal information",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phishing"
+        },
+        {
+          "id": "b",
+          "text": "Plagiarism"
+        },
+        {
+          "id": "c",
+          "text": "Digital footprint"
+        },
+        {
+          "id": "d",
+          "text": "Ethics"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 82
+    },
+    {
+      "id": "ai-ethics-class2",
+      "num": 22,
+      "prompt": "Identify the term: Copying someone else's work without giving due credit",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plagiarism"
+        },
+        {
+          "id": "b",
+          "text": "Phishing"
+        },
+        {
+          "id": "c",
+          "text": "Privacy policy"
+        },
+        {
+          "id": "d",
+          "text": "Firewall"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 82
+    },
+    {
+      "id": "ai-ethics-class3",
+      "num": 23,
+      "prompt": "Identify the term: The record of all your online activities including posts and visits",
+      "options": [
+        {
+          "id": "a",
+          "text": "Digital footprint"
+        },
+        {
+          "id": "b",
+          "text": "Spam filter"
+        },
+        {
+          "id": "c",
+          "text": "Antivirus scan"
+        },
+        {
+          "id": "d",
+          "text": "Bar chart"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 82
+    },
+    {
+      "id": "ai-ethics-class4",
+      "num": 24,
+      "prompt": "Identify the term: Rules and morals for using computers and the internet responsibly",
+      "options": [
+        {
+          "id": "a",
+          "text": "Computer ethics"
+        },
+        {
+          "id": "b",
+          "text": "Machine learning"
+        },
+        {
+          "id": "c",
+          "text": "Time series analysis"
+        },
+        {
+          "id": "d",
+          "text": "Numerical data"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 82
+    },
+    {
+      "id": "ai-ethics-class5",
+      "num": 25,
+      "prompt": "Identify the term: A document explaining how a website collects and protects user data",
+      "options": [
+        {
+          "id": "a",
+          "text": "Privacy policy"
+        },
+        {
+          "id": "b",
+          "text": "Phishing email"
+        },
+        {
+          "id": "c",
+          "text": "Pictogram"
+        },
+        {
+          "id": "d",
+          "text": "Reinforcement learning"
+        }
+      ],
+      "correct": "a",
+      "handbookPage": 82
+    }
+  ]
+}

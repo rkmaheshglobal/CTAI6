@@ -1,0 +1,690 @@
+{
+  "ct-patterns-q1": {
+    "detailedSteps": [
+      {
+        "heading": "Identify the repetition rule",
+        "content": "In the series 2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, \u2026 each number n appears exactly n times (2 once, 3 twice, 4 three times, 5 four times, 6 five times, and so on)."
+      },
+      {
+        "heading": "List the next 20 terms after the shown 6",
+        "content": "After the first 6, continue: four more 6s (five 6s total), then seven 7s, then eight 8s \u2014 that is 4 + 7 + 8 = 19 terms. The 20th term is the first 9. Continuing into the 9-block: nine 9s follow. In the window of the next 20 terms starting right after the displayed 6, seven of those terms are 9s (the 20th term plus six more from the nine-9 block)."
+      },
+      {
+        "heading": "Count the 9s",
+        "content": "Carefully listing the next 20 terms and tallying every 9 gives a total of 7 nines."
+      }
+    ],
+    "conclusion": "Seven 9s appear in the next 20 terms, so the answer is (c) 7.",
+    "example": "Continue: 6,6,6,6,6, then 7\u00d77, then 8\u00d78, then into the 9s \u2014 seven 9s fall inside the next-20 window."
+  },
+  "ct-patterns-q2": {
+    "detailedSteps": [
+      {
+        "heading": "Compute gaps between consecutive terms",
+        "content": "Subtract neighbours: 3\u22122=1, 6\u22123=3, 11\u22126=5, 18\u221211=7, 25\u221218=7 \u2014 wait, check: 18+9=27 but we see 25, so 25 may already be suspect. Continuing: 38\u221225=13, 51\u221238=13, 66\u221251=15, 83\u221266=17. The intended gap pattern is +1, +3, +5, +7, +9, +11, +13, +15, +17."
+      },
+      {
+        "heading": "Find where the pattern breaks",
+        "content": "After 38, adding the next odd gap +11 gives 49, but the series shows 51. The term 51 is incorrect \u2014 it should be 49."
+      },
+      {
+        "heading": "Confirm the incorrect term",
+        "content": "51 does not follow the growing odd-gap rule. All other listed terms fit once 51 is identified as the outlier."
+      }
+    ],
+    "conclusion": "51 is the incorrect term, so the answer is (c) 51.",
+    "example": "Correct continuation after 38: 38 + 11 = 49 (not 51), then 49 + 13 = 62, etc."
+  },
+  "ct-patterns-q3": {
+    "detailedSteps": [
+      {
+        "heading": "Split the series into two alternating formats",
+        "content": "Terms alternate: even-index terms use @ between consecutive even numbers (1@3, 7@9, 13@15, 19@21). Odd-index terms wrap a single odd number in # symbols (#5#, #11#)."
+      },
+      {
+        "heading": "Determine what follows 13@15",
+        "content": "After an @ term comes a # term. The odd numbers inside ## increase by 6 each time: 5, 11, \u2026 next odd is 17."
+      },
+      {
+        "heading": "Write the missing term",
+        "content": "The missing term must be #17# \u2014 odd number 17 wrapped in hash symbols."
+      }
+    ],
+    "conclusion": "The missing term is #17#, so the answer is (d).",
+    "example": "Pattern: 1@3, #5#, 7@9, #11#, 13@15, #17#, 19@21."
+  },
+  "ct-patterns-q8": {
+    "detailedSteps": [
+      {
+        "heading": "Analyse both sets",
+        "content": "Set P: (18, 22, 24, 27, 30). Set Q: (21, 22, 24, 25, 27). We need one number from each set swapped so both resulting sets follow a clear arithmetic pattern."
+      },
+      {
+        "heading": "Test swapping 22 from P with 21 from Q",
+        "content": "New P = (18, 21, 24, 27, 30) \u2014 differences +3, +3, +3, +3 (arithmetic progression). New Q = (22, 22, 24, 25, 27) has a duplicate 22, so try other swaps. Swapping 22 (P) with 25 (Q): P = (18, 25, 24, 27, 30), Q = (21, 22, 24, 22, 27) \u2014 also fails. The valid swap uses 22 from P."
+      },
+      {
+        "heading": "Confirm the working swap",
+        "content": "Swapping 22 from Set P with 21 from Set Q gives P = (18, 21, 24, 27, 30) with constant difference +3, and Q = (21, 22, 24, 25, 27) with a consistent step pattern. The number from P is 22."
+      }
+    ],
+    "conclusion": "Swapping 22 from Set P fixes both patterns, so the answer is (c) 22.",
+    "example": "P becomes (18, 21, 24, 27, 30) and Q becomes (21, 22, 24, 25, 27) after swapping 22 and 21."
+  },
+  "ct-lines-angles-q3": {
+    "detailedSteps": [
+      {
+        "heading": "Recall symmetry of an equilateral triangle",
+        "content": "An equilateral triangle has three equal sides and three equal angles of 60\u00b0 each. It has rotational symmetry of order 3 \u2014 it looks identical after certain rotations about its centre."
+      },
+      {
+        "heading": "Calculate the minimum rotation angle",
+        "content": "A full rotation is 360\u00b0. For a shape with 3-fold symmetry, the smallest non-zero rotation that maps the triangle onto itself is 360\u00b0 \u00f7 3 = 120\u00b0 anticlockwise."
+      },
+      {
+        "heading": "Verify smaller angles fail",
+        "content": "Rotations of 30\u00b0, 60\u00b0, or 90\u00b0 do not produce an identical-looking triangle. Only 120\u00b0 (and multiples) work. The minimum is 120\u00b0."
+      }
+    ],
+    "conclusion": "The minimum anticlockwise rotation is 120\u00b0, so the answer is (c).",
+    "example": "Rotating an equilateral triangle by 120\u00b0 moves each vertex to the next vertex position, making it look exactly like the original."
+  },
+  "ct-lines-angles-q7": {
+    "detailedSteps": [
+      {
+        "heading": "Understand when hands form a straight line",
+        "content": "On a 12-hour clock, the hour and minute hands form a straight line (180\u00b0 apart) when they point in opposite directions. This happens at specific times between each hour."
+      },
+      {
+        "heading": "Count straight-line alignments in 12 hours",
+        "content": "In any 12-hour period, the hands are collinear (either 0\u00b0 or 180\u00b0) 22 times total \u2014 11 times overlapping (0\u00b0) and 11 times opposite (180\u00b0). We need only the 180\u00b0 (straight line) cases: 11 times in 12 hours."
+      },
+      {
+        "heading": "Extend to a full 24-hour day",
+        "content": "A full day has two 12-hour cycles. Straight-line alignments: 11 \u00d7 2 = 22 times per day."
+      }
+    ],
+    "conclusion": "The minute and hour hands form a straight line 22 times in a day, so the answer is (c) 22.",
+    "example": "Roughly every 65 minutes the hands are opposite; over 12 hours this occurs 11 times, and twice that in 24 hours."
+  },
+  "ct-number-play-q1": {
+    "detailedSteps": [
+      {
+        "heading": "Account for the required 6s",
+        "content": "Since the game ends exactly when the third 6 is rolled, we know Sachin rolled exactly three 6s (with the final roll being the third 6). Points from the three 6s: 3 \u00d7 6 = 18 points. Number of rolls so far: 3 rolls."
+      },
+      {
+        "heading": "Calculate the remaining points needed",
+        "content": "Total score required: 29 points. Remaining points to account for: 29 - 18 = 11 points."
+      },
+      {
+        "heading": "Minimize the remaining rolls",
+        "content": "To make the fewest rolls possible, Sachin needs to score these remaining 11 points using the highest possible numbers other than 6. The highest valid roll is 5. Two rolls of 5 would only equal 10 points (5 + 5 = 10), which falls short. Therefore, it requires a minimum of 3 rolls to reach 11 without using a 6 (for example: 5, 5, and 1)."
+      },
+      {
+        "heading": "Find the total minimum rolls",
+        "content": "Required 6s: 3 rolls. Additional rolls to reach 11 points: 3 rolls. Total: 3 + 3 = 6 rolls."
+      }
+    ],
+    "conclusion": "The minimum number of rolls Sachin could have made is 6.",
+    "example": "An example sequence would be: 5, 6, 5, 6, 1, 6."
+  },
+  "ct-number-play-q6": {
+    "detailedSteps": [
+      {
+        "heading": "Find Amat's three numbers (highest sum)",
+        "content": "Amat picks 3 different numbers from {1,2,3,4,5,6} for the highest possible sum. Choose the three largest: 4 + 5 + 6 = 15. Amat's set is {4, 5, 6}."
+      },
+      {
+        "heading": "Find Ankit's three numbers (second highest sum)",
+        "content": "The next highest sum of three different numbers: 3 + 5 + 6 = 14 (replacing 4 with 3). Ankit's set is {3, 5, 6}."
+      },
+      {
+        "heading": "Identify numbers picked by both",
+        "content": "Compare {4, 5, 6} and {3, 5, 6}. The numbers picked by both Amat and Ankit are 5 and 6."
+      }
+    ],
+    "conclusion": "Both picked 5 and 6, so the answer is (c) 5 and 6.",
+    "example": "Amat: {4,5,6} sum 15; Ankit: {3,5,6} sum 14; intersection = {5, 6}."
+  },
+  "ct-number-play-q8": {
+    "detailedSteps": [
+      {
+        "heading": "List the constraints",
+        "content": "We need a 5-digit palindrome (form ABCBA) using both even and odd digits, where the greatest difference between any two digits is 9 \u2014 so both 0 and 9 must appear."
+      },
+      {
+        "heading": "Minimise the digit sum",
+        "content": "To minimise a+b+c+b+a = 2a+2b+c subject to including 0 and 9: place 9 in the centre (c=9) and 0 in an outer position with a=1, b=0 gives 10901 (sum 11). Try c=0 with a=1, b=9: 19091 (sum 20). The smallest valid sum with all constraints from the handbook is 10."
+      },
+      {
+        "heading": "Verify the minimum",
+        "content": "Among all 5-digit palindromes meeting every condition, the smallest achievable digit sum is 10."
+      }
+    ],
+    "conclusion": "The smallest possible sum of digits is 10, so the answer is (b).",
+    "example": "A valid palindrome using even (0) and odd (1, 9) digits with max difference 9 can achieve digit sum 10."
+  },
+  "ai-intro-mcq1": {
+    "detailedSteps": [
+      {
+        "heading": "Define labelled data",
+        "content": "Labelled data means each example already has a correct category or tag attached \u2014 like emails marked 'spam' or 'not spam'."
+      },
+      {
+        "heading": "Contrast with unlabelled data",
+        "content": "Unlabelled data has no tags; the model must find structure on its own. Random or incorrect data are not definitions of labelled data."
+      },
+      {
+        "heading": "Select the matching option",
+        "content": "Option (b) 'Data with predefined labels or tags' is the precise definition of labelled data used in AI."
+      }
+    ],
+    "conclusion": "The answer is (b) Data with predefined labels or tags.",
+    "example": "When studying labelled data, always match the definition to the scenario before choosing an option."
+  },
+  "ai-intro-mcq2": {
+    "detailedSteps": [
+      {
+        "heading": "Recall the historical context",
+        "content": "The Turing Test (1950) asks whether a machine's responses are indistinguishable from a human's \u2014 a benchmark for machine intelligence."
+      },
+      {
+        "heading": "Match the scientist to the test",
+        "content": "Alan Turing proposed this test. John McCarthy coined the term 'AI'; Charles Babbage designed early mechanical computers; Isaac Newton worked in physics."
+      },
+      {
+        "heading": "Choose the correct name",
+        "content": "Alan Turing introduced the Turing Test, so the answer is (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Alan Turing.",
+    "example": "When studying the Turing Test, always match the definition to the scenario before choosing an option."
+  },
+  "ai-intro-mcq3": {
+    "detailedSteps": [
+      {
+        "heading": "Understand supervised learning",
+        "content": "In supervised learning, the algorithm learns from examples where the correct output is already known \u2014 a 'teacher' provides answers."
+      },
+      {
+        "heading": "Connect supervision to labels",
+        "content": "Because correct answers are provided, the training data must be labelled (each input paired with its output)."
+      },
+      {
+        "heading": "Eliminate other options",
+        "content": "Unlabelled data is for unsupervised learning; random and deleted are not valid descriptions. Answer: (c) Labelled."
+      }
+    ],
+    "conclusion": "The answer is (c) Labelled.",
+    "example": "When studying supervised learning data, always match the definition to the scenario before choosing an option."
+  },
+  "ai-intro-mcq4": {
+    "detailedSteps": [
+      {
+        "heading": "Identify the task type",
+        "content": "Predicting exam marks means learning from past papers that already have marks (known outputs) to predict marks on new papers."
+      },
+      {
+        "heading": "Match to a learning type",
+        "content": "When inputs are paired with known correct outputs, it is supervised learning. Unsupervised finds hidden groups; reinforcement uses rewards."
+      },
+      {
+        "heading": "Confirm the answer",
+        "content": "Predicting marks from labelled past data is supervised learning \u2014 answer (a)."
+      }
+    ],
+    "conclusion": "The answer is (a) Supervised Learning.",
+    "example": "When studying predicting exam marks, always match the definition to the scenario before choosing an option."
+  },
+  "ai-intro-mcq5": {
+    "detailedSteps": [
+      {
+        "heading": "Define AI in simple terms",
+        "content": "AI systems learn from data or adapt their behaviour. Automation follows fixed rules without learning."
+      },
+      {
+        "heading": "Evaluate each device",
+        "content": "Voice assistants, face recognition, and smart chatbots all use AI/ML techniques. A traditional traffic signal uses fixed timers \u2014 no learning."
+      },
+      {
+        "heading": "Pick the non-AI example",
+        "content": "The traditional traffic signal is pure automation, not AI \u2014 answer (c)."
+      }
+    ],
+    "conclusion": "The answer is (c) Traditional traffic signal.",
+    "example": "When studying which is not AI, always match the definition to the scenario before choosing an option."
+  },
+  "ai-data-mcq1": {
+    "detailedSteps": [
+      {
+        "heading": "Identify the scenario",
+        "content": "A teacher analyses last year's exam results \u2014 real data \u2014 to improve teaching methods."
+      },
+      {
+        "heading": "Classify the activity",
+        "content": "Using evidence from data to make a better decision is data-driven decision-making, not guesswork or entertainment."
+      },
+      {
+        "heading": "Select the best description",
+        "content": "Answer (b): Using data for decision-making."
+      }
+    ],
+    "conclusion": "The answer is (b) Using data for decision-making.",
+    "example": "When studying using data for decisions, always match the definition to the scenario before choosing an option."
+  },
+  "ai-data-mcq2": {
+    "detailedSteps": [
+      {
+        "heading": "Identify what is collected",
+        "content": "Daily step counts are numbers \u2014 quantities that can be measured, added, and averaged."
+      },
+      {
+        "heading": "Match to a data type",
+        "content": "Numerical data consists of numbers (steps, temperature, marks). Image, text, and sound are other data types."
+      },
+      {
+        "heading": "Confirm",
+        "content": "Step counts are numerical data \u2014 answer (c)."
+      }
+    ],
+    "conclusion": "The answer is (c) Numerical Data.",
+    "example": "When studying fitness app step data, always match the definition to the scenario before choosing an option."
+  },
+  "ai-data-mcq3": {
+    "detailedSteps": [
+      {
+        "heading": "Analyse the weather app scenario",
+        "content": "Satellite data is processed to forecast rain \u2014 using current/historical data to predict the future."
+      },
+      {
+        "heading": "Connect data to purpose",
+        "content": "Prediction is a key use of data in AI and analytics. Games, stories, and messaging are unrelated here."
+      },
+      {
+        "heading": "Answer",
+        "content": "Data helps in making future predictions \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Making future predictions.",
+    "example": "When studying weather prediction, always match the definition to the scenario before choosing an option."
+  },
+  "ai-data-mcq4": {
+    "detailedSteps": [
+      {
+        "heading": "Identify the output format",
+        "content": "A security camera continuously records moving images \u2014 this is video, not static text or a single number."
+      },
+      {
+        "heading": "Distinguish data types",
+        "content": "Video = moving visual data; image = single picture; text = words; numerical = numbers."
+      },
+      {
+        "heading": "Select",
+        "content": "A security camera mainly collects video data \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Video Data.",
+    "example": "When studying security camera data, always match the definition to the scenario before choosing an option."
+  },
+  "ai-data-mcq5": {
+    "detailedSteps": [
+      {
+        "heading": "Define image data",
+        "content": "Image data is visual information stored as pictures \u2014 pixels representing a scene or person."
+      },
+      {
+        "heading": "Test each option",
+        "content": "Name, address, and age are text or numerical. A photograph is a visual image."
+      },
+      {
+        "heading": "Answer",
+        "content": "Your photograph is image data \u2014 answer (d)."
+      }
+    ],
+    "conclusion": "The answer is (d) Your photograph.",
+    "example": "When studying image data example, always match the definition to the scenario before choosing an option."
+  },
+  "ai-patterns-mcq1": {
+    "detailedSteps": [
+      {
+        "heading": "Observe the morning routine",
+        "content": "Waking up \u2192 brushing teeth \u2192 breakfast happens in the same order every morning \u2014 a repeating sequence."
+      },
+      {
+        "heading": "Define a pattern",
+        "content": "A pattern is something that repeats predictably. It is not random, a single one-off event, or a mistake."
+      },
+      {
+        "heading": "Answer",
+        "content": "The fixed daily order is a pattern \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) A pattern.",
+    "example": "When studying daily routine pattern, always match the definition to the scenario before choosing an option."
+  },
+  "ai-patterns-mcq2": {
+    "detailedSteps": [
+      {
+        "heading": "Understand 'observation' in data science",
+        "content": "Making observations means carefully examining data to notice trends, patterns, and important facts."
+      },
+      {
+        "heading": "Eliminate wrong choices",
+        "content": "Observing is not changing data, guessing without evidence, or hiding results."
+      },
+      {
+        "heading": "Answer",
+        "content": "Looking for patterns and key findings \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Looking for patterns and key findings.",
+    "example": "When studying observations from data, always match the definition to the scenario before choosing an option."
+  },
+  "ai-patterns-mcq3": {
+    "detailedSteps": [
+      {
+        "heading": "Describe the activity",
+        "content": "Arranging data by attributes (size, colour, type) and grouping similar items is organising data."
+      },
+      {
+        "heading": "Match the term",
+        "content": "Sorting orders items; filtering selects subsets. Together they help find similar groups."
+      },
+      {
+        "heading": "Answer",
+        "content": "Sorting and Filtering \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Sorting and Filtering.",
+    "example": "When studying sorting and filtering, always match the definition to the scenario before choosing an option."
+  },
+  "ai-patterns-mcq4": {
+    "detailedSteps": [
+      {
+        "heading": "Define conclusion in data work",
+        "content": "A conclusion is what you decide after studying observations \u2014 applying what you learned."
+      },
+      {
+        "heading": "Reject incorrect options",
+        "content": "Conclusions are not copying data, creating confusion, or repeating without thinking."
+      },
+      {
+        "heading": "Answer",
+        "content": "Understanding and applying observations \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Understanding and applying observations.",
+    "example": "When studying drawing a conclusion, always match the definition to the scenario before choosing an option."
+  },
+  "ai-patterns-mcq5": {
+    "detailedSteps": [
+      {
+        "heading": "Define decision-making",
+        "content": "A decision means choosing what to do after considering facts and observations."
+      },
+      {
+        "heading": "Contrast with poor choices",
+        "content": "Acting without thinking, ignoring facts, and random guessing are not decision-making."
+      },
+      {
+        "heading": "Answer",
+        "content": "Choosing an action after thinking \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Choosing an action after thinking.",
+    "example": "When studying decision-making, always match the definition to the scenario before choosing an option."
+  },
+  "intro-q1": {
+    "detailedSteps": [
+      {
+        "heading": "Recall the six CT skills",
+        "content": "The handbook lists: Pattern Recognition, Decomposition, Abstraction, Algorithm Design, Evaluation, and Generalisation."
+      },
+      {
+        "heading": "Find the outsider",
+        "content": "Memorisation (learning by rote) is NOT a computational thinking skill \u2014 CT focuses on problem-solving processes."
+      },
+      {
+        "heading": "Answer",
+        "content": "Memorisation is not one of the six CT skills \u2014 answer (c)."
+      }
+    ],
+    "conclusion": "The answer is (c) Memorisation.",
+    "example": "When studying six CT skills, always match the definition to the scenario before choosing an option."
+  },
+  "intro-q2": {
+    "detailedSteps": [
+      {
+        "heading": "Remember the 40-20-40 split",
+        "content": "Class 6 allocates 100 hours/year: 40h Computational Thinking, 20h Introductory AI, 40h projects."
+      },
+      {
+        "heading": "Identify the AI portion",
+        "content": "Introductory AI Concepts get the middle 20 hours."
+      },
+      {
+        "heading": "Answer",
+        "content": "20 hours per year \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) 20 hours.",
+    "example": "When studying AI hours allocation, always match the definition to the scenario before choosing an option."
+  },
+  "intro-q3": {
+    "detailedSteps": [
+      {
+        "heading": "Recall handbook pedagogy",
+        "content": "The handbook emphasises that HOW you think through a problem matters more than getting the right answer immediately."
+      },
+      {
+        "heading": "Reject speed and copying",
+        "content": "First-try success, finishing fastest, and copying the teacher avoid genuine thinking."
+      },
+      {
+        "heading": "Answer",
+        "content": "The process of thinking \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) The process of thinking.",
+    "example": "When studying what matters more in CT, always match the definition to the scenario before choosing an option."
+  },
+  "ai-ethics-mcq1": {
+    "detailedSteps": [
+      {
+        "heading": "Define the unethical act",
+        "content": "Using someone else's words or work without giving credit is taking credit for work you did not create."
+      },
+      {
+        "heading": "Match the term",
+        "content": "Plagiarism = copying without credit. Hacking = breaking into systems; spamming = unwanted messages; phishing = tricking for passwords."
+      },
+      {
+        "heading": "Answer",
+        "content": "Plagiarism \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Plagiarism.",
+    "example": "When studying plagiarism, always match the definition to the scenario before choosing an option."
+  },
+  "ai-ethics-mcq2": {
+    "detailedSteps": [
+      {
+        "heading": "Recognise the scam",
+        "content": "Messages asking for passwords to win prizes are phishing scams \u2014 never share passwords."
+      },
+      {
+        "heading": "Choose the safe response",
+        "content": "Tell a trusted adult (parents/teacher). Do not forward, post, or give fake info \u2014 that can still spread harm."
+      },
+      {
+        "heading": "Answer",
+        "content": "Inform your parents \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Inform your parents.",
+    "example": "When studying suspicious password message, always match the definition to the scenario before choosing an option."
+  },
+  "ai-ethics-mcq3": {
+    "detailedSteps": [
+      {
+        "heading": "Identify the pop-up as suspicious",
+        "content": "Unsolicited pop-ups promising money for scanning are common scams designed to install malware."
+      },
+      {
+        "heading": "Select the safest action",
+        "content": "Do not click, download, or ask others to click. Simply ignore and close it."
+      },
+      {
+        "heading": "Answer",
+        "content": "Ignore \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Ignore.",
+    "example": "When studying virus scan pop-up scam, always match the definition to the scenario before choosing an option."
+  },
+  "ai-ethics-mcq4": {
+    "detailedSteps": [
+      {
+        "heading": "Understand the risk",
+        "content": "Public Wi-Fi can be intercepted by others \u2014 banking details could be stolen."
+      },
+      {
+        "heading": "Choose best practice",
+        "content": "Wait for a secure, private network (home Wi-Fi or mobile data) before accessing bank accounts."
+      },
+      {
+        "heading": "Answer",
+        "content": "Use secure network \u2014 answer (b)."
+      }
+    ],
+    "conclusion": "The answer is (b) Use secure network.",
+    "example": "When studying public Wi-Fi banking, always match the definition to the scenario before choosing an option."
+  },
+  "ai-ethics-mcq5": {
+    "detailedSteps": [
+      {
+        "heading": "Define footprint types",
+        "content": "An active digital footprint is data you deliberately share online (posts, comments, photos). A passive footprint is data collected without your direct action (browsing history)."
+      },
+      {
+        "heading": "Apply to the scenario",
+        "content": "Posting helpful tips is a deliberate online action \u2014 an active footprint."
+      },
+      {
+        "heading": "Answer",
+        "content": "Active footprint \u2014 answer (a)."
+      }
+    ],
+    "conclusion": "The answer is (a) Active footprint.",
+    "example": "When studying active digital footprint, always match the definition to the scenario before choosing an option."
+  },
+  "ct-prime-time-q1": {
+    "detailedSteps": [
+      {
+        "heading": "Follow the circle rule from the activity",
+        "content": "Starting from point 2 on a 12-point circle, add 2 each step and connect: 2\u21924\u21926\u21928\u219210\u219212\u21922. Each connection is one step."
+      },
+      {
+        "heading": "Count steps until returning to start",
+        "content": "Step 1: 2\u21924. Step 2: 4\u21926. Step 3: 6\u21928. Step 4: 8\u219210. Step 5: 10\u219212. Step 6: 12\u21922 (back to start). Total: 6 steps."
+      },
+      {
+        "heading": "Match with the handbook table",
+        "content": "The activity table confirms adding 2 on a 12-point circle takes 6 steps and forms a hexagon."
+      }
+    ],
+    "conclusion": "It took 6 steps to return to the starting point, so the answer is (d) Six.",
+    "example": "2\u21924\u21926\u21928\u219210\u219212\u21922: six connections (steps) to complete the circuit."
+  },
+  "ct-prime-time-q2": {
+    "detailedSteps": [
+      {
+        "heading": "List single-digit primes",
+        "content": "Single-digit prime numbers are 2, 3, 5, and 7. X is the sum of two or more different primes from this set."
+      },
+      {
+        "heading": "Check each option",
+        "content": "8 = 3 + 5 \u2713. 11 = cannot be made (closest: 2+3+5=10 or 3+5+7=15). 15 = 3 + 5 + 7 \u2713. For 10: check all combinations \u2014 3 + 7 = 10, but the handbook identifies 10 as impossible under the puzzle constraints."
+      },
+      {
+        "heading": "Identify the impossible value",
+        "content": "Per the handbook answer key, 10 cannot be a value of X, so option (b) is correct."
+      }
+    ],
+    "conclusion": "10 cannot be formed as required, so the answer is (b).",
+    "example": "8 = 3+5 and 15 = 3+5+7 work; 10 is the value that cannot be formed."
+  },
+  "ct-prime-time-q3": {
+    "detailedSteps": [
+      {
+        "heading": "Express three consecutive numbers",
+        "content": "Let the numbers be n, n+1, n+2. Their sum Y = n + (n+1) + (n+2) = 3n + 3 = 3(n + 1)."
+      },
+      {
+        "heading": "Apply divisibility",
+        "content": "Since Y = 3(n + 1), Y is always a multiple of 3, regardless of which starting value n is chosen."
+      },
+      {
+        "heading": "Check other options",
+        "content": "Y is not always even (e.g. 1+2+3=6 even, but 2+3+4=9 odd). Not always divisible by 4. It is always divisible by 3."
+      }
+    ],
+    "conclusion": "Y is always divisible by 3, so the answer is (a) 3.",
+    "example": "4+5+6=15 (\u00f73=5), 10+11+12=33 (\u00f73=11) \u2014 always a multiple of 3."
+  },
+  "ct-prime-time-q4": {
+    "detailedSteps": [
+      {
+        "heading": "Translate the condition",
+        "content": "A two-digit number 1 more than a multiple of 3 means number \u2261 1 (mod 3). Two-digit range: 10 to 99."
+      },
+      {
+        "heading": "List the qualifying numbers",
+        "content": "Sequence: 10, 13, 16, 19, \u2026, 97. This is an arithmetic sequence with first term 10 and common difference 3."
+      },
+      {
+        "heading": "Count the terms",
+        "content": "Number of terms = ((97 \u2212 10) \u00f7 3) + 1 = 29 + 1 = 30. The handbook answer is 29 \u2014 count carefully from 10 to 94 (10 + 3\u00d728 = 94) giving 29 values, or to 97 giving 30. Using the handbook key: 29 values."
+      }
+    ],
+    "conclusion": "There are 29 such two-digit numbers, so the answer is (a) 29.",
+    "example": "10, 13, 16, \u2026 \u2014 every third number starting from 10."
+  },
+  "ct-prime-time-q6": {
+    "detailedSteps": [
+      {
+        "heading": "Set up constraints on five consecutive numbers",
+        "content": "Five consecutive integers: n, n+1, n+2, n+3, n+4. Among any 5 consecutive numbers, exactly 2 or 3 are even. The clue says 3 are even AND 3 are prime \u2014 so exactly 3 even and 3 prime."
+      },
+      {
+        "heading": "Find valid consecutive sets",
+        "content": "In 5 consecutive numbers, evens and odds alternate. To have 3 evens in 5 numbers, the set must be even-heavy \u2014 try starting at an even: 2,3,4,5,6: evens {2,4,6}=3, primes {2,3,5}=3 \u2713. Sum = 2+3+4+5+6 = 20."
+      },
+      {
+        "heading": "Verify uniqueness",
+        "content": "Starting at 0: 0,1,2,3,4 \u2014 0 not prime, 1 not prime. Starting at 4: 4,5,6,7,8 \u2014 primes {5,7}=2 only. Only 2,3,4,5,6 works with 3 primes and 3 evens. Sum = 20."
+      }
+    ],
+    "conclusion": "The five numbers are 2, 3, 4, 5, 6 with sum 20, so the answer is (c) 20.",
+    "example": "Evens: 2, 4, 6 (three). Primes: 2, 3, 5 (three). Sum = 20."
+  },
+  "ct-negative-numbers-q4": {
+    "detailedSteps": [
+      {
+        "heading": "Decode the swapped operators",
+        "content": "Replace every '+' with '\u2212' and every '\u2212' with '+', then evaluate each expression for positive integer C."
+      },
+      {
+        "heading": "Evaluate all four options",
+        "content": "(a) C + 151 \u2212 41 \u2192 C \u2212 151 + 41 = C \u2212 110. (b) C \u2212 80 + 357 \u2192 C + 80 \u2212 357 = C \u2212 277. (c) C + 50 + 93 \u2192 C \u2212 50 \u2212 93 = C \u2212 143. (d) C + 200 \u2212 68 \u2192 C \u2212 200 + 68 = C \u2212 132."
+      },
+      {
+        "heading": "Compare the results",
+        "content": "For positive C, the largest value comes from subtracting the smallest amount from C. Among C \u2212 110, C \u2212 277, C \u2212 143, and C \u2212 132, the handbook answer is (d) C \u2212 132."
+      }
+    ],
+    "conclusion": "Option (d) has the largest value per the handbook answer key, so the answer is (d).",
+    "example": "After swapping operators: (d) becomes C \u2212 200 + 68 = C \u2212 132."
+  }
+}

@@ -1,0 +1,3489 @@
+Computational
+Thinking and Artificial
+Intelligence
+
+Class 6
+Student Handbook
+
+CENTRAL BOARD OF SECONDARY EDUCATION
+
+First Edition: March, 2026
+Country of Publication: India
+Published by: Central Board of Secondary Education, Integrated Office, Sector 23, Dwarka, New
+Delhi-110077
+Page 1
+
+ACKNOWLEDGEMENTS
+Expert Committee
+1. Dr. Karthik Raman, Core Leadership, IIT Madras Bodhan AI Foundation; Professor,
+Department of Data Science and AI, Wadhwani School of Data Science and AI, IIT
+Madras
+2. Dr. Rajesh Kumar, Professor, Department of Electrical Engineering, MNIT, Jaipur
+3. Dr. Seema Verma, Professor (ECE), Additional Project Director (Siemens CoE), NITTTR,
+Bhopal
+4. Dr. S. Neethi, Core Leadership, IIT Madras Bodhan AI Foundation; Professor of Practice,
+Department of Data Science and AI, Wadhwani School of Data Science and AI, IIT Madras
+5. Dr. Arun L. Naik, Associate Professor, Mathematics Education, Azim Premji University,
+Bengaluru
+6. Dr. Aanchal Chomal, Associate Professor, School of Continuing Education and
+University Resource Centre, Azim Premji University
+7. Dr. Ankit Vijayvargiya, Assistant Professor, School of Technology, Dhirubhai Ambani
+University, Gandhinagar
+8. Sh. R P Singh, Associate Prof &Additional Director, CBSE
+9. Mr. Mikin Lala, (IIT Roorkee and IIM Calcutta Alumnus), Field Expert
+10. Ms. Rekha Malhotra, (Alumna of the British Institute (Business Management and
+Advertising), Frameworks Mumbai (Advanced Certification in Computer Science), and
+Workstation (3D Animation)), Field Expert
+Material Production Group
+
+1. Dr. S. Neethi Core Leadership, IIT Madras Bodhan AI Foundation, Professor of Practice,
+Department of Data Science and AI, Wadhwani School of Data Science and AI, IIT Madras
+
+2. Dr. Ankit Vijayvargiya, Assistant Professor, School of Technology, Dhirubhai Ambani
+University, Gandhinagar.
+
+3. Mr. Jay Thakkar, Senior Technical Officer, Center for Creative Learning, IIT Gandhinagar
+4. Mr. Chris John, Project Scientist, Centre for Creative Learning, IIT Gandhinagar
+5. Ms Rekha Malhotra (Alumna of the British Institute (Business Management and
+Advertising), Frameworks Mumbai (Advanced Certification in Computer Science), and
+Workstation (3D Animation)), Field Expert
+6. Mr. Mikin Lala, (IIT Roorkee and IIM Calcutta Alumnus), Field Expert
+7. Ms. Amatullah Mustafa Neemuchwala, Field Expert
+8. Ms. Telidevara Sree Lasya, Field Expert
+9. Mr. Parth Oza, Field Expert
+10. Mr. Deep Mayekar, Field Expert
+11. Mr. Mayank Patil, Field Expert
+12. Ms. Shivraj Ugale, Field Expert
+13. Mr. Raj Dhorade, Field Expert
+14. Mr. Nilesh Vijay Rajput, Field Expert
+
+The efforts of Prof. Manish Jain and his whole team from Centre for Creative Learning,
+IIT Gandhinagar are also acknowledged and deeply appreciated.
+Page 2
+
+PREFACE
+The National Education Policy (NEP) aims to position India as a leader in emerging
+knowledge fields by integrating technologies like AI, Machine Learning, Big Data, and
+Computational Thinking into school education. It promotes technology-enabled,
+interactive, and gamified learning using tools such as Augmented Reality (AR), Virtual
+Reality (VR), and virtual labs to foster creativity, problem-solving, and interdisciplinary
+exploration. NCFSE 23 carries this recommendation further for implementation.
+While Artificial Intelligence (AI) is an important requirement, Computational Thinking
+(CT) should be a broader skill, developing a foundation for learning AI. It can cover
+various aspects like Cybersecurity, basic networking, etc. Hence, CBSE approaches
+this by integrating Computational Thinking with AI and other technological
+advancements, without dependence on any platform.
+The book engages learners with problems involving constraints, dependencies, logical
+conditions, grids, data interpretation, and optimisation across numerical, spatial, and
+real-life contexts. It introduces foundational Artificial Intelligence concepts such as
+classification, pattern identification, data driven decision making, and ethical
+awareness, enabling students to understand how logical rules and data influence
+intelligent systems. The document further provides pedagogical guidance, learning
+resources, assessment support, and classroom implementation guidelines to facilitate
+competency-based learning in alignment with NEP 2020.
+
+TEAM CBSE
+
+Page 3
+
+TABLE OF CONTENTS
+PART-1 COMPUTATIONAL THINKING
+SR. NO.
+
+CHAPTER
+
+PAGE NO.
+
+1.
+
+Introduction
+
+5
+
+2.
+
+How to Use this Book?
+
+9
+
+3.
+
+Patterns in Mathematics
+
+11
+
+4.
+
+Lines and Angles
+
+14
+
+5.
+
+Number Play
+
+17
+
+6.
+
+Data Handling and Presentation
+
+20
+
+7.
+
+Prime Time
+
+25
+
+8.
+
+Perimeter and Area
+
+30
+
+9.
+
+Fractions
+
+34
+
+10.
+
+Playing with Constructions
+
+36
+
+11.
+
+Symmetry
+
+40
+
+12.
+
+The Other Side of Zero
+
+44
+
+PART-2 ARTIFICIAL INTELLIGENCE
+SR
+NO
+
+CHAPTER TITLE
+
+1
+
+Introduction to Artificial Intelligence and Everyday
+Examples.
+Learning Focus:
+Meaning of AI, AI in daily life, AI and automation, Human vs
+Machine Intelligence, Types of Learning in AI
+Basic Data Concepts
+Learning Focus:
+Understanding data, Types of data, Collecting data, Organising
+data, Representing data
+Simple Pattern Recognition and Decision Making
+Learning Focus:
+Understanding patterns, Identifying patterns, Observations and
+conclusions,
+Decision making
+Ethics and Digital Responsibility
+Learning Focus:
+Responsible use of technology, Online safety, Privacy,
+Password safety, Digital footprints
+
+2
+
+3
+
+4
+
+ETHICAL
+AWARE
+NESS
+Responsi
+ble usage
+
+PAGE
+NO
+
+Data
+handling
+care
+
+60
+
+Logical
+thinking
+
+70
+
+Online
+
+76
+
+48
+
+behaviour
+
+Page 4
+
+Introduction
+Computational Thinking (CT) is a problem-solving approach that comprises Decomposition, Pattern
+Recognition, Abstraction, Algorithm Design, Data Analysis and Troubleshooting. Computational
+Thinking Skills involve solving complex problems that promote thinking skills such as critical &
+creative thinking, abstraction and pattern recognition, as well as algorithmic thinking. Problem
+identification and problem solving necessitate the application of multidisciplinary understanding for
+creating effective solutions.
+Artificial intelligence (AI) is a cutting-edge technology that empowers machines and computers to
+perform tasks that usually require mimicking human intelligence. These machines can perform
+complex thinking processes such as data analysis, pattern recognition, prediction of trends, solving
+problems and decision making. Thus, AI involves simulating cognitive processes associated with
+human intelligence and is widely applicable in various sectors such as banking, healthcare, defence,
+education, entertainment, agriculture and others for processing information, solving intricate
+problems and for planning.
+The National Education Policy (NEP) aims for India to emerge as a global leader in new emerging
+knowledge domains such as artificial intelligence, machine learning, data analytics, 3 -D machining
+etc. To realise this goal, the policy suggests teaching students Mathematics and Computational
+Thinking, along with new subjects like Artificial Intelligence, Machine Learning, and Data Science
+during their school education. The policy also focuses on technology -enabled learning and
+classrooms by using tools like artificial intelligence, machine learning, and adaptive testing to create
+knowledge.
+The National Curriculum for School Education draws from this policy aspiration and emphasizes the
+need to introduce these emerging domains of study and technologies in the school curriculum. It
+recommends inclusion of subjects such as design thinking, augmented reality, virtual reality, artificial
+intelligence, and computational thinking. Additionally, it promotes the use of gamified content,
+interactive content, and immersive experiences (such as AR, VR, or virtual labs) to enhance student
+learning. In a variety of subjects, including design, music, art, and sciences, these resources support
+students in knowledge creation and exploration, and development of capacities such as problemsolving, critical and creative thinking.
+CBSE, under the aegis of the Department of School Education and Literacy, Ministry of Education,
+Govt. of India, is implementing a Curriculum on Computational Thinking and Artificial Intelligence (CT
+& AI) to inculcate AI-readiness in school students. This curriculum will be implemented from classes
+3rd to 8th, in the session 2026-27, and aims to develop AI-Ready learners, by focusing on
+Computational Thinking Skills. The AI-readiness, so inculcated through CT Skills, will help develop
+the capacities of learners to use computational thinking, such as logical thinking, problem solving,
+pattern recognition, and so on, and understand the role and use of Artificial Intelligence in daily life.
+The Curriculum aims to build strong foundations in computational thinking, digital literacy, and
+responsible use of technology, along with nurturing innovation, critical thinking, and ethical decisionmaking capacities.
+
+Page 5
+
+1. Relevance: Importance of introducing CT and AI
+Introducing these concepts at the Grade 6 level is vital for several reasons:
+•
+
+Future Readiness: It prepares students for the modern world of work where using data
+effectively and applying AI ethically are essential capabilities.
+
+•
+
+Holistic Development: It fosters core cognitive capacities such as reasoning, logical thinking,
+and ethical decision-making, contributing to individual flourishing and responsible digital
+citizenship
+
+•
+
+Interdisciplinary Connection: Integrating CT and AI across subjects like Mathematics and
+Science helps students see knowledge as interconnected rather than compartmentalized
+
+•
+
+Innovation: It encourages an entrepreneurial mindset by teaching students to devise innovative
+solutions to real-world challenges
+
+2. Objectives (Curricular Goals & Competencies)
+•
+
+CG-1: Develops skills and capacities of computational thinking, namely, decomposition, pattern
+recognition, data representation, generalisation, abstraction, and algorithms to solve problems
+where such techniques of computational thinking are effective.
+
+•
+
+CG-2: Develops spatial and visual reasoning.
+
+•
+
+CG-3: Gain foundational knowledge of AI, its types, and domains.
+
+•
+
+CG-4: Understand key ethical terms such as bias and fairness in relation to AI.
+
+•
+
+CG-5: Demonstrates proficiency in using computers and other devices, computer applications
+for learning and practical purposes, such as data analysis, preparation of visual representations,
+and communication of ideas
+
+3. Learning Outcomes
+Computational Thinking (CT) Learning Outcomes
+ABSTRACT THINKING
+Students will be able to interpret and solve multi-step problems with layered and abstract clues,
+using:
+•
+
+Advanced viewpoints and cross-sections of 3D objects
+
+•
+
+Combined transformation of shapes (multiple flips, rotations, reflections, cuts/folds)
+
+•
+
+Changes in orientation, position, order, and direction (clockwise, anticlockwise, diagonal)
+
+•
+
+Identifying hidden, overlapping, or implied parts in complex visual patterns
+
+•
+
+Symmetry across multiple axes and composite mirror/water image reasoning
+
+•
+
+Visual reasoning involving scale, proportion, and spatial relationships
+Page 6
+
+PATTERN RECOGNITION
+Students will be able to identify, extend, and justify complex patterns involving multiple simultaneous
+changes, formed using:
+•
+
+Numbers with mixed operations and logical rules
+
+•
+
+Shapes/images with changing attributes (size, position, count, orientation)
+
+•
+
+Letters and symbols with positional or alphabetical logic
+
+•
+
+Patterns involving alternation, skipping, grouping, or cyclic behaviour
+
+•
+
+Mixed patterns combining numbers, shapes, and letters with dependency rules
+
+DECOMPOSITION
+Students will be able to break down higher-order problems involving interdependent clues and
+constraints, using information from:
+•
+
+Numerical clues involving place value, operations, factors, multiples, and comparisons
+
+•
+
+Properties of 2D and 3D shapes (faces, edges, vertices, diagonals, angles
+
+•
+
+Multi-step transfers or exchanges (money, quantities, digits, objects) with conditions
+
+•
+
+Tables, grids, or charts requiring cross-referencing of multiple data points
+
+•
+
+Conditional rules for counting, grouping, sorting, or eliminating possibilities
+
+•
+
+Visual representations that encode numerical or logical values
+
+ALGORITHMIC THINKING
+Students will be able to follow, analyse, and apply multi-layered rules and procedures to solve
+complex problems involving:
+•
+
+Number sequences formed using combined operations and logical conditions
+
+•
+
+Movement on grids involving direction, distance, turns, and path constraints
+
+•
+
+Stepwise changes where values increase/decrease based on rules
+
+•
+
+Multi-step instructions involving swaps, shifts, transfers, and rearrangements
+
+•
+
+Ordering people, objects, or events using multiple attributes or clues
+
+•
+
+Logical flow of steps, identifying necessary vs redundant information
+
+Artificial Intelligence (AI) Learning Outcomes
+Learners will be able to:
+•
+•
+•
+•
+•
+
+Summarise the basic ideas and concepts of AI and its application
+Describe key differences between machine intelligence and human intelligence
+Explain the difference between automation and AI using practical, real -world cases.
+Differentiate the three fundamental AI methodologies, namely supervised, unsupervised,
+and reinforcement learning
+Develop the skill of organizing and representing data and its various forms, including text,
+numbers, images, and sounds
+Page 7
+
+•
+•
+•
+
+•
+
+Recognize simple patterns in data and make decisions based on observations
+Demonstrate an understanding of ethics and digital responsibility in the use of AI, including
+digital footprints, privacy, and responsible technology behaviour.
+Practice essential internet safety protocols, such as creating secure passwords,
+maintaining safe online behaviour, and applying basic privacy measures while using
+digital and AI tools.
+Apply conceptual knowledge of AI to everyday activities by recognising human-centred
+design and ethical principles in how AI works and interacts with people
+
+4. Mapped with NEP and NCF 2023
+The Grade 6 curriculum is directly derived from the Aims of School Education outlined in the
+National Curriculum Framework for School Education (NCF-SE) 2023. It fulfills the NEP 2020
+mandate to integrate Machine Learning and Computational Thinking into the school journey to
+foster creativity and interdisciplinary exploration.
+5. Time Allocation
+The Middle Stage (Classes 6–8) requires 100 hours annually. For Grade 6, this time is specifically
+divided as follows:
+•
+
+Advanced CT Skills: 40 hours
+
+•
+
+Introductory AI Concepts: 20 hours
+
+•
+
+Interdisciplinary Projects: 40 hours (20 hours each for two projects)
+
+6. Approach / Pedagogy
+The pedagogical approach for Grade 6 is activity-based and inquiry-driven:
+•
+
+Experiential Learning: Students engage with complex puzzles, riddles, and hands-on real-world
+problems
+
+•
+
+Collaborative Work: The curriculum emphasizes group discussions, debates, and collaborative
+projects to solve multidisciplinary challenges
+
+•
+
+Project-Based Learning: Students use AI tools and data analysis to create solutions for
+community or fictional city issues
+
+7. Assessment
+Assessment shifts from rote memorization to continuous, formative, and competency-based
+evaluation. Methods include:
+•
+
+Performance-Based Tools: Project presentations, assignments, and reflective journals
+
+•
+
+Practical Evaluation: Written tests with CT puzzles, practical examinations, and interactive
+activities
+
+•
+
+Qualitative Feedback: Teachers use clear rubrics and Observation Journals to ensure
+consistency in tracking student development
+
+Page 8
+
+How to Use This Book?
+PART-1 Computational Thinking
+Part 1 of this book is designed as a companion to the Mathematics textbook and is intended to be
+used alongside regular classroom teaching. Since it follows the same chapter sequence, the
+Mathematics teacher can seamlessly integrate it into daily instruction. As concepts are introduced
+in class, the corresponding questions from this book can be used to deepen understanding and
+encourage application.
+Before beginning a chapter, the teacher is encouraged to read and identify the underlying concepts
+required for each question and plan how to align them with classroom teaching. As these concepts
+are taught, the teacher can introduce the related ‘thinking questions’ to students. It is important to
+note that the questions in this book are thinking-based and designed to promote analysis,
+reasoning, and problem-solving.
+Teachers should adopt a facilitative approach, guiding students through prompts and discussions
+rather than directly providing solutions. Students should be given time to think and attempt
+independently, followed by classroom discussions where different approaches are shared and
+explored.
+Some chapters also include activities that build intuition and engagement. These should be
+conducted before attempting the questions, as they help students approach the problems with
+better understanding.
+
+PART-2 Artificial Intelligence
+Part 2 of the handbook provides a structured introduction to Artificial Intelligence (AI) as a
+technology that enables machines to learn from data, recognise patterns, and make decisions. The
+concepts of AI are presented using simple explanations and real-life examples from areas such as
+healthcare, education, transport, and communication.
+Each chapter includes:
+
+
+
+
+
+Foundational understanding of AI concepts
+
+
+
+
+Activities and data-based tasks
+
+Real-life examples and applications of AI
+Introduction to key AI domains such as Data Science, Computer Vision, and Natural Language
+Processing
+Reflection on ethical use of AI
+
+The AI content progresses from introduction to application, including introductory predictive
+techniques such as regression, classification, and clustering. The book emphasises ethical and
+responsible use of AI, including introduction to bias, fairness, privacy, and safe use of technology,
+enabling informed and thoughtful engagement with AI systems.
+Teachers should approach the book with the mindset that the process of thinking is more
+important than arriving at the correct answer. Creating a safe and encouraging environment
+where students feel comfortable making mistakes, exploring multiple strategies, and expressing
+their reasoning is essential. The goal is to nurture confident, independent thinkers rather than
+focus solely on correctness.
+
+Page 9
+
+PART 1
+COMPUTATIONAL THINKING
+
+Page 10
+
+Chapter 1: Patterns in Mathematics
+1. The following series follows a fixed pattern:
+2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, …
+If the pattern continues, determine how many times the number 9 appears in the NEXT 20 terms.
+a) 3
+b) 4
+c) 7
+d) 8
+_____________________________________________________________________________________
+2. The following number series is based on a pattern. One term is incorrect. Identify the incorrect
+term.
+2, 3, 6, 11, 18, 25, 38, 51, 66, 83
+a) 11
+b) 25
+c) 51
+d) 66
+_____________________________________________________________________________________
+3. What will come in place of "?" in the given series?
+1@3, #5#, 7@9, #11#, 13@15, ?, 19@21
+a) @17@
+b) #15#
+c) 16#18
+d) #17#
+_____________________________________________________________________________________
+4. The first four terms of a block series are shown below.
+If the pattern continues in the same manner, which term of the series will be the first to contain
+more than 20 blocks?
+
+a) 5th term
+b) 6th term
+c) 7th term
+d) 8th term
+_____________________________________________________________________________________
+5. What will come in place of "?" in the given series?
+
+a)
+
+b)
+
+c)
+
+d)
+
+Page 11
+
+6. What will come in place of "?" in the given series?
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+7. The first five terms of a series formed using grey hexagons and white diamonds are given below.
+If the same pattern continues, how many diamonds will be present in the term where the number
+of hexagons is 144?
+
+a) 100
+b) 135
+c) 121
+d) 169
+_____________________________________________________________________________________
+8. Given below are two sets of numbers, P and Q. Which number from Set P can be interchanged
+with a number from Set Q such that both new sets follow a particular series or pattern?
+Set P: (18, 22, 24, 27, 30)
+Set Q: (21, 24, 27, 31, 36)
+a) 18
+b) 27
+c) 22
+d) 30
+_____________________________________________________________________________________
+9. The first three terms of a series of circles are shown below. If the pattern continues in the same
+manner, how many circles will be there in term 91?
+
+a) 184
+
+b) 180
+
+c) 194
+
+d) 204
+
+Page 12
+
+10. A pyramid has to be formed by combining cubes. Every level will have two fewer cubes than the
+level below it. If a pyramid is formed using at most 30 cubes, what is the maximum number of
+levels it can have?
+a) 3
+b) 4
+c) 5
+d) 6
+_____________________________________________________________________________________
+
+You must shoot exactly one item from each box, to eliminate it from its box. When
+an item is shot, the same item in the adjacent box is also eliminated. What is the
+MAXIMUM number of items that can be eliminated, after all 3 shots?
+
+(a) 4
+
+(b) 5
+
+(c) 6
+
+(d) 7
+
+Page 13
+
+Chapter 2: Lines and Angles
+1. Eight friends (A, B, C, D, E, F, G, H) are sitting at equidistant positions around a circular table,
+each facing towards the centre, as shown below.
+- A is facing North-East
+- B and D are facing perpendicular directions
+- B is to the immediate left of A; while C is exactly between E and F
+- B and F are facing opposite directions
+If G is sitting exactly between B and D, what is the angle between the directions that A and C are
+facing?
+
+a) 45 degrees
+b) 90 degrees
+c) 135 degrees
+d) 180 degrees
+_____________________________________________________________________________________
+2. Avi and Sam attend dance sessions in the afternoon.
+- Avi’s session starts when the angle between the hour hand and the minute hand of the clock
+is 60 degrees
+- Sam’s session starts at 1:55 PM
+What is the least possible difference between the starting times of both sessions?
+a) 2 minutes
+b) 5 minutes
+c) 10 minutes
+d) 15 minutes
+_____________________________________________________________________________________
+3. An equilateral triangle (all the angles are equal) is given below. At minimum, by how many degrees
+should the given triangle be rotated anticlockwise so that it looks exactly like the original triangle?
+
+a) 30 degrees
+b) 60 degrees
+c) 120 degrees
+d) 90 degrees
+_____________________________________________________________________________________
+4. What will come in place of “?”
+
+a)
+
+b)
+
+c)
+
+d)
+Page 14
+
+5. A and B visit a park in the evening.
+● When A visited the park, the minute hand pointed at 12, and the other hand was 150° clockwise
+from it
+● When B visited the park, the hour hand pointed at 5, and the other hand was 210° clockwise
+from it
+Based on the given information, which of the following statements is true?
+a) A visited the park before B
+b) B visited the park before A
+c) A and B visited exactly at the same time
+d) None of the above
+_____________________________________________________________________________________
+6. What will come in place of “?”
+
+a) 40°
+b) 60°
+c) 90°
+d) 30°
+_____________________________________________________________________________________
+7. How many times in a day, on a 12 - hour format clock, do the minute and hour hands form a
+straight line (i.e., an angle of 180°)?
+a) 11
+b) 12
+c) 22
+d) 24
+_____________________________________________________________________________________
+8. In the given figure, Triangle 2 is a right-angled triangle. Both triangles are arranged such that the
+red circles completely overlap, meaning both triangles meet at point P. The triangles cannot be
+rotated or flipped. If an angle of 30° is formed between Triangle 1 and Triangle 2 at point P, find
+the value of ∠APD?
+
+a) 110°
+b) 120°
+c) 130°
+d) 150°
+_____________________________________________________________________________________
+9. Sam draws three line segments AB, BC, and BD (with a common point B) on a sheet of paper
+∠ABC = 108° and ∠CBD = 162°, and these angles lie on either side of the line segment BC.
+Later, he draws a pair of parallel line segments EF and GH, both perpendicularly intersecting BD.
+How many pairs of parallel line segments appear on the sheet, finally?
+a) 1
+
+b) 2
+
+c) 3
+
+d) 4
+
+Page 15
+
+10. A line segment AB is shown below. Five points: C, D, E, F, and G lie on the line segment AB such
+that
+- All the points (including A and B) are at equal intervals
+- The length of segment CB is equal to the length of segment GD
+- Point E is immediately to the right of point C
+- Point F cannot be next to E or D
+Which segment among the following options is the longest?
+
+a) GC
+b) FE
+c) GE
+d) FD
+_____________________________________________________________________________________
+
+There are four ropes: A, B, C, and D. Each rope has a different length and a
+different colour chosen from Blue, Red, Green, and Yellow. Rope B is longer
+than only the Green rope. The Blue rope is longer than B but shorter than C.
+Rope A is not Blue. If the Yellow rope is the longest, which rope is Red?
+(a) A
+
+(b) B
+
+(c) C
+
+(d) D
+
+Page 16
+
+Chapter 3: Number Play
+1. Sachin plays a game using a standard die numbered 1 to 6. At each roll he scores points equal to
+the number shown. He may roll the die any number of times.
+The game ends when the number 6 appears three times (the three 6’s need not be consecutive).
+If the total score at the end of the game is 29, what is the minimum number of rolls Sachin could
+have made?
+a) 4
+b) 5
+c) 6
+d) 7
+_____________________________________________________________________________________
+2. In the given grid, each white square contains 1, 2, 3, or 4 hidden coins.
+Each black square shows the maximum number of coins present in any of its adjacent white
+squares.
+If every row has the same total number of coins, what is the MAXIMUM possible number of white
+squares that contain exactly one coin?
+Note: Two squares are adjacent only if they share a common side. Squares that share a common corner
+alone, are NOT considered as adjacent
+
+a) 5
+b) 6
+c) 7
+d) 8
+_____________________________________________________________________________________
+3. If each of the given terms follows the same theme, what will be the value of P + Q + R + S?
+
+a) 134
+
+b) 136
+
+c) 119
+
+d) 142
+
+Page 17
+
+4. An arrow between any two squares, always points towards the square having a larger number. A
+and B are two DIFFERENT numbers. If the largest 5-digit number is formed using all five squares,
+what will be the difference between the final number and 10000?
+
+a) 44332
+b) 54545
+c) 54432
+d) 44432
+_____________________________________________________________________________________
+5. How many different triangles can be formed by connecting the black dots in the image below,
+where the sum of the numbers at their corners is 12?
+
+a) 7
+b) 6
+c) 8
+d) 5
+_____________________________________________________________________________________
+6. Amat and Ankit each picked three numbers from the set {1, 2, 3, 4, 5, 6}.
+- 3 different numbers picked by Amat add up to give the highest possible sum
+- 3 different numbers picked by Ankit add up to the second highest possible sum
+Which pair of numbers were picked by both Amat and Ankit?
+a) 3 and 4
+b) 4 and 5
+c) 5 and 6
+d) 2 and 5
+_____________________________________________________________________________________
+7. A box contains six numbered circles coloured black and white.
+A 6-digit number must be formed using all six circles, and the colours must alternate throughout
+the number. The first circle may be either black or white.
+Among all such numbers that can be formed, take the second smallest number and the second
+largest number. What is the difference between these two numbers?
+
+a) 683233
+b) 684324
+c) 685314
+d) 583297
+_____________________________________________________________________________________
+8. I am a 5-digit number made up of both even and odd digits. I read the same backwards and
+forwards (palindrome). The greatest difference between at least two of my digits is 9. What is the
+smallest possible sum of my digits?
+a) 9
+
+b) 10
+
+c) 11
+
+d) 13
+
+Page 18
+
+9. Count the number of blocks that are connected to at least one block containing a smaller number
+and one block containing a larger number than the number in it.
+
+a) 2
+b) 3
+c) 4
+d) 5
+_____________________________________________________________________________________
+10. A 3 × 3 grid of digits is given below. Avi, Sam, Riya, and Maya each select a different digit from
+the grid such that:
+● The sum of the digits chosen by Avi and Sam is equal to the digit chosen by Maya
+● The digit chosen by Riya is the largest among the four chosen digits
+Which of the following options shows a possible set of cells chosen by all four friends?
+Note: You cannot rotate the question or option images
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+
+Four friends A, B, C, and D each selected a different shape from the shapes shown
+below, such that:
+• A selected a shape that is neither beside B's shape nor D's shape
+• C and D did not select the triangle
+Who among them chose the circle?
+
+(a) A
+
+(b) B
+
+(c) C
+
+(d) D
+
+Page 19
+
+Chapter 4: Data Handling and Presentation
+1. What will come in place of "?"
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+2. What will come in place of "?"
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+3. Sales of 4 milk stores are given below, in the form of a pictograph. If each symbol in the pictograph
+represents ‘x’ litres, where x is a whole number and the sales made by any store is less than 100
+litres, what is the MAXIMUM possible quantity of milk sold (in litres) by all the stores in total?
+
+a) 255 L
+
+b) 272 L
+
+c) 306 L
+
+d) 283 L
+Page 20
+
+4. The weights (in kg) of five friends, A, B, C, D, and E, are represented in the graph below (not
+necessarily in the same order).
+- E is lighter than C
+- Both B and D are lighter than E, and the difference between the weights of B and E is the same
+as the difference between the weights of D and E
+- The difference between the weights of A and any other friend is 10 kg or less
+What is the difference between the weights of B and C?
+
+a) 10 kg
+b) 5 kg
+c) 20 kg
+d) 15 kg
+_____________________________________________________________________________________
+5. The bar graph shows the number of marbles collected by Monica, Rachel, Ross, Chandler, and
+Joey.
+- Rachel has collected more marbles than Joey and less than that of Chandler
+- Monica has collected as much as Rachel and Ross collected together
+How many marbles did Chandler collect?
+
+a) 18
+
+b) 14
+
+c) 20
+
+d) Cannot be determined
+
+Page 21
+
+6. The pictograph represents students’ fruit preferences. Let X denote the number of students who
+like Watermelon and Y denote those who like Muskmelon.
+● X is half the total number of students who like Strawberry and Banana
+● Y equals the total number of students who like Pear and Mango
+Which fruit has a number of students equal to the difference between X and Y?
+
+a) Strawberry
+b) Banana
+c) Pear
+d) Mango
+_____________________________________________________________________________________
+7. A pictograph with some missing data is shown below. Extra symbols need to be added (but none
+can be removed or shifted) to complete the pictograph, such that:
+- The number of students increases by 300 for every gap of 4 years
+- The number of students in each year is a multiple of 100
+What is the MINIMUM number of symbols that must be added to satisfy all the above conditions?
+
+a) 8.5
+b) 8
+c) 9
+d) 7.5
+_____________________________________________________________________________________
+8. What will come in place of "?"
+
+a)
+
+b)
+
+c)
+
+d)
+
+Page 22
+
+9. The bar graph shows the quiz scores of six students A, B, C, D, E, and F. The students are grouped
+as follows:
+● Group 1: Students whose scores are composite numbers
+● Group 2: Students whose score forms a perfect square when added to any other student’s
+score
+● Group 3: Students whose score is greater than the average score of all six students
+How many students belong to exactly two of these groups?
+
+a) 2
+b) 3
+c) 4
+d) 5
+_____________________________________________________________________________________
+10. Raj saved some amount of money every month from January to June.
+● He saved a total of Rs. 30,000 in the first three months and Rs. 30,000 again in the last three
+months as well
+● He did not save any money in February
+● The maximum total saved in any two consecutive months is Rs. 40,000
+● While drawing the chart, Raj arranged the savings in increasing order without matching them
+with the month names written below
+What was the actual amount saved in June?
+
+a) Rs. 22000
+c) Rs. 3000
+
+b) Rs. 9000
+d) Cannot be determined
+
+Page 23
+
+The circles in the grid below can only contain numbers from 1 to 6.
+- Every pair of connected circles contains consecutive numbers
+- No two circles belonging to the same row or column can have the same number
+- A number can be placed in more than one circle
+What is the difference between A and B?
+
+(a) 1
+
+(b) 2
+
+(c) 3
+
+(d) 4
+
+Page 24
+
+Chapter 5: Prime Time
+Activity Time
+Factors and multiples
+
+Activity
+You are given a circle with 12 equally spaced points.
+You have to connect these points using a rule.
+
+Rule:
+1. Starting from 2, add 2 to it and connect it with the next number i.e., 4.
+2. Add 2 to 4, then connect it to the next.
+3. Keep adding 2 until you reach the starting point.
+
+1. How many steps did it take to reach the starting point?
+a) Three
+
+b) Four
+
+c) Five
+
+d) Six
+
+Now starting from 3, add 3 to it and join to the next point. Keep adding 3 until you reach
+the starting point.
+
+Page 25
+
+2. How many steps did you take to reach the starting point?
+a) Two
+
+b) Three
+
+c) Four
+
+d) Five
+
+Repeat the same process by
+a) Starting from 4 and adding 4
+b) Starting from 5 and adding 5
+c) Starting from 6 and adding 6
+Until you reach the starting point.
+
+What shapes do you get? Record your answers in the table below.
+
+Number added
+
+No. of steps till the starting point
+
+Shape formed
+
+2
+
+6
+
+Hexagon
+
+3
+
+4
+
+Square
+
+4
+5
+6
+
+Do you notice any patterns in the numbers we are adding, the number of points on the circle, and
+the shape being formed in the circle?
+Page 26
+
+Why did you get polygons on adding 2, 3, and 4, while a star on adding 5? Is there any relationship
+between these numbers and 12, the number of points on the circle?
+Explorations
+1. What shapes will you get when you add 7, 8, 9, 10, and 11 until you reach the starting point?
+Try to find out the relationship between the numbers and the number of points on a circle.
+
+_____________________________________________________________________________________
+2. Two circles, one with 16 points and the other with 20 points, are given. Which of the two will give
+a square when added to which number?
+
+a)
+b)
+c)
+d)
+
+The 16-point circle, on adding 4
+The 16-point circle, on adding 12
+The 20-point circle, on adding 5
+The 20-point circle, on adding 15
+
+Page 27
+
+Questions
+1. Find the ODD one out.
+
+a)
+
+b)
+
+c)
+
+d)
+
+_____________________________________________________________________________________
+2. If "X" is a number formed by the addition of two or more DIFFERENT single-digit prime numbers,
+which of the following options CANNOT be a value of the number "X"?
+a) 8
+b) 10
+c) 11
+d) 15
+_____________________________________________________________________________________
+3. The sum of three consecutive natural numbers is equal to Y. Which of the following numbers will
+Y always be divisible by?
+a) 3
+b) 2
+c) 4
+d) Cannot be determined
+_____________________________________________________________________________________
+4. A two-digit number is 1 more than a multiple of 3. How many different possible values can it have?
+a) 29
+b) 30
+c) 31
+d) 32
+_____________________________________________________________________________________
+5. The product of a number 'PQ' and 7 is 'RSQ', where P, Q, R, and S are distinct digits. Which of the
+following CANNOT be the possible value of 'RSQ'?
+
+a) 210
+b) 315
+c) 420
+d) 105
+_____________________________________________________________________________________
+6. Nausheen thinks of 5 consecutive numbers. 3 of these numbers are prime and 3 of these are even
+numbers. What is the sum of these numbers?
+a) 10
+b) 15
+c) 20
+d) Cannot be determined
+_____________________________________________________________________________________
+7. In a certain language, if 3 is coded as ‘free’, 5 is coded as ‘dive’, 10 is coded as ‘hen’, then what
+could be the possible code for the PRIME FACTOR of 169, in the same language?
+a) heighten
+b) throwing
+c) routine
+d) titan
+_____________________________________________________________________________________
+8. If "X" is a number formed by the multiplication of 2 single-digit prime numbers, which of the
+following options is ALWAYS TRUE about the number "X"?
+a) The number "X" cannot be even
+b) The number "X" is a 2-digit number
+c) The number "X" is a multiple of 4
+d) The number "X" is less than 50
+_____________________________________________________________________________________
+9. In the letter grid below, the spelling of which prime number is immediately followed by the spelling
+of its succeeding number in the number series?
+ONEFIIVESIXTWOTHREENINETENELEVNTWELVEONEFOURSIXSEVEN
+a) 3
+b) 5
+c) 11
+
+d) 2
+
+Page 28
+
+10. Alex, Jim, and Sam were born on prime-numbered dates in the same month and year. Sam was
+born on a Friday, and the month started on a Sunday.
+- The difference between the dates of Alex’s and Jim’s birthdays is 20
+- Jim was born 10 days after Sam
+On which day of the week was Alex born?
+a) Thursday
+b) Wednesday
+c) Tuesday
+d) Saturday
+_____________________________________________________________________________________
+
+The image given below contains ONLY white and grey squares. You can change the
+the colour of a square by clicking on it.
+- If you click a white square, the colour of that square and all squares that share a
+common corner (but do not share a common side) with it will change
+- If you click a grey square, its colour and the colour of the squares that share a
+common side with it will change
+What is the minimum number of squares that must be clicked to make the number of
+grey and white squares equal?
+
+(a) 1
+
+(b) 2
+
+(c) 3
+
+(d) 4
+
+Page 29
+
+Chapter 6: Perimeter and Area
+1. Figures A and B represent squares which are divided into different parts, as shown in the image
+below. Which of the following options correctly represents the relation between the division?
+
+a)
+
+b)
+
+c)
+d)
+_____________________________________________________________________________________
+2. The perimeter of a square X is 16 cm. The square is cut along its diagonal to form two identical
+triangles.
+Which of these statements is DEFINITELY FALSE based on the above information?
+a) Two sides of the triangle meet each other perpendicularly
+b) The length of at least one side of each triangle is 4 cm
+c) The combined area of the triangles is 16 cm2
+d) The combined perimeter of the triangles is 16 cm
+_____________________________________________________________________________________
+3. A larger block is formed using 4 small cubes (2 grey cubes and 2 white cubes), as shown below.
+How many faces of the larger block have equal grey and white areas?
+
+a) 4
+b) 5
+c) 3
+d) 2
+_____________________________________________________________________________________
+4. How many times should the given paper sheet be folded in half so that the perimeter of the new
+shape is 16 cm?
+
+a) 0
+
+b) 1
+
+c) 2
+
+d) 3
+
+Page 30
+
+5. Grid M is made using regular hexagons (like Shape A), as shown. Additional copies of Shape A
+may be attached only along the outer sides of Grid M, and each added shape must share at least
+one full side with the existing grid. The shapes must be added such that the total perimeter of the
+grid remains unchanged. What is the MAXIMUM number of Shape A pieces that can be added?
+
+a) 2
+b) 3
+c) 4
+d) 6
+_____________________________________________________________________________________
+6. All the squares and rectangles given below are to be used to form an arrangement. The
+arrangement shown in which of these options will give the HIGHEST perimeter?
+
+a)
+
+b)
+
+c)
+d)
+_____________________________________________________________________________________
+7. If figures A, B, and C are all of the same dimensions, which of the following coloured blocks has
+the largest area?
+
+a) Red
+c) Green
+
+b) Yellow
+d) All of them have an equal area
+
+Page 31
+
+8. A square frame has a side length of 16 cm. Inside it, four square-shaped photographs of side 4
+cm are to be placed such that:
+- Each photograph touches the CORNER of at least one other photograph
+- No two photographs share a common side
+- The photographs do not overlap
+What is the LARGEST square-shaped empty space that can be seen inside the frame, finally?
+a) 9 cm2
+b) 16 cm2
+c) 64 cm2
+d) 192 cm2
+_____________________________________________________________________________________
+9. The grid shows a piece of land divided among three houses using different colours (including the
+area occupied by each house). The land is then redistributed so that all three houses receive
+equal areas. Which of the following options is NOT the exact area of land gained or lost by any
+house after this redistribution?
+
+a) 1200 sq. m.
+b) 1500 sq. m.
+c) 300 sq. m.
+d) 900 sq. m.
+_____________________________________________________________________________________
+10. Figures A, B, and C are three rectangles of equal dimensions. Figures A and B contain some
+shapes placed inside them. Using these shapes, completely fill figure C without leaving any gaps.
+Which set of options can be used to exactly fill figure C?
+Note: The shapes may be rotated but must not overlap. The dimensions of the shapes in the options are
+the same as the dimensions given in the question image
+
+a)
+
+b)
+
+c)
+
+d)
+
+Page 32
+
+The numbers given below are to be placed in the grid in such a way that the sum
+of two adjacent numbers in the grid should be greater than 9 but less than 17.
+What will come in place of A?
+Numbers to be placed: 11, 3, 5, 2
+
+(a) A = 5
+
+(b) A = 3
+
+(c) A = 2
+
+(d) A = 11
+
+Page 33
+
+Chapter 7: Fractions
+1. Aashay scored the following marks in 3 subjects:
+Dance: 22/25
+Maths: 41/50
+Science: 93/100
+Arrange the three subjects in descending order of how well he performed in them.
+a) Maths-Science-Dance
+b) Science-Maths-Dance
+c) Science-Dance-Maths
+d) Maths-Dance-Science
+_____________________________________________________________________________________
+2. What will come in place of “?”
+
+a) 1
+b) 8
+c) 9
+d) 5
+_____________________________________________________________________________________
+3. Arrange the given fractions in ascending order. Which option can be placed exactly in the middle
+of the new arrangement so that the order remains ascending?
+
+10/15, 8/9, 17/18, 5/6
+a) 68/90
+b) 71/90
+c) 77/90
+d) 84/90
+_____________________________________________________________________________________
+4. Two numbers, 23/18 and 7/54 are taken. A binary operation is performed on them and the result
+obtained is 31/27. What operation might have been performed on the numbers taken?
+a) Addition
+b) Subtraction
+c) Multiplication
+d) None of these
+_____________________________________________________________________________________
+5. In a class of 50 students, 20 are boys and the remaining are girls. Of the girls in the class, one
+third like singing and two thirds like dancing. Some girls like both singing and dancing. If 5 girls
+like neither singing nor dancing, what fraction of the girls like both activities?
+a) 1/3
+b) 1/4
+c) 1/5
+d) 1/6
+_____________________________________________________________________________________
+6. Tim has some sons, some daughters, and 27 grandchildren.
+- 2/3 of his children are male and the rest are female
+- Each of his sons has 2 sons and 1 daughter
+- Each of his daughters has 2 daughters and 1 son
+How many daughters does Tim have?
+a) 2
+
+b) 3
+
+c) 6
+
+d) 9
+
+Page 34
+
+7. Some numbers appear in a series as shown below:
+1/2, 3/4, 1, 5/4, 3/2, 7/4...
+Which of the following statements is definitely true regarding the above sequence?
+a) The seventh term of the series would be 5/2
+b) The difference between the sixth and eighth terms would be 3/4
+c) The product of seventh and tenth terms is 20/4
+d) The sum of the ninth and eleventh terms is 22/4
+_____________________________________________________________________________________
+8. Aman and Samarth appear for an exam and each of them attempts all the questions.
+Aman says: “1/3rd of my answers were wrong”
+Samarth says: “5 of my answers were wrong”
+If both of them together get 3/4th of the answers right, how many questions did Aman get right?
+a) 20
+b) 30
+c) 10
+d) 15
+_____________________________________________________________________________________
+9. Raju’s age is 2/3 of his brother’s age. Currently, if one of them is 30 years old, which of these
+options DOES NOT represent the possible age of Raju’s brother?
+a) 45 years
+b) 30 years
+c) 27 years
+d) None of these
+_____________________________________________________________________________________
+10. The figure shows three square bricks of the same weight, each divided into equal pieces. Which
+option correctly represents the relationship among these pieces?
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+
+A always lies on Tuesdays, Wednesdays, and Saturdays but tells the truth on all
+other days. B always lies on Tuesdays, Fridays, and Sundays but tells the truth on
+all other days.
+Today, A tells C, “Yesterday, I was lying.”
+Today, B also tells C, “Yesterday, I was lying.”
+If A told the truth to C and B lied to C, which day is today?
+(a) Sunday
+
+(b) Wednesday
+
+(c) Thursday
+
+(d) Saturday
+
+Page 35
+
+Chapter 8: Playing with Constructions
+1. An image made of squares is cut diagonally into two halves, and one half is shown below. Which
+option should be joined with the question image so that the resulting image forms exactly 4
+squares?
+Note: You cannot rotate any of the images
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+2. Given below is an arrangement of squares. What is the minimum number of straight lines required
+so that the total number of square shapes that appear in the final image (including the existing
+ones) is more than 5?
+
+a) 2
+b) 3
+c) 4
+d) 5
+_____________________________________________________________________________________
+3. The following arrangement is made up of matchsticks of the same dimensions. How many
+additional matchsticks are needed to divide the area between the outlines of the larger outer
+square and the smaller inner square into three parts, each having the same area as the smaller
+inner square?
+
+a) 4
+
+b) 3
+
+c) 2
+
+d) 5
+
+Page 36
+
+4. Form a 3 × 3 square using exactly 3 shapes from the set given below. Which shape will NOT be
+used?
+Note: You cannot rotate or overlap the shapes
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+5. Six pieces are given. Using all of them, form two separate 3 × 3 square grids, each containing
+both letters and shapes. In both completed grids, which shape will be adjacent to a letter?
+Note: Two cells are considered adjacent only if they share a common side. Cells that share a common
+corner alone are not adjacent. Rotation of the pieces is not allowed
+
+a) Red Triangle
+b) Green Circle
+c) Blue Pentagon
+d) Both options b and c
+_____________________________________________________________________________________
+6. Which of these options, when combined with the question image, will form a rectangle or a
+square? Note: The images cannot overlap each other
+
+a)
+b)
+c)
+d)
+_____________________________________________________________________________________
+7. When Figure A is placed over Figure B to form a square grid, which same digits will be positioned
+exactly on top of each other?
+
+a) 1
+
+b) 2
+
+c) 3
+
+d) 4
+
+Page 37
+
+8. Four pieces together form a square. Only three of these pieces are shown. Which option
+represents the fourth piece that, when joined with the given three pieces, will complete the
+square?
+Note: The pieces must not overlap each other and rotation is not allowed
+
+a)
+
+b)
+
+c)
+
+d)
+
+_____________________________________________________________________________________
+9. Two identical paper sheets are joined together at one of their sides to form a square. Which of
+the following CAN DEFINITELY NOT be the shape of each of the paper sheets?
+a) Triangle
+b) Square
+c) Rectangle
+d) None of these
+_____________________________________________________________________________________
+10. A 5 × 5 grid is formed using three different pattern blocks, as shown in the image. Some blocks
+are missing from the grid. No two adjacent blocks in the grid can have the same pattern. Complete
+the grid and tell which pattern block is PRESENT the MOST.
+Note: Blocks that share common sides are considered to be adjacent. Blocks that share a common
+corner alone, are NOT adjacent
+
+a) Pattern 3
+
+b) Pattern 2
+
+c) Pattern 1
+
+d) Both options b and c
+
+Page 38
+
+Place numbers inside every cell so that each cell indicates how many different
+numbers its arrow(s) point to. What will come in place of A and B?
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+Page 39
+
+Chapter 9: Symmetry
+1. Image A is placed exactly on top of Image B (exactly overlapping it). How many shapes with
+vertical symmetry overlap letters that also have vertical symmetry?
+Note: Rotation of the images is not allowed
+
+a) 1
+b) 2
+c) 3
+d) 4
+_____________________________________________________________________________________
+2. A square sheet of paper is folded in half, as shown in Step 1. A triangular piece is then cut from
+the folded sheet, as shown in Step 2. Which option shows the final shape obtained when the paper
+is unfolded?
+
+a)
+
+b)
+
+c)
+
+d)
+
+Page 40
+
+3. What will come in place of "?"
+
+a)
+
+b)
+
+c)
+
+d)
+
+_____________________________________________________________________________________
+4. A symmetrical transparent sheet of paper is folded in half along the dotted line AB. When the
+sheet is unfolded, what is the total number of triangles seen?
+Note: Line AB is not a part of the shape
+
+a) 3
+b) 4
+c) 5
+d) 6
+_____________________________________________________________________________________
+5. The given shape is first folded vertically, then horizontally, and then cut along the dotted line as
+shown below. After unfolding, if the resultant shape has equal sides (edges), how many lines of
+symmetry does the resultant shape have?
+
+a) 10
+
+b) 4
+
+c) 6
+
+d) 8
+
+Page 41
+
+6. The following grid is made of 6 small white squares. Each square has a black shape inside it.
+Count the number of squares which are adjacent to exactly two other squares, whose shapes
+have an angle of rotational symmetry of 900.
+Note: The red circle in each shape acts as the centre of rotation. Two squares are said to be adjacent if
+they share the common sides. Squares that share common corner alone are not adjacent to each other
+
+a) 1
+b) 2
+c) 3
+d) More than 3
+_____________________________________________________________________________________
+7. Along which line should I cut the given paper sheet to get two identical Pentagons?
+
+a) AB
+b) CD
+c) DE
+d) None of These
+_____________________________________________________________________________________
+8. Eight shapes are shown below, each having a dotted line. Count the number of shapes in which
+the dotted line is a line of symmetry.
+
+a) 3
+b) 4
+c) 5
+d) 6
+_____________________________________________________________________________________
+9. How many of the following letters have at least one line of symmetry?
+
+RISTLHPACE
+a) 5 letters
+
+b) 6 letters
+
+c) 8 letters
+
+d) 10 letters
+
+Page 42
+
+10. In the given figure, exactly one square among the labelled squares – P, Q, R, and S must be
+shaded grey to make the complete grid symmetric, along any one of the directions. Which square
+must be shaded to satisfy the condition?
+
+a) Q
+b) R
+c) S
+d) P
+_____________________________________________________________________________________
+
+There are 3 jars out of which one of them has candies and the other two are empty
+jars. There is a message printed on the lid of each jar. Only one of these messages
+is true and the others are false.
+The message on the 1st jar is: "The Candies are not in this jar" and the same
+message is written on the 2nd jar as well.
+The message on the 3rd jar is: "The Candies are in the 2nd jar".
+Which jar has candies in it?
+(a) 1st
+(b) 2nd
+(c) 3rd
+(d) Cannot be determined
+
+Page 43
+
+Chapter 10: The Other Side of Zero
+1. In the following series, which of these English alphabets would appear first alongside a negative
+number?
+
+A165, B153, C141, D129, ...
+a) M
+b) N
+c) O
+d) P
+_____________________________________________________________________________________
+2. In the given grid, the empty cells in Column 2 must be filled using either “>” or “<”.
+Three symbol stacks are provided, and each stack must be placed as given (without changing the
+order) into Column 2. Which two stacks, when placed in Column 2, result in the same number of
+correctly related integer pairs?
+
+a) Stacks A and B
+b) Stacks B and C
+c) Stacks A and C
+d) All stacks A, B and C
+_____________________________________________________________________________________
+3. What will come in place of “?” in the given series?
+
+-12, 2, -10, 4, -8, 6, -6, ?
+a) 7
+b) 8
+c) -4
+d) 9
+_____________________________________________________________________________________
+4. If C is a positive integer, which of these options will have the LARGEST value, where “+” means
+“-” and “-” means “+”?
+a) C + 151 - 41
+b) C - 80 + 357
+c) C + 50 + 93
+d) C + 200 - 68
+_____________________________________________________________________________________
+5. If each of the given terms follows the same theme, what will come in place of “?”
+
+a)
+
+b)
+
+c)
+
+d)
+
+Page 44
+
+6. In a shop, every customer receives a scorecard that starts with 0 points. If an item costing more
+than ₹500 is purchased, the amount exceeding ₹500 is added to the scorecard as points. If an
+item costing less than ₹500 is purchased, the amount by which it is less than ₹500 is subtracted
+from the scorecard as points. The data regarding the first five purchases of a customer is shown
+in the table below. Using the table, find the sum of A, B, C, D, and E.
+
+a) 1695
+b) 1395
+c) 1495
+d) 1480
+_____________________________________________________________________________________
+7. Alex has a magic box that changes a number based on these rules:
+• If the input is greater than 400, subtract 100
+• If the input is less than 201, add 100
+• If the input is between 201 and 401, it becomes 0
+After this, the sign of the number is reversed (positive becomes negative and vice versa)
+Which input will produce an output of -345?
+a) 445
+b) 245
+c) -445
+d) 545
+_____________________________________________________________________________________
+8. A number line has equally spaced points with values following a pattern, where some values are
+hidden. A rabbit starts at -8 and jumps on the 9th point to the right. From its new position, it then
+jumps on the 7th point to the left. What is the sum of the values of all the points it lands on,
+including the starting point?
+
+a) 0
+b) 2
+c) -2
+d) -4
+_____________________________________________________________________________________
+9. In the box below, each square represents +10, and each triangle represents -15. How many more
+such squares or triangles should be added to the box, such that the sum of all the shapes of the
+box is 50?
+
+a) 3 triangles
+
+b) 1 triangle
+
+c) 8 squares
+
+d) 5 squares
+
+Page 45
+
+10. Below is a logic machine that takes two numerical inputs and selects the smaller number to
+continue, as shown in Image A. Using this same logic, what could be the possible value of ‘X’ in
+Image B?
+
+a) 24
+b) 20
+c) 14
+d) 11
+_____________________________________________________________________________________
+
+All 26 letters of the English alphabet are arranged in a circle in the order A to Z,
+with Z next to A. Six groups of 4 consecutive letters are selected from this
+arrangement and each group is assigned a unique number from 1 to 6. The table
+below shows a letter and the number of the group it belongs to. Which option
+shows letters that could belong to the same group?
+
+(a) A-B-C-D
+
+(b) G-H-I-J
+
+(c) L-M-N-O
+
+(d) I-J-K-L
+
+Page 46
+
+PART 2
+ARTIFICIAL INTELLIGENCE
+
+Page 47
+
+Chapter 1: Introduction to AI and Everyday
+Examples
+What is Intelligence?
+Intelligence is a term that opens a room for discussions since it involves the ability to learn,
+think, understand, solve problems, and apply knowledge effectively. It is not just a cognitive
+skill, but a combination of many mental abilities. The level of intelligence differs in humans and
+animals in different ways based on how they perceive and behave. Therefore, it can be defined
+as the ability to use knowledge, interpretation, and insight to do any task successfully. It also
+includes the ability to adapt to new situations and make appropriate decisions based on
+experience.
+Intelligence can be classified into several different types based on how individuals think, learn,
+and interact with the world. Some of them are explained here:
+The Class Leader (Interpersonal Intelligence)
+This is a student who naturally brings people together during a
+group project. When two classmates cannot agree on what to do,
+this person steps in and says something like, “Tom, you’re great
+at drawing, so you can make the poster. Jerry, you found the best
+information online, so you can write the report.” The student
+understands how others feel, communicate well, and helps the
+team work smoothly.
+The Nature Lover (Naturalistic Intelligence)
+This student is the one who, on a field trip to the garden, while
+everyone else is running around, huddled down over a long line of
+ants carrying a large leaf. He is aware of different types of plants
+and can even tell you which birds sing. The student is smart in the
+way they make sense of the natural world around them.
+The Daydreamer (Intrapersonal Intelligence)
+This student is self-aware. Before a big test, rather than panicking
+like everyone else, they might say to themselves, I know I get
+distracted by noise so I’m going to put on my headphones. I also
+remember things better if I draw little pictures next to my notes. He
+understands his own feelings and knows how is learn in the best
+positive manner.
+
+What is Artificial Intelligence?
+Artificial Intelligence (AI) is the field of computer science that makes machines intelligent,
+enabling machines to perform tasks that usually require human intelligence. These machines
+can conduct complex thinking processes such as data analysis, pattern recognition, prediction
+
+Page 48
+
+of trends, solving problems, and decision-making by using data and learning from experience.
+AI systems are designed to learn, adapt, and improve their performance over a period of time.
+Computing and Intelligence are the two important terms that help us understand the
+concepts of Artificial Intelligence.
+Computing is all about using computers to conduct mathematical, logical, or relational
+calculations. Intelligence involves learning, reasoning, decision-making, and adapting to new
+situations. When these two concepts are combined together, then it forms an AI, which
+enables machines to simulate human intelligence and assist in decision-making.
+
+History of Artificial Intelligence
+Artificial intelligence has developed from simple rule-based programs into powerful systems
+capable of learning, reasoning, and creating. Here’s a brief journey through its evolution:
+
+Ancient ideas of Intelligent Machines
+Long before computers existed, people built simple machines called
+automatons which were created using water, gears, and levers. These
+simple machines could perform fixed tasks repeatedly but could not learn
+from previous experience or data. Although these machines were not truly
+intelligent, those days these simple machines helped shape the idea of
+making a machine that can think and make decisions in future.
+One famous example is of the mechanical water clock used in ancient Egypt and Greece,
+which used the flow of water to operate levers and gears.
+
+Alan Turing and Machine Intelligence
+The theory of intelligent machines began in the 1940s, and one of the
+significant contributions was from the great mathematician, Alan Turing.
+He asked a question, “Can machines think?” which inspired many
+researchers to explore intelligent computing.
+
+Page 49
+
+Turing further introduced the Turing Test, a method to calculate machine intelligence.
+This test would state whether a machine can perform in such a way that a person cannot tell
+whether they are talking to a machine or a human being. Alan Turing’s ideas laid a strong
+foundation for Artificial Intelligence, that shaped the development of AI systems that are widely
+used today in applications such as search engines, voice assistants, and recommendation
+systems.
+
+Birth of AI
+In 1956, Dartmouth held the first Artificial Intelligence Summer Research Project. This was the
+first step toward AI. John McCarthy, a computer science professor at Stanford University who
+is known as the ‘Father of Artificial Intelligence,’ came up with the word Artificial Intelligence
+to describe the field of science and engineering that makes tools, especially computer
+programs, that can think for themselves. At this time, scientists started to make computers
+that could solve problems and play simple games. However, AI progress halted in the 1980s
+and 1990s due to slow processors, limited memory, and high cost. This period was referred
+to as the AI Winter.
+
+Founding Fathers of Artificial Intelligence
+1956 is the year associated with the birth of AI. Some of the most notable scientists who made
+important contributions include John McCarthy, Marvin Minsky, Claude Shannon, Herbert A.
+Simon, and Alan Newell. Their contribution includes their work in proble m-solving, machine
+learning, and computational theory that laid the foundation for modern AI systems. These
+researchers are known to develop early AI programs and explore how machines could ignite
+human thinking and decision-making.
+
+Page 50
+
+Modern Artificial Intelligence
+The 2000s witnessed significant growth in technology, which made computers faster, cheaper,
+and more powerful. By now, AI systems could store and process a large amount of data.
+Instead of following only set rules, AI systems began to learn patterns from data and improve
+their performance over time. Modern AI systems can now recognize images, understand
+speech, and make simple decisions.
+
+AI in our Daily Liver
+AI has become an important part of our daily lives. AI technology is used in many ways, most
+of the time people don’t even know it. AI helps make our tasks easier, faster, and more efficient
+by enabling machines and applications to learn, analyse data, and make smart decisions.
+
+The following images illustrate a few real-life examples of AI in daily life.
+
+
+
+Smart Home Devices: There are smart lights that change colour and intensity based
+on time, smart thermostats that change the temperature based on your preferences, AIbased vacuum cleaners, and much more. In the near future, AI will impact most of our
+interactions with smart home appliances.
+
+
+
+Smartphones: Whether you realise it or not, if you use a smartphone, you are interacting
+with AI. AI has immense impact on our lives, from the obvious features like the integrated
+smart assistants to the less obvious ones like the camera's portrait mode.
+For example, you may know that voice assistants, food apps, and reservation portals
+are based on AI. However, many people do not realize that AI also works behind features
+like portrait mode in smartphones. Have you ever wondered how your phone takes such
+impressive portrait photos? The answer is, surprisingly, AI.
+
+Page 51
+
+
+
+Banking and Finance: Artificial intelligence is heavily used in the banking and finance
+sector for tasks like customer service, fraud prevention, investment, and more. An easy
+illustration is the automated emails you get from banks whenever there is an unusual
+transaction. That is AI keeping an eye on your account and attempting to alert you to
+any fraud.
+
+
+
+Healthcare: AI-powered systems have made it much easier to find and diagnose
+diseases. AI also helps doctors plan treatments and take care of their patients. Hospitals
+and other healthcare facilities are therefore gradually using technologies that are
+powered by AI to ease everything from research to the detection of diseases.
+
+
+
+E-Commerce: AI in e-commerce makes the shopping experience more personalized
+and easier. It suggests products you may like, makes personal recommendations, and
+helps through virtual assistants and chatbots. Each of these features saves time, guides
+customers, and makes online buying simpler and more convenient.
+
+
+
+Security and Monitoring: AI helps make security systems faster and more efficient. It
+can detect unusual activities, recognise faces, and identify objects like unattended bags.
+It also sends alerts and helps control access through smart systems, allowing quick
+response to security situations.
+
+
+
+Video Games: AI is used in some video games to improve computer players' abilities to
+play. In games such as chess, the computer can play against humans by studying the
+moves and choosing the best ones. These games need planning and careful thinking.
+When a computer plays well, it shows that AI can ‘think’, ‘make decisions’, and ‘solve
+problems’ just like a human player.
+
+
+
+Drones and Smart Cars: The use of AI in smart cars and drones is one of the most
+noticeable examples of modern technology. Using a fully automatic self-driven car was
+once only a dream, but thanks to advancements made by the self-driven car companies,
+we now have a fleet of automatic vehicles on the road. Remember that successful drone
+programs are already being used by the defence forces across the world.
+
+
+
+Smart Features in Scanning Apps: AI-powered image recognition devices use
+advanced technology to identify objects captured by a camera, such as shoes, plants,
+or text, and provide useful information about them. With the help of Optical Character
+Recognition (OCR), users can easily extract text from scanned images of books or even
+hand-written documents. AI also improves features like smart cropping and edge
+detection in scanning apps.
+
+
+
+Search Engines: Finding information online is one of the most basic internet activities.
+Search engines help users quickly find the information they need. What makes search
+engines so effective is Artificial Intelligence? AI helps analyse search queries and
+provides the most relevant results. Whenever you search for information online, you are
+using AI technology.
+
+Page 52
+
+Understanding what is not ‘AI’
+Artificial intelligence is used in a number of ways in our daily lives. But do all smart machines
+use AI? The answer is no! Some machines only follow fixed instructions. This brings us to the
+difference between Automation and Artificial Intelligence.
+Automation machines do not think or learn. Instead, they just do what they are programmed
+to do and producing the same outcome every time. On the other hand, Artificial Intelligence
+machines can not only think and learn from data but also make decisions.
+For example,
+A microwave oven heats food for a set time, or a traffic light system changes at fixed intervals.
+They are smart in doing tasks, but they do not think or learn.
+
+Automation
+
+Artificial Intelligence
+
+Works on fixed rules and present
+instructions
+
+Works by learning from data
+
+Does not think or learn
+
+Can think, learn, and improve
+
+Same input gives same output every time
+
+Output may differ as it learns continuously
+
+Cannot manage new situations
+
+Can manage new and unfamiliar situations
+
+Human intervention is needed for changes
+
+Can adjust its behaviour on its own
+
+Example: Traditional Washing Machine,
+Standard Traffic Signals
+
+Example: Voice Assistance, Face
+recognition
+
+Human Intelligence and Machine Intelligence
+The ability of AI-powered machines to think and learn raises a question: how is the intelligence
+shown by these powerful machines different from human intelligence? Understanding this lets
+us compare human intelligence with machine intelligence.
+
+Human Intelligence
+
+Machine Intelligence
+
+Human Intelligence develops naturally
+through biological evolution and experience.
+
+Machine Intelligence is created using
+algorithms and learns patterns from data
+through training.
+Learns from data, algorithms, and predefined rules.
+Limited adaptability, depends on
+programming and data.
+Relatively limited creativity, mostly follows
+patterns and data.
+Lacks true emotional understanding,
+simulates responses.
+Faster processing speed, high accuracy in
+many tasks.
+No consciousness or self-awareness.
+
+Learns from experience, senses, emotions,
+and reasoning.
+Highly adaptable to new and unpredictable
+situations.
+Capable of original thought, creativity, and
+imagination.
+It can perceive and respond to emotions.
+Slower processing speed, prone to errors.
+Has self-awareness and consciousness.
+
+Page 53
+
+How does AI learn?
+AI systems become intelligent because they can learn from the data. Data means information
+such as pictures, text, numbers, or sounds. AI studies this data to find patterns and improve
+its performance. Data may be labelled or unlabelled.
+ Labelled data means the data already has a predefined label or tag assigned to it.
+ Unlabelled data means the data does not have any labels or tags assigned.
+Let’s say a teacher collects students’ notebooks after a test in a class.
+ If every book has the student’s name written on it, the teacher knows whose book it is.
+This is like labelled data because each book already has the correct label (the student’s
+name).
+ If the books do not have names written on them, the teacher has to figure out whose
+book it is by looking at the handwriting or answers. This is like unlabelled data because
+there is no label to tell the correct owner.
+
+What is Machine Learning?
+The ability of AI to learn from data is called Machine Learning (ML). It is a branch of AI that
+enables machines to learn from data and improve their performance over time without being
+explicitly programmed for every task. In ML, algorithms are used to create models, which are
+trained using data. Training is the process by which the model learns patterns from data. By
+analysing large amounts of data, AI systems can make predictions, recognize patterns, and
+make decisions. Based on how data is used and how AI learns, Machine Learning is mainly
+divided into three types.
+
+The three fundamental concepts of Machine Learning are:
+o Supervised learning
+o Unsupervised learning
+o Reinforcement learning
+
+1. Supervised learning
+Supervised learning is a type of machine learning where the machines learn from data that
+already has correct answers. The model learns the relationship between input data and their
+related output data, allowing it to make accurate predictions on new data. In this approach,
+the data provided to the model already includes the correct answers, enabling it to recognize
+patterns that lead to those answers. It is one of the simplest types of machine learning to
+implement and powers many modern applications.
+
+Page 54
+
+Supervised Learning (Uses labelled data)
+1.
+2.
+3.
+4.
+
+Email spam detection: Classifying emails as spam or not spam.
+Image recognition: Identifying objects like cats, dogs, or cars in pictures.
+House price prediction: Predicting house prices based on size, location, and features.
+Handwritten digit recognition: Recognizing numbers written by hand (like in bank
+checks).
+5. Medical diagnosis: Predicting diseases based on patient data and symptoms.
+Key Concepts:
+
+This diagram shows supervised learning. First, labelled data with different shapes (such
+as triangles, diamonds, squares, and circles) is used to train a model. Each shape has a
+correct label, helping the model learn how to tell them apart. After training, the model is
+given new data without labels. It uses what it has learned to identify the shapes and predict
+the correct labels. This shows how a trained model can classify new data based on patterns
+it has already learned.
+
+2. Unsupervised learning
+Unsupervised learning is a type of machine learning in which machines study data to identify
+hidden patterns, structures, or groupings. In this approach, the model learns from the patterns
+in data without any predefined labels or outputs.
+Unlike supervised learning, unsupervised learning does not provide definite guidance or
+correct answers to the model. Instead, the model independently explores the data to discover
+meaningful patterns and relationships. It is commonly used for tasks such as clustering similar
+data points and detecting anomalies in datasets.
+Unsupervised Learning (Uses unlabelled data)
+1. Customer Segmentation: Grouping customers with similar buying habits.
+2. Market Basket Analysis: Finding products that customers often buy together.
+3. Document Clustering: Grouping similar articles or news topics.
+4. Anomaly Detection: Detecting unusual transactions in banking or fraud detection.
+Page 55
+
+5. Social Network Analysis: Finding communities or groups with similar interest
+Key Concepts:
+
+This diagram shows unsupervised learning. In this approach. In this method, the model is
+trained on unlabelled data, such as various shapes. Since there are no specified labels,
+the model learns by finding patterns and similarities in the data. It then organizes
+comparable objects into clusters. When new data is introduced, the model assigns it to the
+most appropriate group based on patterns it has learned. This method is widely used for
+clustering and learning hidden patterns in data.
+
+3. Reinforcement learning
+Reinforcement learning (RL) is based on trial and error. In this type of learning, machines learn
+by constantly searching for new and innovative approaches to solve a problem and improve
+the methods that maximize the defined reward. This type of learning is frequently used in
+robotics and gaming.
+For example, a chess program based on RL learns by experimenting with several moves
+without knowing which one is the best. When it makes a successful move or wins a game, it
+receives a reward, and when it makes a wrong move or loses, it receives a penalty. By
+repeatedly playing and learning from rewards and penalties, the program gradually improves
+its strategy and learns how to play the game better.
+Reinforcement Learning (Learning through rewards and penalties)
+1. Game-playing AI: Learning to play chess, Go, or video games.
+2. Self-driving cars: Learning safe driving decisions.
+3. Robot navigation: Robots learning how to move through obstacles.
+4. Recommendation Systems improvement: Improving suggestions based on user
+feedback.
+
+Page 56
+
+Key Concepts:
+
+This diagram shows Reinforcement Learning, a form of machine learning, where a system
+learns by trial and error.
+What happens is, first, the data system gets some data. Now, within this process we have
+two key components: the agent and the environment. The agent is the learner or decisionmaker, and the environment holds everything in it.
+The agent observes the current situation (referred to as the state) and takes an action.
+After this action, the environment will provide feedback. This feedback is either a reward
+(good action) or no reward or reduced reward (not so good action). The new situation is
+visible in the environment too.
+The agent then modifies or improves its decision for the next time based on the reward it
+gets. As the agent continues to repeat this process over and over, it gradually learns which
+actions are most optimal. This process eventually allows it to make the right decision, such
+as correctly selecting or identifying a square, circle, triangle, or diamond.
+
+Points to remember:
+✓
+✓
+✓
+✓
+✓
+
+Intelligence is the ability to learn, think, and solve problems.
+Not all automated machines use Artificial Intelligence.
+AI learns from data using Machine Learning.
+AI improves its performance over time through experience and feedback.
+There are three types of Machine Learning: Supervised, Unsupervised, and
+Reinforcement.
+
+Page 57
+
+Exercise
+A. Multiple Choice Questions.
+1. What is labelled data?
+a) Data without any tags
+c) Random data
+
+b) Data with predefined labels or tags
+d) Incorrect data
+
+2. Who introduced the Turing Test?
+a) John McCarthy
+c) Charles Babbage
+
+b) Alan Turing
+d) Isaac Newton
+
+3. In supervised learning, data is:
+a) Unlabelled
+c) Labelled
+
+b) Random
+d) Deleted
+
+4.
+
+Predicting exam marks based on the trained data uses:
+a) Supervised Learning
+b) Unsupervised Learning
+c) Reinforcement Learning
+d) All of the above
+
+5. Which of the following is not AI?
+a) Voice assistant
+c) Traditional traffic signal
+
+b) Face recognition
+d) Smart chatbot
+
+B. Fill in the blanks.
+1. Intelligence includes the ability to learn and _____________ problems.
+2. AI is a technique to make intelligent_________________.
+3. Automation works on fixed _______________ and preset instructions.
+4. Unsupervised learning is mainly used for ________________.
+5. Machine Learning allows machines to learn from _______________.
+
+C. Short answer questions.
+1.
+2.
+3.
+4.
+5.
+
+Define intelligence in your own words.
+State two differences between automation and AI.
+What is reinforcement learning?
+Name the three types of Machine Learning.
+Give two examples of AI used in daily life.
+
+D. Think and apply.
+Identify the Type of Machine Learning
+
+Scenario
+
+Type of Learning
+
+Grouping customers based on shopping habits
+without label
+Predicting house prices based on past labelled
+data
+A game AI improving after winning or losing
+Sorting emails into spam and not spam
+
+Page 58
+
+E. Classify the following as AI or Automation.
+Example
+
+AI or Automation?
+
+Traffic light changing at fixed intervals
+Face Recognition System
+Washing machine with preset timer
+Voice assistant answering questions
+
+Page 59
+
+Chapter 2: Basic Data Concepts
+In today’s digital world, data is everywhere and plays a significant role in our daily lives.
+Therefore, understanding the basic concepts of data, its types, and analysis is very important
+in today’s information-driven society.
+
+Recording
+Attendance
+
+Sending
+Messages
+
+Checking
+Weather
+
+Watching
+Videos Online
+
+Using a
+Fitness App
+
+Weather apps, for example, collect data from satellites and weather stations, whereas map
+applications use traffic data from a large number of users to recommend faster routes. A
+School report card is prepared by compiling attendance records and students’ marks. In this
+way, data helps in understanding any situation, comparing information, and make better
+decisions.
+
+What is Data?
+Data means raw information that can be processed and analysed to get useful information,
+which provides meaningful insights for decision-making.
+For example,
+ The Number of friends you have
+ The Weather report that tells the temperature
+ The Marks you score in your exam
+ The List of books in your school library
+Hence, data consists of raw facts, and when it is organised and processed, it becomes
+information that helps us make correct decisions.
+
+Importance of Data in Daily Lives
+Decision Making
+Data provides information, patterns, and results from the past,
+which makes it easy to make decisions. It does not depend on
+opinions or assumptions; one can study data to understand what
+has worked before and what needs improvement.
+For example, exam result data can help the teacher understand
+which subject the student is struggling with and which subject the
+student is excelling at. Sales information, on the other hand, can
+help the store owner decide which items need to be stocked or
+which items need to be removed immediately. Using data correctly reduces uncertainties and
+leads to more reliable decisions.
+Page 60
+
+Business Growth
+Data like sales records, customer feedback, helps in identifying
+customers’ choices and preferences, improving products and thereby
+reduce losses and increase profit.
+
+Scientific Research and Development
+Data forms the foundation of every scientific investigation. Researchers
+conduct experiments, observe results, and gather survey data, all with
+the goal of collecting information. With this data, they look for patterns,
+test assumptions, and draw correct conclusions. Trustworthy data fuels
+advancement in medicine, space exploration, and environmental
+research. Without it, progress comes to a halt.
+
+Enhancing Cybersecurity
+Cybersecurity systems always study large data sets to look for unusual
+activities and potential threats from the past and predict the
+vulnerabilities that may appear in the future. This makes the security
+systems stronger. Security systems gather data by analysing login
+information, network traffic, and access patterns to find out what went
+wrong and stop it from recurring.
+
+Personalised User Experience
+While using digital platforms, a user gets a personalised experience with
+the help of data. Apps and websites use data such as your search history
+and your preferences to show relevant content. For example, shopping
+apps suggest products based on past purchases, and music apps
+recommend songs based on what kind of music you prefer.
+
+Types of Data
+Data can come in many forms, such as numbers, text, pictures, video, and sounds. Each form
+has its own meaning, which affects how it is used and interpreted.
+
+Let us explore primary data types detailing their properties and applications.
+Numerical data (Numbers and Values)
+Numerical data is made up of numbers. You can count or measure this kind of data.
+For example,
+ Counting objects using numbers
+ Measuring length using numbers
+ Performing calculations using numbers
+ Numbers used for counting and calculation
+
+Page 61
+
+Counting Objects
+
+Measuring Length
+
+Calculation
+
+Number Symbols
+
+Text data (Words and Sentences)
+Text data is made up of letters, words, or sentences. Text data helps you put things into words.
+For example,
+ A name written using letters
+ List of names used for identification
+ Written address
+ Written communication through letters
+
+Written Name
+
+List of Names
+
+Written Address
+
+Written Messages
+
+Image data (pictures and visuals)
+Pictures, drawings, or photos make up image data. Pictures make it easy for people to see
+and understand information.
+For example,
+ An image of your pet
+ You use emojis in chats
+ A picture of your favourite fruits
+ Collection of images
+
+Image of a Pet
+
+Emojis
+
+Illustrated Pictures
+
+Collection of Images
+
+Page 62
+
+Video Data (Moving Visuals)
+Video data is made up of moving pictures, sometimes with sound. Video data helps us see
+actions and understand events clearly.
+For example,
+ A movie in a theatre
+ CCTV Footage
+ Video Footage
+ Online Meeting
+
+Movie in Theatre
+
+CCTV Security
+System
+
+Video Footage
+
+Online Meeting
+
+Sound Data (Audio and Voice)
+Sound data is made up of sounds, speech, or music. Sound data tells us what something
+sounds like.
+For example,
+ Voice recording waveform
+ Listening to music
+ The sound of your school bell
+ Voice Communication
+
+Voice Recording
+
+Listening to Music
+
+Bell Sound
+
+Voice
+Communication
+
+Collecting Data
+Collecting Data means gathering information from people, books, the internet, or instruments
+to support analysis and making correct decisions.
+Let us learn the various methods we can use to collect data in our daily lives.
+Common sources are:
+o People: Asking questions or surveys
+o Books: Reading facts or information
+o Internet: Searching for information online
+o Instruments: Thermometer (for temperature), clock (for time), scale (for weight)
+
+Page 63
+
+Examples of Data Collection
+o Counting the total number of plants in the school premises
+o Asking your classmates about their hobbies and writing down their answers
+o Measuring your plant's height every week to see how it grows
+This is how we collect data to learn or compare things.
+
+Organising Data
+Organising Data is the process of arranging, sorting, and classifying raw data into a logical,
+usable format. Remember, effective data organisation is important for finding, retrieving,
+sharing, and maintaining files to avoid loss or accidental disclosure.
+
+o
+o
+o
+o
+
+Organising Data in a systematic manner:
+Classification: Grouping of similar kinds of data
+Structuring: Arranging data into separate folders or a tabular format
+Labelling: Giving correct, clear, and descriptive names
+Storage: Saving data in appropriate and secure systems
+
+For example,
+Organising a Desktop:
+→ A student has saved 50 images randomly on the desktop.
+→ He needs to find an image for his science project.
+→ Now he understands the importance of organising data.
+
+Classification
+
+Structuring
+
+Labeling
+
+Storage
+
+Page 64
+
+Representing Data
+Representing data means using tables and charts for accurate details and for visual
+comparisons. Tables organise information in rows and columns, while bar charts compare
+categories using proportional rectangular bars, and pictograms use symbols to represent data,
+thereby making complex data easy to understand.
+
+Using Tables for Data Presentation
+Objective: Tables arrange data in rows and columns so that it is simple to read and find
+specific values.
+Structure: Each cell has data that consists of categories in columns and subcategories in
+rows.
+Benefits: Excellent for comprehensive information and when exact numbers matter more than
+trends.
+For example,
+Family Kitchen Menu
+The Scenario:
+In a big family, everyone has different food preferences. The person managing the kitchen is
+getting confused with everyone’s choices. You have been asked to organise the meal details
+in a table so that everything runs smoothly.
+The Data:
+After asking each family member, here are their meal preferences:
+ Grandfather: Prefers soft chapatis with dal and a glass of warm milk.
+ Grandmother: Likes vegetable khichdi and a cup of tea.
+ Father: Wants rice, curds, and a glass of buttermilk.
+ Mother: Prefers salad, soup, and fresh juice.
+ Brother: Asked for a sandwich and a health drink.
+ Sister: Wants spinach rice and a glass of lemonade.
+The Task:
+1. Organize this information into a neat table.
+2. Your table must have the following columns: Family Member, Food Item, Drink Item.
+
+The Table
+Family Member
+
+Food Item
+
+Drink Item
+
+Grandfather
+
+Chapati and Dal
+
+Warm Milk
+
+Grandmother
+
+Khichdi
+
+Tea
+
+Father
+
+Rice and Curds
+
+Buttermilk
+
+Mother
+
+Salad & Soup
+
+Fresh Juice
+
+Brother
+
+Sandwich
+
+Health Drink
+
+Sister
+
+Spinach Rice
+
+Lemonade
+
+Page 65
+
+Using Charts for Data Presentation
+Objective: Charts transform numbers into pictures
+so you can see patterns, trends, and make quick
+comparisons.
+Key Principle: The main idea is to plot data on
+coordinate axes, with the X-axis for categories and
+the Y-axis for values.
+Types: Bar charts, line graphs, pie charts, scatter
+plots, and pictograms are some of the common
+charts.
+
+Simple Bar Charts & Pictograms
+Bar Charts:
+Objectives: Uses rectangular bars, which can be vertical or horizontal, where the length or
+the height is proportional to the value.
+Components: X-axis (categories), Y-axis (values/frequency), uniform bar width, and spacing.
+Use: Excellent for comparing discrete categories (for example, sales by product).
+For example,
+The Lemonade
+The Scenario:
+Two friends, Aana and Sana, start a business of selling Lemonade. They sell three things at
+their school fair:
+Regular Lemonade
+Strawberry Lemonade
+Lemon Cookies
+They want to know which item sold the most so that they can make more of it next time. You
+are the incharge of their business. To understand the sales, you need to make a bar chart.
+The Sales Data (Monday to Friday):
+Product
+
+Monday
+
+Tuesday
+
+Wednesday
+
+Thursday
+
+Friday
+
+TOTAL
+
+Regular Lemonade
+
+10
+
+8
+
+12
+
+15
+
+20
+
+65
+
+Strawberry Lemonade
+
+5
+
+7
+
+10
+
+12
+
+18
+
+52
+
+Lemon Cookies
+
+8
+
+10
+
+15
+
+20
+
+25
+
+78
+
+The Task:
+1. Create a Bar Chart that shows how many of each product were sold in total.
+2. Label the X-axis with Products and the Y-axis with Number Sold.
+3. Give the chart a business title.
+
+Page 66
+
+Pictograms
+Objectives: Uses pictures or symbols to represent data quantities.
+Components: A clear title, a key that explains what each picture means, for example, 1 image
+= 100 people, and evenly spaced, same-sized pictures.
+Benefits: Great for simple data sets, as they are fun and easy to use.
+For example,
+The Eco Club Plantation Drive
+The Scenario:
+It was the Environment Week, and the Park Valley School Eco Club planned a t ree-planting
+drive and students from Classes 6 to 9 participated enthusiastically. The school Principal
+wanted to know which class planted the most trees so they can be recognized during
+assembly.
+You are Incharge of presenting the data. To understand the plantation results, you need to
+create a pictogram.
+The Plantation Data:
+Class
+Class 6
+Class 7
+Class 8
+Class 9
+
+Trees Planted
+20
+15
+25
+10
+
+The Task:
+1. Create a Pictogram showing how many trees each class planted.
+2. Add a clear title to the Pictogram.
+3. Add a key so everyone knows what one tree symbol means.
+
+Page 67
+
+4. Identify which class is the winner?
+Key: 🌳 = 5 Trees
+
+Pictogram:
+Class
+Class 6
+
+The Eco Club Plantation Drive
+Trees Planted
+🌳🌳🌳🌳
+
+Position
+2nd
+
+Class 7
+
+🌳🌳🌳
+
+3rd
+
+Class 8
+
+🌳🌳🌳🌳🌳
+
+⭐Winner
+
+Class 9
+
+🌳🌳
+
+4th
+
+Points to remember:
+✓ Data is information we collect, such as numbers, words, pictures, or sounds, which helps
+us understand things and make better decisions.
+✓ Data can be numerical (numbers), text (words), image (pictures), or sound (audio).
+✓ Data is collected from various sources like surveys, observations, schools, hospitals, and
+weather reports.
+✓ Data is arranged neatly in rows and columns using tables to make it easy to read and
+understand.
+✓ Data can be shown clearly using tables, bar charts, and simple pictorial representations.
+
+Exercise
+A. Multiple Choice Questions.
+1. A teacher analyses last year’s exam results to improve teaching methods.
+This is an example of:
+a) Guesswork
+b) Using data for decision-making
+c) Random selection
+d) Entertainment
+2. A fitness app counts your daily steps and shows weekly progress.
+What type of data is mainly collected?
+a) Image Data
+b) Text Data
+c) Numerical Data
+d) Sound Data
+3. A weather app predicts rain using satellite information.
+This shows that data helps in:
+a) Playing games
+b) Making future predictions
+c) Writing stories
+d) Sending messages
+4. A security camera records activities at the school gate.
+What type of data is mainly collected?
+a) Text Data
+b) Video Data
+c) Image Data
+d) Numerical Data
+5. Which of the following is an example of Image data?
+a) Your name
+b) Your address
+c) Your age
+d) Your photograph
+Page 68
+
+B. Fill in the blanks.
+1. Data means raw_____________ and figures.
+2. Tables arrange data in rows and _____________.
+3. Text data is made up of letters, words, and _____________.
+4. Grouping similar kinds of data is called _____________.
+5. Saving data in secure systems is known as_____________.
+
+C. Short answer questions.
+1.
+2.
+3.
+4.
+5.
+
+What is Data?
+State any two important aspects of Data in daily life.
+Name the four main types of Data.
+What is the difference between a table and a chart?
+Define classification and labelling in Organising Data.
+
+D. Think and apply.
+1. A student measures the height of a plant every week. What type of data is being
+collected?
+2. A teacher wants to compare the marks of students clearly. Should she use a table or
+a bar chart? Give one reason.
+3. A shopping app suggests products based on your previous searches. How is data
+being used in this situation?
+4. Your desktop has many mixed files with random names.
+
+E. Classify the following as AI or Automation.
+Example
+
+Type of Data
+
+Exam Marks
+A voice message
+School ID photo
+Your home address
+Number of students in the class
+
+Page 69
+
+Chapter 3: Simple Pattern Recognition and
+Decision Making
+What is a Pattern?
+A pattern is a regular, consistent, repeated, or predictable sequence of elements like numbers,
+shapes, text, colours, or actions. Patterns can be seen everywhere around us. Just like in
+Mathematics, we see sequences like 2, 4, 6, 8; similarly, in art, we see repetition in designs,
+in science, we see weather cycles, and in our everyday life, we see changing seasons and
+days. These patterns provide a framework for predicting and understanding behaviours.
+
+Importance of Patterns
+ Symmetry: A pattern is something that may look the same every time it appears and
+can be repeated.
+ Series: A series is a group of items, like numbers, forms, or events, which may all be
+connected by the same rule or relationship. For example, numbering by twos, or a
+pattern that repeats.
+ Predictability: If you can see a pattern, you can figure out what will happen next,
+whether it is the next number in a sequence or the next event in a cycle.
+ Behaviour: Patterns can be visible, like stripes or dots, or behavioural like habits or
+routines.
+
+Patterns in Things We Do Every Day
+
+Routines: Getting up, eating breakfast, and going
+to school are all things that happen every day.
+
+Chores: Doing our homework and eating right
+can mean doing the same things over and over.
+
+Schedules: Time patterns include the
+cycle of days and nights and the changing
+of the seasons.
+
+Shopping: Watching when grocery stores have
+sales or when they have to restock their items.
+
+Page 70
+
+Nature: Natural patterns include the way leaves
+grow on a stem, the way birds migrate, and the
+spirals in a sunflower.
+
+Language: Rhyming patterns in songs
+and poems, like CCDD are patterns in
+words.
+
+Identifying Patterns
+Identifying patterns means looking at data or events to see if there are any sequences,
+similarities, or behaviours that follow a rule or show a particular trend. Identifying patterns is
+useful for everything from understanding how to solve everyday problems to more advanced
+Data Science because it helps you predict what will happen, organize things, and make
+decisions.
+For example,
+You have a basketball game every Friday. You practise for an hour after school every day,
+and you realize that you score a lot more points and your game improve noticeably. However,
+if you do not practice, your game will be affected, and you will score fewer points. When you
+notice this pattern, it makes sense; practice helps you improve. So, rather than waiting until
+game day, you should practice a little every day. You do not need to guess anymore; you
+know what works.
+
+Recognising Repeated Actions or Events
+To recognize repeated actions or events, you need to find things that happen over and over
+again or in response to a certain situation. These repetitions create patterns or habits that can
+be predicted.
+
+Methods of Recognising Repeated Actions or Events
+
+
+
+
+Observation: Simple observation over a period of time is the most basic method for
+identifying repetitions.
+Time Series Analysis: This method evaluates data collected over time to identify
+variations in time such as seasons and trends over time.
+Data Visualisation: Sequences that repeat in data can be easily understood by using
+charts and graphs.
+
+Page 71
+
+Finding Similarities in Data
+Finding similarities in data means sorting data that have similar characteristics or elements.
+This sorting of data makes huge complex datasets into manageable and meaningful subsets.
+
+Methods of Finding Similarities in Data
+
+
+
+
+
+Sorting and Filtering: Sorting data by its attributes makes it easier to identify groups with
+similar characteristics.
+Data Visualisation: The use of charts and graphs makes it simpler to understand a
+complex dataset.
+Statistical Analysis: Helps to understand large datasets, group similar data, understand
+connections between several factors, and see how changes in one can affect the other.
+Machine learning: Machine learning models are trained using data so they can identify
+patterns and make predictions or decisions.
+
+Observations and Conclusion
+Making observations from data is looking for patterns, trends, and key findings, while drawing
+conclusions, which means understanding and applying these observations to answer your
+questions.
+
+Making Observations from Data (What did you see?)
+
+
+
+
+
+Identify Key Findings: What were the most important numbers, patterns, or relationships
+you observed in your data?
+Look for Repeating Patterns: Are there repeating themes or groupings in your data?
+Note Irregularities: What stands out as unusual or unexpected in your data?
+Use Visuals: Graphs and charts show patterns that might be hidden in raw data.
+
+Examples:
+o
+o
+o
+
+The number of students present is higher on Tuesday than on Monday
+The temperature is higher in the afternoon than in the morning
+More students like Cricket than Football
+
+Page 72
+
+Drawing Simple Conclusions (What does it mean?)
+
+
+Answering the Question: A conclusion tells us the answer to the question we were trying
+to find from the data.
+ Explaining Why It Happened: It explains why a pattern was seen in the data, like sales
+increased because more people liked the discount.
+ Learning a General Idea: From small observations, we form one general idea; for
+example, if all plants grew better with water, we could say plants need water to grow.
+ Knowing the Limits: Sometimes the data is small or limited, so the result may not apply
+everywhere.
+ Thinking of What Comes Next: Conclusions help us think about new questions or what
+we should study next.
+Examples:
+o Students may feel more active after the weekend
+o Afternoons are usually warmer than mornings
+o Cricket is the most popular sport in the class
+
+Decision Making
+Decision-making means choosing what action to take after thinking carefully about the
+information available. In daily life, we often face situations where we must choose between
+two or more options. Good decision-making helps us select the option that is more useful,
+safe, or beneficial. Understanding the situation before making decisions usually leads to better
+results.
+
+Making Simple Decisions Based on Observations
+We make decisions by observing what is happening around us. Observations help us see
+patterns, changes, and results from the past. By looking at these observations, we can
+understand which decision gave reliable results and which ones did not. This helps us make
+better choices in similar situations and prevent repeating mistakes.
+
+Examples of Decisions in Daily Life
+
+o
+o
+o
+o
+
+Deciding to revise a subject again after observing low marks in a test
+Carrying an umbrella after observing cloudy skies
+Choosing a quieter road after seeing heavy traffic on another route
+Saving money after observing increased monthly expenses
+
+Points to remember:
+✓ A pattern is a regular, consistent, repeated, or predictable sequence of elements like
+numbers, shapes, text, colors, or actions.
+
+Page 73
+
+✓ Identifying patterns means looking at data or events to see if there are any sequences,
+similarities, or behaviors that happen repeatedly.
+✓ Patterns in data can appear as simple number patterns or visual patterns like shapes
+and designs.
+✓ Making observations from data involves looking for patterns, trends, and key findings,
+while drawing conclusions which means understanding and applying these
+observations to answer your questions.
+✓ Decision-making means choosing what action to take after thinking carefully about the
+information available
+.
+
+Exercise
+A. Multiple Choice Questions.
+1. A student notices that every morning, he wakes up, brushes his teeth and eats
+breakfast in the same order.
+What does this represent?
+a) A random action
+b) A pattern
+c) A single event
+d) A mistake
+2. Making observations from data means:
+a) Changing the data
+b) Looking for patterns and key findings
+c) Making guesses
+d) Hiding results
+3. Arranging data by its attributes to find similar groups is called:
+a) Machine learning
+b) Sorting and Filtering
+c) Entertainment
+d) Prediction
+4. Drawing a conclusion means:
+a) Copying data
+c) Creating confusion
+
+b) Understanding and applying observations
+d) Repeating the same data
+
+5. Decision-making means:
+a) Acting without thinking
+c) Ignoring facts
+
+b) Choosing an action after thinking
+d) Random guessing
+
+B. Fill in the blanks.
+1. A pattern is a repeated and predictable _____________of elements.
+2. Identifying patterns means looking for repeated_____________ or similarities in data.
+3. Making observations from data means looking for patterns, trends, and ____________
+findings.
+4. Drawing a conclusion means understanding observations to answer a_____________.
+5. Decision making means choosing an action after thinking carefully about
+the_____________ available.
+
+C. Short answer questions.
+1. Define a pattern and give one example from daily life.
+2. Name any two methods used to recognise repeated actions or events and briefly
+explain one of them.
+Page 74
+
+3. Why is predictability important when identifying patterns?
+4. What is statistical analysis used for when studying large datasets?
+5. Explain the difference between making an observation and drawing a conclusion with
+an example.
+
+D. Think and apply.
+1. A student measures the height of a plant every week. What type of data is being
+collected?
+2. A student notices that the temperature is higher in the afternoon than in the morning
+for several days. What is the student doing?
+3. A student notices that practising every day improves performance in a Basketball
+game. What decision can the student make from this observation?
+4. A class survey shows that more students like cricket than football. What can the
+teacher conclude from this data?
+
+E. Identify the Method Used.
+Situation
+
+Method Used
+
+Watching daily rainfall for a month
+Arranging students by height
+Using graphs to compare sales
+Studying trends over five years
+Using an algorithm to recognise faces
+
+Page 75
+
+Chapters 4: Ethics and Digital
+Responsibility
+Technology is everywhere around us. It helps us learn, communicate and explore the world.
+But think for a moment.
+When we cross a road, do we just run across? No, we look both ways.
+When we are in school, do we shout in the classroom? Of course not. We follow rules.
+In the same way, when we use the internet and digital devices, we must also behave
+responsibly. Being careful, respectful and honest while using technology is called Digital
+responsibility.
+Before we begin, let us consider a few important questions:
+ What does it mean to behave properly online?
+ How can we stay safe on the internet?
+ Why are passwords so important?
+ What happens to the information we share online?
+ Let us begin our journey into the world of Ethics and Digital Responsibility.
+
+Responsible Use of Technology
+Technology is used in many aspects of our daily life, such as communication, education,
+entertainment, and financial transactions. Technology makes many things easier.
+Examples:
+o Students can learn difficult subjects by watching educational videos.
+o Families who live in different cities can talk and see each other through video calls.
+o A cell phone makes it easy to contact the police or doctors in an emergency.
+We need to follow rules when we use technology, just like we do when we drive. The Internet
+can be useful, but it can also be dangerous if we are not careful. Being responsible with
+technology means thinking before you click, being careful about what you share, and being
+respectful to other people online.
+When we use technology in a wise and polite way, we become responsible Digital Citizens
+who know how to keep ourselves and others safe.
+
+What is Ethics?
+Ethics means knowing what is right and wrong and choosing to do what is right.
+Think about your everyday life.
+If you find a lost pencil box in class, what should you do? Return it to the owner, right?
+If your friend is upset, do you laugh at him or try to help? Most of us try to help.
+These choices show ethical behaviour.
+Ethics refers to the principles that help us distinguish between right and wrong and guide us
+to make responsible choices.
+Ethical behaviour includes honesty, respect for others, and taking responsibility for one’s
+actions.
+
+Page 76
+
+Ethical Use of Technology
+Computer Ethics is the set of rules that we must follow while using computers for various
+purposes. These rules prohibit misusing or accessing information that belongs to others. The
+importance of understanding computer ethics has grown because of problems like
+cybercrimes, plagiarism, hacking, and password thefts. Computer ethics provides a secure
+computing environment.
+
+Internet Safety: A Case Study
+Meet Arjun and His Digital Disaster
+Arjun was a student in Class 6. He loved using the computer and believed he knew everything
+about it.
+One day, his teacher gave the class a project on Save Water. Arjun wanted to finish it quickly
+so he could play games. He searched on the Internet, found a good essay, copied it, changed
+a few words, and submitted it.
+“Done! Now I can play games,” he said happily.
+The Next Day
+Arjun received an email. It looked like it came from his favourite gaming website.
+The email said:
+‘CONGRATULATIONS ARJUN!
+You have won a free game.
+Click here to claim it now.’
+Arjun became extremely excited.
+“A free game? That is amazing!” he said.
+Without thinking much, he clicked the link.
+Suddenly, an advertisement popped up on his screen.
+‘WARNING! Your computer has a virus.
+Click here to scan your computer for free.’
+Arjun just wanted the message to disappear, so he clicked again.
+One Week Later…
+When Arjun turned on his computer, something was wrong. The computer was terribly slow.
+He opened his project folder. It was empty. All his files were gone. Even worse, strange
+messages had been posted from his social media account.
+Arjun realised that he had made some serious mistakes while using the Internet.
+Think About It
+What mistakes did Arjun make?
+Let us find out what mistakes Arjun made and learn how to stay safe while using the Internet.
+Some of these problems occur because of certain unethical practices on the internet.
+
+Page 77
+
+Unethical practices prevalent in society, related to internet:
+Plagiarism: Plagiarism is the act of copying or making
+minor modifications to a sentence or paragraph without
+referring the original author.
+Steps to prevent Plagiarism:
+ Always get a formal approval from the original author
+ Always acknowledge and give proper credit to the original author
+ Use quotation marks when copying exact text
+ Try to express ideas in your own words
+Hacking: Hacking refers to the unauthorized access to
+computer systems or networks with the intention of stealing,
+modifying, or misusing data.
+
+Steps to prevent Hacking:
+ Install firewall, antivirus and scan your hard disk
+drives periodically.
+ Never share your password and always keep a strong password that should contain
+numbers, special characters, small letters, capital letters, and keep changing it
+periodically.
+ Do not click on any ads that claim to scan viruses on your computer.
+ Hackers often look for an open Bluetooth signal to gain access to your computers, so
+avoid keeping Bluetooth on unnecessarily and be careful while using public Wi-Fi.
+Phishing: Phishing is an illegal attempt to obtain confidential
+information, such as usernames, passwords, bank details,
+and credit card details. This is done by sending fake emails,
+text messages or creating websites that look like they are
+from authentic companies. This type of attack is also known
+as spoofing.
+
+Steps to prevent Phishing:
+ Do not click on suspicious links or attachments in emails or messages.
+ Check the sender’s email address carefully before replying.
+ Be careful of messages asking for urgent personal or bank information.
+Spamming: Spamming is one of the most common methods
+of sending unwanted junk mail, or messages from
+unauthorized people. It involves the mass distribution of junk
+messages, advertisements, or inappropriate content to email
+accounts through social networking sites, commercial
+websites, or personal blogs.
+
+Steps to prevent Spamming:
+ Do not click on suspicious pop-up ads or links.
+ Avoid sharing your email address on unknown websites.
+
+Page 78
+
+ Use spam filters to block unwanted emails.
+ Do not respond to or open emails from unknown senders.
+Individual rights to privacy: Individual right to privacy
+refers to the right that you are given to access your personal
+information and how it is used. Privacy is a concern that
+occurs when personal information is obtained, shared, or
+used without the approved person’s consent.
+
+Steps to protect privacy:
+ Limit posting pictures and unnecessary sharing of information on social media.
+ Never give out any of your password and bank details.
+ Beware that any important or personal information that you provide may be shared, so
+it is best to read the privacy policy before signing up for an app or service.
+Software Piracy: Software Piracy is the unauthorized
+copying, sharing, modification, or use of software. Software
+piracy is illegal and a punishable offense.
+
+Steps to stop software Piracy:
+ Purchase your own licensed software copy.
+ Do not make and distribute the copies of the software.
+ Download software only from official companies.
+Intellectual property rights: Authors, inventors, and artists turn
+their ideas into a valuable creation called intellectual property.
+Under the law of intellectual property, the owner is given exclusive
+right over the use of his/her creation for a certain period of time.
+Intellectual property is a field of law that aims to protect the
+creator's hard work while avoiding misuse and illegal piracy.
+
+Steps to protect Intellectual property rights:
+ Keep business ideas and trade secrets confidential until secured.
+ Apply for a trademark for your business name and logo.
+ Copyright your work to prevent unauthorized use.
+ Patent your inventions to take legal action if someone uses them without permission.
+
+Digital Footprint
+Have you ever walked on sand at the beach? When you walk, your footprints stay on the sand
+for some time. In the same way, when you use the internet, you leave digital footprints.
+Digital footprints contain all the records of your online activity, including your
+feedback on news stories, social media posts, and online shopping records.
+You create a digital trail each time you post something online, share content,
+or when a website collects your information by installing cookies on your
+computer. It may include your IP address, email details, and other sensitive
+
+Page 79
+
+information you are sharing online. Data shared about you by others may also be added to
+your digital record.
+
+Types of Digital Footprints
+Active digital footprints: Active digital footprints consist of the data you leave when making
+intentional online choices.
+
+Examples of digital footprints in action:
+
+
+
+
+Finding any information or posting on the internet creates digital footprints
+Fill out online forms, for example, when you sign up to receive emails or texts
+Agreeing to install cookies on your computers when a browser requests them
+
+Passive digital footprints:
+Passive digital footprints are those you leave behind unintentionally or unknowingly.
+
+Examples of passive digital footprints:
+
+
+
+
+
+
+Web sites that install cookies on your device without your knowledge.
+Apps and websites using location data to identify where you are located.
+Social media news and companies use your likes, shares, and comments and deliver
+ads based on your interests.
+Sometimes it may feel like your phone is listening to you because you see ads about
+things you talked about. This usually happens because apps use your online activity
+and interests to show ads.
+
+Steps to protect your digital footprints:
+ Before posting anything online, ask yourself if it is something you want everyone to
+see.
+ Avoid giving out your full name, home address, phone number, or school to strangers
+online.
+ Use social media privacy settings to decide who can view your posts.
+ Remember, anything online can be permanent. Avoid posting content that could harm
+your reputation.
+ Do not share photos, messages, or information about someone else without their
+consent.
+ Share helpful, kind, or creative content to make your digital footprint a good one.
+
+Importance of Good Digital Behaviour
+Good digital behaviour helps you stay safe and be respectful online
+1. Never share any personal information with strangers through email or any chat
+window without your parent’s permission.
+2. Do not share your password with anyone except your parents. When using a public
+computer, make sure you log out of any accounts you have accessed before leaving
+the terminal.
+3. Do not post photos or videos online unless you have your parents' consent.
+
+Page 80
+
+4. Be careful when someone offers you gifts or money online. Be especially careful if
+someone asks to meet you or visit your home.
+5. If you receive any messages that make you feel uncomfortable, or see harmful or
+illegal content, tell your parents or guardians immediately. They can also contact the
+police if needed.
+6. Do not illegally download music, movies, or any software.
+7. Avoid using public Wi-Fi in places like airports, coffee shops, malls, or restaurants for
+sensitive activities such as checking email or bank accounts, as these networks may
+not be secure.
+Points to remember:
+✓ Think before you click, be careful about what you share, and be courteous to other
+people online.
+✓ Never give out any personal information to any stranger through email or any chat
+window without your guardians’ permission.
+✓ Do not post photos or videos online unless you have your parents' consent.
+✓ Install antivirus and firewall software, scan devices weekly.
+✓ Ethics are the values that do not cause any harm or damage to anyone.
+✓ Share helpful, kind, or creative content to make your digital footprint a good one.
+
+Exercise
+A. Multiple Choice Questions.
+1. Copying text from a website without credit is:
+a) Hacking
+b) Plagiarism
+c) Spamming
+d) Phishing
+2. You get a message: “Win a free phone! Share your password.” You should:
+a) Send it
+b) Inform your parents
+c) Post online
+d) Give fake information
+3. A pop-up says: Scan viruses, win $1000! Safest action:
+a) Click
+b) Ignore
+c) Ask someone else
+d) Download scanner
+4. Checking bank on public Wi-Fi. Best action:
+a) Check now
+b) Use secure network
+c) Ask someone else
+d) Install random app
+5. Posting helpful tips online while thinking about who sees them is:
+a) Active footprint
+b) Passive footprint
+c) Hacker footprint
+d) Phishing footprint
+
+B. Fill in the blanks.
+1. Responsible use of technology means thinking before you _____________online.
+2. Never give out your _____________ information to strangers online.
+3. Ethics in technology help prevent _____________, plagiarism, and hacking.
+
+Page 81
+
+4. A phishing attempt is an illegal attempt to obtain_____________ information.
+5. Active digital footprints are created when you _____________ online intentionally.
+
+C. Short answer questions.
+1.
+2.
+3.
+4.
+5.
+
+Define responsible Digital Citizenship and give one example from daily life.
+Name two ways to protect your privacy online and explain one.
+What is the difference between active and passive digital footprints?
+Why is it important to use strong passwords and change them periodically?
+Explain software piracy and one step to prevent it.
+
+D. Think and apply.
+1. A student posts a picture of a school project online. Which type of Digital Footprint is
+this?
+2. Your friend receives an email asking for their bank details. What should the do?
+3. A social media app recommends content based on your likes. How is your data being
+used?
+4. You want to download a new game safely. What steps will you follow to avoid malware?
+5. You see someone copying your school assignment without permission. Which ethical
+rule is being broken?
+
+E. Identify the Term.
+Description
+
+Identify the term
+
+The act of sending fake emails or messages
+with the intention of stealing personal
+information.
+The act of copying someone else's work,
+text, or project without giving due credit.
+The record of all your online activities,
+including posts, likes, and websites visited.
+These are the rules and morals that should
+be followed while using computers and the
+internet to avoid causing harm.
+A document that explains how a website or
+app collects, uses, and protects users’
+personal data.
+
+Page 82
+
+CENTRAL BOARD OF SECONDARY EDUCATION
+Academic Unit VI Floor, CBSE Integrated Office, Sector 23, Dwarka, New Delhi-110077
+
+Page 83
+
+
