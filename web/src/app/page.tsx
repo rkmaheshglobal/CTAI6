@@ -1,11 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { Brain, GraduationCap, Sparkles, BookOpen } from "lucide-react";
 import { useAppStore } from "@/lib/store";
 import { AVATARS } from "@/data/curriculum";
+
+const emptySubscribe = () => () => {};
 
 export default function LandingPage() {
   const router = useRouter();
@@ -19,11 +21,7 @@ export default function LandingPage() {
   const [teacherNameInput, setTeacherNameInput] = useState("");
   const [className, setClassName] = useState("");
   const [createdCode, setCreatedCode] = useState<string | null>(null);
-  const [hydrated, setHydrated] = useState(false);
-
-  useEffect(() => {
-    setHydrated(true);
-  }, []);
+  const hydrated = useSyncExternalStore(emptySubscribe, () => true, () => false);
 
   useEffect(() => {
     if (!hydrated) return;

@@ -12,7 +12,7 @@ import { isChapterFullyAttempted } from "@/lib/progress";
 
 const today = () => new Date().toISOString().slice(0, 10);
 
-function calcLevel(xp: number) {
+export function calcLevel(xp: number) {
   let level = 1;
   let needed = 100;
   let remaining = xp;
@@ -73,6 +73,92 @@ function unlockNext(progress: Record<string, ChapterProgress>, chapterId: string
   }
 }
 
+interface SessionState {
+  role: "student" | "teacher" | null;
+  student: StudentProfile | null;
+  teacherName: string | null;
+}
+
+function loadSession(): SessionState {
+  if (typeof window === "undefined") {
+    return { role: null, student: null, teacherName: null };
+  }
+  try {
+    const raw = sessionStorage.getItem("ctai-session");
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      return {
+        role: parsed.role ?? null,
+        student: parsed.student ?? null,
+        teacherName: parsed.teacherName ?? null,
+      };
+    }
+    const last = localStorage.getItem("ctai-last-session");
+    if (last) {
+      const parsed = JSON.parse(last);
+      return {
+        role: parsed.role ?? null,
+        student: parsed.student ?? null,
+        teacherName: parsed.teacherName ?? null,
+      };
+    }
+  } catch {
+    /* ignore */
+  }
+  return { role: null, student: null, teacherName: null };
+}
+
+function saveSession(session: Partial<SessionState>) {
+  if (typeof window === "undefined") return;
+  try {
+    const current = loadSession();
+    const updated = { ...current, ...session };
+    sessionStorage.setItem("ctai-session", JSON.stringify(updated));
+    localStorage.setItem("ctai-last-session", JSON.stringify(updated));
+  } catch {
+    /* ignore */
+  }
+}
+
+function clearSession() {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.removeItem("ctai-session");
+    localStorage.removeItem("ctai-last-session");
+  } catch {
+    /* ignore */
+  }
+}
+
+let syncChannel: BroadcastChannel | null = null;
+if (typeof window !== "undefined" && "BroadcastChannel" in window) {
+  try {
+    syncChannel = new BroadcastChannel("ctai-sync");
+    syncChannel.onmessage = () => {
+      useAppStore.getState().reloadFromStorage();
+    };
+  } catch {
+    /* ignore */
+  }
+}
+
+if (typeof window !== "undefined") {
+  window.addEventListener("storage", (e) => {
+    if (e.key?.startsWith("ctai-student-") || e.key === "ctai-learn-storage") {
+      useAppStore.getState().reloadFromStorage();
+    }
+  });
+}
+
+export function notifySync(type: string, payload?: unknown) {
+  if (typeof window === "undefined") return;
+  try {
+    syncChannel?.postMessage({ type, payload, timestamp: Date.now() });
+  } catch {
+    /* ignore */
+  }
+}
+
 function persistStudentSnapshot(
   student: StudentProfile,
   progress: Record<string, ChapterProgress>,
@@ -84,6 +170,7 @@ function persistStudentSnapshot(
     `ctai-student-${student.id}`,
     JSON.stringify({ student, progress, badges, journal })
   );
+  notifySync("student-update", { studentId: student.id });
 }
 
 interface AppState {
@@ -95,7 +182,9 @@ interface AppState {
   progress: Record<string, ChapterProgress>;
   journal: JournalEntry[];
   badges: string[];
+  syncRevision: number;
 
+  reloadFromStorage: () => void;
   setRole: (role: "student" | "teacher") => void;
   createStudent: (name: string, classCode: string, avatar?: string) => void;
   createClassroom: (name: string, teacherName: string) => string;
@@ -121,16 +210,39 @@ interface AppState {
 export const useAppStore = create<AppState>()(
   persist(
     (set, get) => ({
-      role: null,
-      student: null,
-      teacherName: null,
+      ...loadSession(),
       classrooms: {},
       studentRegistry: {},
       progress: defaultProgress(),
       journal: [],
       badges: [],
+      syncRevision: 0,
 
-      setRole: (role) => set({ role }),
+      reloadFromStorage: () => {
+        if (typeof window === "undefined") return;
+        try {
+          const raw = localStorage.getItem("ctai-learn-storage");
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            if (parsed.state) {
+              set((s) => ({
+                classrooms: parsed.state.classrooms ?? s.classrooms,
+                studentRegistry: parsed.state.studentRegistry ?? s.studentRegistry,
+                syncRevision: s.syncRevision + 1,
+              }));
+            }
+          } else {
+            set((s) => ({ syncRevision: s.syncRevision + 1 }));
+          }
+        } catch {
+          set((s) => ({ syncRevision: s.syncRevision + 1 }));
+        }
+      },
+
+      setRole: (role) => {
+        saveSession({ role });
+        set({ role });
+      },
 
       createStudent: (name, classCode, avatar) => {
         const student: StudentProfile = {
@@ -166,7 +278,9 @@ export const useAppStore = create<AppState>()(
           };
         });
         get().updateStreak();
+        saveSession({ role: "student", student });
         persistStudentSnapshot(student, get().progress, get().badges, get().journal);
+        notifySync("student-joined", { classCode: code, studentId: student.id });
       },
 
       createClassroom: (name, teacherName) => {
@@ -183,6 +297,8 @@ export const useAppStore = create<AppState>()(
           role: "teacher",
           classrooms: { ...s.classrooms, [code]: room },
         }));
+        saveSession({ role: "teacher", teacherName });
+        notifySync("classroom-created", { classCode: code });
         return code;
       },
 
@@ -365,7 +481,8 @@ export const useAppStore = create<AppState>()(
         return null;
       },
 
-      resetAll: () =>
+      resetAll: () => {
+        clearSession();
         set({
           role: null,
           student: null,
@@ -374,10 +491,19 @@ export const useAppStore = create<AppState>()(
           progress: defaultProgress(),
           journal: [],
           badges: [],
-        }),
+          syncRevision: 0,
+        });
+      },
     }),
     {
       name: "ctai-learn-storage",
+      partialize: (state) => ({
+        classrooms: state.classrooms,
+        studentRegistry: state.studentRegistry,
+        progress: state.progress,
+        journal: state.journal,
+        badges: state.badges,
+      }),
       merge: (persisted, current) => {
         const p = persisted as Partial<AppState> | undefined;
         return {

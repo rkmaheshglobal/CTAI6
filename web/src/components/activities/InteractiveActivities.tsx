@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
+import { cn } from "@/lib/utils";
 
 const AUTOMATION_ITEMS = [
   { id: "microwave", label: "Microwave oven (fixed time)", type: "automation" as const },
@@ -108,10 +109,6 @@ export function AutomationSortGame({ onComplete }: { onComplete: () => void }) {
       )}
     </div>
   );
-}
-
-function cn(...c: (string | boolean | undefined)[]) {
-  return c.filter(Boolean).join(" ");
 }
 
 export function MLTypeMatcher({ onComplete }: { onComplete: () => void }) {

@@ -19,6 +19,13 @@ import {
 
 type Tab = "learn" | "explore" | "practice" | "reflect";
 
+function getDefaultTab(chapterId: string, content: ReturnType<typeof getChapterContent>): Tab {
+  if (content?.learn?.length) return "learn";
+  if (content?.exercises?.length) return "practice";
+  if (chapterId === "ct-prime-time" || chapterId === "ai-intro") return "explore";
+  return "reflect";
+}
+
 export default function LearnChapterPage() {
   const params = useParams();
   const router = useRouter();
@@ -35,26 +42,22 @@ export default function LearnChapterPage() {
     addJournalEntry,
   } = useAppStore();
 
-  const [tab, setTab] = useState<Tab>("practice");
-  const [readSections, setReadSections] = useState<Set<string>>(new Set());
-  const [reflection, setReflection] = useState("");
-
   const meta = ALL_CHAPTERS.find((c) => c.id === chapterId);
   const content = getChapterContent(chapterId);
   const chProgress = progress[chapterId];
   const exerciseProgress = getChapterExerciseProgress(chapterId, chProgress);
 
+  const defaultTab = getDefaultTab(chapterId, content);
+  const [selectedTab, setSelectedTab] = useState<Tab | null>(null);
+  const tab = selectedTab ?? defaultTab;
+
+  const [readSections, setReadSections] = useState<Set<string>>(new Set());
+  const [reflection, setReflection] = useState("");
+
   useEffect(() => {
     if (!student) router.replace("/");
     else visitChapter(chapterId);
   }, [student, router, chapterId, visitChapter]);
-
-  useEffect(() => {
-    if (content?.learn?.length) setTab("learn");
-    else if (content?.exercises?.length) setTab("practice");
-    else if (chapterId === "ct-prime-time" || chapterId === "ai-intro") setTab("explore");
-    else setTab("reflect");
-  }, [chapterId, content]);
 
   if (!student || !meta) return null;
 
@@ -133,7 +136,7 @@ export default function LearnChapterPage() {
               <button
                 key={t.id}
                 type="button"
-                onClick={() => setTab(t.id)}
+                onClick={() => setSelectedTab(t.id)}
                 className={`shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition ${
                   tab === t.id
                     ? "bg-violet-600 text-white"

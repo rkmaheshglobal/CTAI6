@@ -18,6 +18,7 @@ export const INTRO_CHAPTERS: ChapterMeta[] = [
     description:
       "Learn what Computational Thinking and AI mean, why they matter for Class 6, and how to use this companion book.",
     sourcePages: "pp. 5–9",
+    questionCount: 3,
   },
 ];
 
@@ -30,7 +31,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["pattern-recognition"],
     description: "Spot, extend, and justify number and shape patterns with mixed rules.",
     sourcePages: "pp. 11–13",
-    questionCount: 11,
+    questionCount: 10,
   },
   {
     id: "ct-lines-angles",
@@ -40,7 +41,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["abstraction"],
     description: "Solve spatial puzzles with angles, seating arrangements, and geometric reasoning.",
     sourcePages: "pp. 14–16",
-    questionCount: 9,
+    questionCount: 11,
   },
   {
     id: "ct-number-play",
@@ -50,7 +51,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["decomposition", "algorithmic-thinking"],
     description: "Work through dice games, grids, and number logic with constraints.",
     sourcePages: "pp. 17–19",
-    questionCount: 8,
+    questionCount: 10,
   },
   {
     id: "ct-data-handling",
@@ -60,7 +61,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["data-analysis"],
     description: "Read pictographs, bar graphs, and tables to answer real data questions.",
     sourcePages: "pp. 20–24",
-    questionCount: 10,
+    questionCount: 3,
   },
   {
     id: "ct-prime-time",
@@ -71,7 +72,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     description: "Explore factors and multiples with the circle polygon activity, then tackle prime puzzles.",
     sourcePages: "pp. 25–29",
     hasActivity: true,
-    questionCount: 10,
+    questionCount: 9,
   },
   {
     id: "ct-perimeter-area",
@@ -81,7 +82,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["decomposition", "abstraction"],
     description: "Break apart shapes, compare areas, and reason about grids and diagonals.",
     sourcePages: "pp. 30–33",
-    questionCount: 10,
+    questionCount: 4,
   },
   {
     id: "ct-fractions",
@@ -91,7 +92,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["decomposition"],
     description: "Apply fraction reasoning to multi-step word and visual problems.",
     sourcePages: "pp. 34–35",
-    questionCount: 10,
+    questionCount: 6,
   },
   {
     id: "ct-constructions",
@@ -101,7 +102,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["abstraction"],
     description: "Build and rearrange shapes, matchsticks, and grids to form new figures.",
     sourcePages: "pp. 36–39",
-    questionCount: 10,
+    questionCount: 3,
   },
   {
     id: "ct-symmetry",
@@ -111,7 +112,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["abstraction"],
     description: "Fold, cut, and reflect shapes; count lines of symmetry and mirror images.",
     sourcePages: "pp. 40–43",
-    questionCount: 9,
+    questionCount: 6,
   },
   {
     id: "ct-negative-numbers",
@@ -121,7 +122,7 @@ export const CT_CHAPTERS: ChapterMeta[] = [
     ctSkills: ["algorithmic-thinking"],
     description: "Reason with negative numbers, number lines, and magic-box rules.",
     sourcePages: "pp. 44–46",
-    questionCount: 9,
+    questionCount: 6,
   },
 ];
 
@@ -135,6 +136,7 @@ export const AI_CHAPTERS: ChapterMeta[] = [
     description:
       "Discover what intelligence and AI are, how machines learn, and how AI appears in phones, healthcare, and games.",
     sourcePages: "pp. 48–59",
+    questionCount: 23,
   },
   {
     id: "ai-data",
@@ -144,6 +146,7 @@ export const AI_CHAPTERS: ChapterMeta[] = [
     subtitle: "Understanding, collecting, organising, and representing data",
     description: "Learn data types, collection methods, tables, bar charts, and pictograms.",
     sourcePages: "pp. 60–69",
+    questionCount: 24,
   },
   {
     id: "ai-patterns",
@@ -153,6 +156,7 @@ export const AI_CHAPTERS: ChapterMeta[] = [
     subtitle: "Patterns, observations, conclusions, and decisions",
     description: "Find patterns in daily life and turn observations into smart decisions.",
     sourcePages: "pp. 70–75",
+    questionCount: 24,
   },
   {
     id: "ai-ethics",
@@ -162,6 +166,7 @@ export const AI_CHAPTERS: ChapterMeta[] = [
     subtitle: "Online safety, privacy, passwords, digital footprints",
     description: "Stay safe online with Arjun's story — plagiarism, phishing, privacy, and good digital behaviour.",
     sourcePages: "pp. 76–82",
+    questionCount: 25,
   },
 ];
 

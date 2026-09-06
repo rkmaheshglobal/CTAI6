@@ -20,15 +20,20 @@ export default function TeacherDashboard() {
   const router = useRouter();
   const { teacherName, classrooms, getClassStudents, getStudentSnapshot, resetAll } =
     useAppStore();
-  const [selectedClass, setSelectedClass] = useState<string>("");
+  // Subscribe component to cross-tab updates
+  useAppStore((s) => s.syncRevision);
+  const [selectedClassInput, setSelectedClassInput] = useState<string>("");
   const [copied, setCopied] = useState(false);
 
   const classCodes = Object.keys(classrooms);
+  const selectedClass =
+    selectedClassInput && classrooms[selectedClassInput]
+      ? selectedClassInput
+      : (classCodes[0] ?? "");
 
   useEffect(() => {
     if (!teacherName) router.replace("/");
-    else if (!selectedClass && classCodes.length > 0) setSelectedClass(classCodes[0]);
-  }, [teacherName, classCodes, selectedClass, router]);
+  }, [teacherName, router]);
 
   if (!teacherName) return null;
 
@@ -103,7 +108,7 @@ export default function TeacherDashboard() {
             <div className="flex flex-wrap items-center gap-4">
               <select
                 value={selectedClass}
-                onChange={(e) => setSelectedClass(e.target.value)}
+                onChange={(e) => setSelectedClassInput(e.target.value)}
                 className="rounded-xl border-2 border-slate-200 px-4 py-2 font-medium"
               >
                 {classCodes.map((code) => (
@@ -118,7 +123,7 @@ export default function TeacherDashboard() {
                 className="flex items-center gap-2 rounded-xl bg-teal-100 px-4 py-2 text-sm font-semibold text-teal-800"
               >
                 {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
-                Class code: {selectedClass}
+                {room ? `${room.name} (${selectedClass})` : `Class code: ${selectedClass}`}
               </button>
             </div>
 

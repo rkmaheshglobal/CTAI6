@@ -80,11 +80,11 @@ export function ChapterCard({ chapter, status, chapterProgress, href, index = 0 
               🎮 Activity
             </span>
           )}
-          {chapter.questionCount && (
+          {(exTotal > 0 ? exTotal : chapter.questionCount) ? (
             <span className="rounded-full bg-blue-50 px-2 py-0.5 text-xs text-blue-600">
-              {chapter.questionCount} puzzles
+              {exTotal > 0 ? exTotal : chapter.questionCount} puzzles
             </span>
-          )}
+          ) : null}
         </div>
         <p className="mt-2 text-xs text-slate-400">Source: {chapter.sourcePages}</p>
         {exTotal > 0 && (
