@@ -172,7 +172,7 @@ export default function LearnChapterPage() {
             keyPoints={content.keyPoints}
             showPracticeLink={!!content.exercises?.length}
             onMarkRead={handleSectionRead}
-            onGoToPractice={() => setTab("practice")}
+            onGoToPractice={() => setSelectedTab("practice")}
             isSectionRead={(id) =>
               readSections.has(id) || chProgress?.sectionsRead.includes(id)
             }

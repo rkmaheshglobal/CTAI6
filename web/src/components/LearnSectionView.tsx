@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   BookOpen,
   Lightbulb,
@@ -11,7 +11,6 @@ import {
   ChevronRight,
   ChevronLeft,
   List,
-  ArrowUp,
   PenLine,
 } from "lucide-react";
 import type { LearnAccent, LearnSection, LearnVisual } from "@/lib/types";
@@ -325,11 +324,10 @@ export function LearnSectionCard({
 
   return (
     <motion.article
-      id={learnSectionDomId(section.id)}
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.06 }}
-      className={`scroll-mt-36 overflow-hidden rounded-3xl border-2 ${styles.border} bg-white shadow-md lg:scroll-mt-24`}
+      className={`overflow-hidden rounded-3xl border-2 ${styles.border} bg-white shadow-md`}
     >
       <div className={`bg-gradient-to-r ${styles.header} px-5 py-4 text-white`}>
         <div className="flex items-start justify-between gap-3">
@@ -477,17 +475,23 @@ export function LearnSectionCard({
   );
 }
 
+const SUMMARY_NAV_ID = "__summary__";
+
 function LearnSectionNavLinks({
   sections,
   readIds,
   activeId,
-  onJump,
+  onSelectSection,
+  onSelectSummary,
+  hasSummary,
   variant,
 }: {
   sections: LearnSection[];
   readIds: Set<string>;
   activeId: string;
-  onJump: (sectionId: string) => void;
+  onSelectSection: (index: number) => void;
+  onSelectSummary?: () => void;
+  hasSummary?: boolean;
   variant: "sidebar" | "mobile";
 }) {
   const isSidebar = variant === "sidebar";
@@ -510,8 +514,9 @@ function LearnSectionNavLinks({
           <button
             key={section.id}
             type="button"
-            onClick={() => onJump(section.id)}
+            onClick={() => onSelectSection(i)}
             title={section.title}
+            aria-current={isActive ? "page" : undefined}
             className={
               isSidebar
                 ? `flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm transition ${
@@ -538,6 +543,30 @@ function LearnSectionNavLinks({
           </button>
         );
       })}
+      {hasSummary && onSelectSummary && (
+        <button
+          type="button"
+          onClick={onSelectSummary}
+          title="Points to remember"
+          aria-current={activeId === SUMMARY_NAV_ID ? "page" : undefined}
+          className={
+            isSidebar
+              ? `flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm transition ${
+                  activeId === SUMMARY_NAV_ID
+                    ? "bg-amber-500 font-semibold text-white shadow-sm"
+                    : "text-slate-600 hover:bg-amber-50 hover:text-amber-900"
+                }`
+              : `flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold transition ${
+                  activeId === SUMMARY_NAV_ID
+                    ? "border-amber-500 bg-amber-500 text-white"
+                    : "border-slate-200 bg-white text-slate-600 hover:border-amber-300"
+                }`
+          }
+        >
+          <Lightbulb className="h-3.5 w-3.5 shrink-0" />
+          <span>Summary</span>
+        </button>
+      )}
     </nav>
   );
 }
@@ -546,73 +575,47 @@ export function LearnSectionNav({
   sections,
   readIds,
   activeId,
-  onJump,
-  onGoToTop,
-  onGoToSummary,
+  onSelectSection,
+  onSelectSummary,
   onGoToPractice,
   hasPractice,
+  hasSummary,
   variant,
 }: {
   sections: LearnSection[];
   readIds: Set<string>;
   activeId: string;
-  onJump: (sectionId: string) => void;
-  onGoToTop: () => void;
-  onGoToSummary?: () => void;
+  onSelectSection: (index: number) => void;
+  onSelectSummary?: () => void;
   onGoToPractice?: () => void;
   hasPractice?: boolean;
-  variant: "sidebar" | "mobile" | "sticky-mobile";
+  hasSummary?: boolean;
+  variant: "sidebar" | "mobile";
 }) {
-  if (variant === "sticky-mobile") {
+  if (variant === "mobile") {
     return (
-      <div className="sticky top-[7.5rem] z-[5] -mx-4 border-b border-violet-100 bg-white/95 px-4 py-2 backdrop-blur lg:hidden">
-        <div className="mb-2 flex items-center justify-between">
-          <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-violet-700">
-            <List className="h-3.5 w-3.5" /> Jump to section
-          </span>
-          <div className="flex gap-1">
+      <div className="rounded-2xl border border-violet-200 bg-violet-50/60 p-3 lg:hidden">
+        <div className="mb-2 flex items-center justify-between gap-2">
+          <p className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-violet-700">
+            <List className="h-3.5 w-3.5" /> Contents
+          </p>
+          {hasPractice && onGoToPractice && (
             <button
               type="button"
-              onClick={onGoToTop}
-              className="rounded-lg p-1.5 text-slate-500 hover:bg-slate-100"
-              title="Back to top"
+              onClick={onGoToPractice}
+              className="flex items-center gap-1 rounded-lg bg-violet-600 px-2.5 py-1 text-xs font-semibold text-white"
             >
-              <ArrowUp className="h-4 w-4" />
+              <PenLine className="h-3.5 w-3.5" /> Practice
             </button>
-            {hasPractice && onGoToPractice && (
-              <button
-                type="button"
-                onClick={onGoToPractice}
-                className="rounded-lg p-1.5 text-violet-600 hover:bg-violet-50"
-                title="Go to Practice"
-              >
-                <PenLine className="h-4 w-4" />
-              </button>
-            )}
-          </div>
+          )}
         </div>
         <LearnSectionNavLinks
           sections={sections}
           readIds={readIds}
           activeId={activeId}
-          onJump={onJump}
-          variant="mobile"
-        />
-      </div>
-    );
-  }
-
-  if (variant === "mobile") {
-    return (
-      <div className="rounded-2xl border border-violet-200 bg-violet-50/50 p-3 lg:hidden">
-        <p className="mb-2 flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-violet-700">
-          <List className="h-3.5 w-3.5" /> Jump to a section
-        </p>
-        <LearnSectionNavLinks
-          sections={sections}
-          readIds={readIds}
-          activeId={activeId}
-          onJump={onJump}
+          onSelectSection={onSelectSection}
+          onSelectSummary={onSelectSummary}
+          hasSummary={hasSummary}
           variant="mobile"
         />
       </div>
@@ -629,38 +632,69 @@ export function LearnSectionNav({
           sections={sections}
           readIds={readIds}
           activeId={activeId}
-          onJump={onJump}
+          onSelectSection={onSelectSection}
+          onSelectSummary={onSelectSummary}
+          hasSummary={hasSummary}
           variant="sidebar"
         />
-        <div className="mt-4 space-y-1 border-t border-slate-100 pt-3">
-          <button
-            type="button"
-            onClick={onGoToTop}
-            className="flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
-          >
-            <ArrowUp className="h-4 w-4" /> Back to top
-          </button>
-          {onGoToSummary && (
-            <button
-              type="button"
-              onClick={onGoToSummary}
-              className="flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-slate-50"
-            >
-              <Lightbulb className="h-4 w-4" /> Summary
-            </button>
-          )}
-          {hasPractice && onGoToPractice && (
+        {hasPractice && onGoToPractice && (
+          <div className="mt-4 border-t border-slate-100 pt-3">
             <button
               type="button"
               onClick={onGoToPractice}
-              className="flex w-full items-center gap-2 rounded-lg px-2 py-1.5 text-sm font-semibold text-violet-700 hover:bg-violet-50"
+              className="flex w-full items-center justify-center gap-2 rounded-xl bg-violet-600 px-3 py-2.5 text-sm font-semibold text-white hover:bg-violet-700"
             >
-              <PenLine className="h-4 w-4" /> Practice →
+              <PenLine className="h-4 w-4" /> Go to Practice →
             </button>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </aside>
+  );
+}
+
+function LearnSectionPager({
+  current,
+  total,
+  label,
+  onPrev,
+  onNext,
+  hasPrev,
+  hasNext,
+}: {
+  current: number;
+  total: number;
+  label: string;
+  onPrev: () => void;
+  onNext: () => void;
+  hasPrev: boolean;
+  hasNext: boolean;
+}) {
+  return (
+    <div className="flex items-center justify-between gap-2 rounded-2xl border border-slate-200 bg-white p-3 shadow-sm">
+      <button
+        type="button"
+        onClick={onPrev}
+        disabled={!hasPrev}
+        className="flex items-center gap-1 rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 transition enabled:hover:bg-slate-100 disabled:opacity-30"
+      >
+        <ChevronLeft className="h-4 w-4" /> Prev
+      </button>
+      <div className="min-w-0 flex-1 text-center">
+        <p className="text-xs font-medium text-slate-500">
+          {current} of {total}
+        </p>
+        <p className="truncate text-sm font-bold text-slate-800">{label}</p>
+      </div>
+      <button
+        type="button"
+        onClick={onNext}
+        disabled={!hasNext}
+        className="flex items-center gap-1 rounded-xl px-3 py-2 text-sm font-semibold text-violet-700 transition enabled:hover:bg-violet-50 disabled:opacity-30"
+      >
+        Next <ChevronRight className="h-4 w-4" />
+      </button>
+    </div>
   );
 }
 
@@ -685,126 +719,173 @@ export function LearnSectionLayout({
   onGoToPractice?: () => void;
   isSectionRead: (sectionId: string) => boolean;
 }) {
-  const [activeId, setActiveId] = useState(sections[0]?.id ?? "");
-  const topRef = useRef<HTMLDivElement>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [showSummary, setShowSummary] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
-  const jumpTo = useCallback((sectionId: string) => {
-    const el = document.getElementById(learnSectionDomId(sectionId));
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "start" });
-      setActiveId(sectionId);
+  const hasSummary = !!keyPoints?.length;
+  const totalPages = sections.length + (hasSummary ? 1 : 0);
+  const activeSection = sections[activeIndex];
+  const activeId = showSummary ? SUMMARY_NAV_ID : (activeSection?.id ?? "");
+
+  const scrollContentToTop = useCallback(() => {
+    contentRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
+  const goToSection = useCallback(
+    (index: number) => {
+      setShowSummary(false);
+      setActiveIndex(index);
+      scrollContentToTop();
+    },
+    [scrollContentToTop]
+  );
+
+  const goToSummary = useCallback(() => {
+    setShowSummary(true);
+    scrollContentToTop();
+  }, [scrollContentToTop]);
+
+  const goPrev = useCallback(() => {
+    if (showSummary) {
+      goToSection(sections.length - 1);
+      return;
     }
-  }, []);
+    if (activeIndex > 0) goToSection(activeIndex - 1);
+  }, [showSummary, activeIndex, sections.length, goToSection]);
 
-  const jumpToTop = useCallback(() => {
-    topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, []);
+  const goNext = useCallback(() => {
+    if (showSummary) return;
+    if (activeIndex < sections.length - 1) {
+      goToSection(activeIndex + 1);
+      return;
+    }
+    if (hasSummary) goToSummary();
+  }, [showSummary, activeIndex, sections.length, hasSummary, goToSection, goToSummary]);
 
-  const jumpToSummary = useCallback(() => {
-    document.getElementById("learn-key-points")?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }, []);
+  const pagerCurrent = showSummary ? totalPages : activeIndex + 1;
+  const pagerLabel = showSummary
+    ? "Points to remember"
+    : (activeSection?.title ?? "");
+  const hasPrev = showSummary || activeIndex > 0;
+  const hasNext = !showSummary && (activeIndex < sections.length - 1 || hasSummary);
 
   useEffect(() => {
-    const ids = sections.map((s) => s.id);
-    const elements = ids
-      .map((id) => document.getElementById(learnSectionDomId(id)))
-      .filter(Boolean) as HTMLElement[];
-
-    if (!elements.length) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
-        if (visible[0]?.target.id) {
-          const matched = ids.find(
-            (id) => learnSectionDomId(id) === visible[0].target.id
-          );
-          if (matched) setActiveId(matched);
-        }
-      },
-      { rootMargin: "-30% 0px -50% 0px", threshold: [0, 0.25, 0.5] }
-    );
-
-    elements.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, [sections]);
+    if (activeIndex >= sections.length && sections.length > 0) {
+      setActiveIndex(0);
+      setShowSummary(false);
+    }
+  }, [activeIndex, sections.length]);
 
   return (
-    <div ref={topRef} className="space-y-6">
+    <div className="space-y-6">
       {showProgress && (
         <LearnProgressBar total={sections.length} readCount={readCount} />
       )}
-
-      <LearnSectionNav
-        sections={sections}
-        readIds={readIds}
-        activeId={activeId}
-        onJump={jumpTo}
-        onGoToTop={jumpToTop}
-        onGoToSummary={keyPoints ? jumpToSummary : undefined}
-        onGoToPractice={onGoToPractice}
-        hasPractice={showPracticeLink}
-        variant="mobile"
-      />
 
       <div className="lg:grid lg:grid-cols-[minmax(200px,240px)_1fr] lg:items-start lg:gap-8">
         <LearnSectionNav
           sections={sections}
           readIds={readIds}
           activeId={activeId}
-          onJump={jumpTo}
-          onGoToTop={jumpToTop}
-          onGoToSummary={keyPoints ? jumpToSummary : undefined}
+          onSelectSection={goToSection}
+          onSelectSummary={hasSummary ? goToSummary : undefined}
           onGoToPractice={onGoToPractice}
           hasPractice={showPracticeLink}
+          hasSummary={hasSummary}
           variant="sidebar"
         />
 
-        <div className="min-w-0 space-y-6">
+        <div ref={contentRef} className="min-w-0 space-y-4">
           <LearnSectionNav
             sections={sections}
             readIds={readIds}
             activeId={activeId}
-            onJump={jumpTo}
-            onGoToTop={jumpToTop}
+            onSelectSection={goToSection}
+            onSelectSummary={hasSummary ? goToSummary : undefined}
             onGoToPractice={onGoToPractice}
             hasPractice={showPracticeLink}
-            variant="sticky-mobile"
+            hasSummary={hasSummary}
+            variant="mobile"
           />
 
-          {sections.map((section, i) => {
-            const isRead = isSectionRead(section.id);
-            const prev = i > 0 ? sections[i - 1] : null;
-            const next = i < sections.length - 1 ? sections[i + 1] : null;
+          <LearnSectionPager
+            current={pagerCurrent}
+            total={totalPages}
+            label={pagerLabel}
+            onPrev={goPrev}
+            onNext={goNext}
+            hasPrev={hasPrev}
+            hasNext={hasNext}
+          />
 
-            return (
-              <LearnSectionCard
-                key={section.id}
-                section={section}
-                index={i}
-                total={sections.length}
-                isRead={isRead}
-                onMarkRead={() => onMarkRead(section.id)}
-                showPracticeLink={showPracticeLink}
-                onGoToPractice={onGoToPractice}
-                onNavigatePrev={prev ? () => jumpTo(prev.id) : undefined}
-                onNavigateNext={next ? () => jumpTo(next.id) : undefined}
-                prevLabel={prev ? `← ${shortNavLabel(prev, i - 1)}` : undefined}
-                nextLabel={next ? `${shortNavLabel(next, i + 1)} →` : undefined}
-              />
-            );
-          })}
+          <AnimatePresence mode="wait">
+            {showSummary && keyPoints ? (
+              <motion.div
+                key="summary"
+                initial={{ opacity: 0, x: 24 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -24 }}
+                transition={{ duration: 0.2 }}
+              >
+                <LearnKeyPoints points={keyPoints} />
+                {showPracticeLink && onGoToPractice && (
+                  <button
+                    type="button"
+                    onClick={onGoToPractice}
+                    className="mt-4 w-full rounded-2xl bg-gradient-to-r from-violet-600 to-purple-600 py-4 font-bold text-white shadow-md"
+                  >
+                    Ready? Start Practice →
+                  </button>
+                )}
+              </motion.div>
+            ) : activeSection ? (
+              <motion.div
+                key={activeSection.id}
+                initial={{ opacity: 0, x: 24 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -24 }}
+                transition={{ duration: 0.2 }}
+              >
+                <LearnSectionCard
+                  section={activeSection}
+                  index={activeIndex}
+                  total={sections.length}
+                  isRead={isSectionRead(activeSection.id)}
+                  onMarkRead={() => onMarkRead(activeSection.id)}
+                  showPracticeLink={
+                    showPracticeLink && activeIndex === sections.length - 1 && !hasSummary
+                  }
+                  onGoToPractice={onGoToPractice}
+                  onNavigatePrev={activeIndex > 0 ? goPrev : undefined}
+                  onNavigateNext={hasNext ? goNext : undefined}
+                  prevLabel={
+                    activeIndex > 0
+                      ? `← ${shortNavLabel(sections[activeIndex - 1], activeIndex - 1)}`
+                      : undefined
+                  }
+                  nextLabel={
+                    hasNext
+                      ? activeIndex < sections.length - 1
+                        ? `${shortNavLabel(sections[activeIndex + 1], activeIndex + 1)} →`
+                        : "Summary →"
+                      : undefined
+                  }
+                />
+              </motion.div>
+            ) : null}
+          </AnimatePresence>
 
-          {keyPoints && (
-            <div id="learn-key-points" className="scroll-mt-36 lg:scroll-mt-24">
-              <LearnKeyPoints points={keyPoints} />
-            </div>
-          )}
+          <LearnSectionPager
+            current={pagerCurrent}
+            total={totalPages}
+            label={pagerLabel}
+            onPrev={goPrev}
+            onNext={goNext}
+            hasPrev={hasPrev}
+            hasNext={hasNext}
+          />
         </div>
       </div>
     </div>
