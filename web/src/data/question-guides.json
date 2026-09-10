@@ -2464,9 +2464,9 @@
       "Eliminate random and incorrect."
     ],
     "wrongFeedback": {
-      "a": "Without tags, data is unlabelled.",
-      "c": "Random data has no structure.",
-      "d": "Incorrect is not the definition of labelled."
+      "c": "Without tags, data is unlabelled.",
+      "b": "Random data has no structure.",
+      "a": "Incorrect is not the definition of labelled."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2484,14 +2484,14 @@
       },
       {
         "heading": "Eliminate wrong options",
-        "content": "Option (a) describes unlabelled data. Options (c) and (d) are not technical definitions used in the chapter."
+        "content": "Option (c) describes unlabelled data. Options (b) and (a) are not technical definitions used in the chapter."
       },
       {
         "heading": "Select the correct answer",
-        "content": "Option (b) 'Data with predefined labels or tags' matches the handbook exactly."
+        "content": "Option (d) 'Data with predefined labels or tags' matches the handbook exactly."
       }
     ],
-    "conclusion": "The answer is (b) Data with predefined labels or tags.",
+    "conclusion": "The answer is (d) Data with predefined labels or tags.",
     "example": "Emails marked 'spam' or 'not spam' before training are labelled data.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2508,9 +2508,9 @@
       "Look for Alan ___"
     ],
     "wrongFeedback": {
-      "a": "McCarthy named AI but did not create this test.",
-      "c": "Babbage worked on mechanical computers.",
-      "d": "Newton worked in physics."
+      "b": "McCarthy named AI but did not create this test.",
+      "a": "Babbage worked on mechanical computers.",
+      "c": "Newton worked in physics."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2532,10 +2532,10 @@
       },
       {
         "heading": "Confirm the answer",
-        "content": "Alan Turing introduced the Turing Test \u2014 option (b)."
+        "content": "Alan Turing introduced the Turing Test \u2014 option (d)."
       }
     ],
-    "conclusion": "The answer is (b) Alan Turing.",
+    "conclusion": "The answer is (d) Alan Turing.",
     "example": "In 1950, Turing asked: 'Can machines think?' and proposed the imitation game we now call the Turing Test.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2553,7 +2553,7 @@
     ],
     "wrongFeedback": {
       "a": "Unlabelled is unsupervised.",
-      "b": "Random does not describe supervised data.",
+      "c": "Random does not describe supervised data.",
       "d": "Deleted is not a data type here."
     },
     "hasOfficialAnswer": true,
@@ -2576,10 +2576,10 @@
       },
       {
         "heading": "Select labelled",
-        "content": "Option (c) Labelled is correct."
+        "content": "Option (b) Labelled is correct."
       }
     ],
-    "conclusion": "The answer is (c) Labelled.",
+    "conclusion": "The answer is (b) Labelled.",
     "example": "Training a model on past exam papers with marks written on each paper uses labelled data.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2596,9 +2596,9 @@
       "Reinforcement uses trial-and-error rewards."
     ],
     "wrongFeedback": {
-      "b": "Unsupervised does not predict a labelled target.",
-      "c": "Reinforcement uses environment rewards.",
-      "d": "Only one type best fits."
+      "c": "Unsupervised does not predict a labelled target.",
+      "a": "Reinforcement uses environment rewards.",
+      "b": "Only one type best fits."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2620,10 +2620,10 @@
       },
       {
         "heading": "Confirm supervised learning",
-        "content": "Option (a) Supervised Learning is correct."
+        "content": "Option (d) Supervised Learning is correct."
       }
     ],
-    "conclusion": "The answer is (a) Supervised Learning.",
+    "conclusion": "The answer is (d) Supervised Learning.",
     "example": "House price prediction from labelled past sales is another supervised learning example from the handbook.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2684,9 +2684,9 @@
       "Which option is evidence-based?"
     ],
     "wrongFeedback": {
-      "a": "Guesswork ignores data.",
-      "c": "Random selection does not analyse.",
-      "d": "This is purposeful analysis, not entertainment."
+      "c": "Guesswork ignores data.",
+      "a": "Random selection does not analyse.",
+      "b": "This is purposeful analysis, not entertainment."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2708,10 +2708,10 @@
       },
       {
         "heading": "Select data-driven decision",
-        "content": "Option (b) Using data for decision-making is correct."
+        "content": "Option (d) Using data for decision-making is correct."
       }
     ],
-    "conclusion": "The answer is (b) Using data for decision-making.",
+    "conclusion": "The answer is (d) Using data for decision-making.",
     "example": "A store owner using sales records to decide which items to stock is the same kind of data-driven decision.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2728,9 +2728,9 @@
       "Daily steps are quantities."
     ],
     "wrongFeedback": {
-      "a": "Image data is visual, not step counts.",
-      "b": "Text data is words, not numbers.",
-      "d": "Sound data is audio."
+      "b": "Image data is visual, not step counts.",
+      "a": "Text data is words, not numbers.",
+      "c": "Sound data is audio."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2752,10 +2752,10 @@
       },
       {
         "heading": "Answer numerical data",
-        "content": "Option (c) Numerical Data is correct."
+        "content": "Option (d) Numerical Data is correct."
       }
     ],
-    "conclusion": "The answer is (c) Numerical Data.",
+    "conclusion": "The answer is (d) Numerical Data.",
     "example": "Your exam marks and the number of trees planted are also numerical data.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2772,9 +2772,9 @@
       "Which option describes prediction?"
     ],
     "wrongFeedback": {
-      "a": "Games are unrelated here.",
-      "c": "Writing stories is not the main use.",
-      "d": "Messaging is not what the app does."
+      "c": "Games are unrelated here.",
+      "b": "Writing stories is not the main use.",
+      "a": "Messaging is not what the app does."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2796,10 +2796,10 @@
       },
       {
         "heading": "Select future predictions",
-        "content": "Option (b) Making future predictions is correct."
+        "content": "Option (d) Making future predictions is correct."
       }
     ],
-    "conclusion": "The answer is (b) Making future predictions.",
+    "conclusion": "The answer is (d) Making future predictions.",
     "example": "Map apps using traffic data to predict faster routes is another prediction use of data.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2816,8 +2816,8 @@
       "Which data type is moving pictures?"
     ],
     "wrongFeedback": {
-      "a": "Text is words, not video.",
-      "c": "A single photo is image data; continuous recording is video.",
+      "c": "Text is words, not video.",
+      "b": "A single photo is image data; continuous recording is video.",
       "d": "Numerical data is numbers."
     },
     "hasOfficialAnswer": true,
@@ -2840,10 +2840,10 @@
       },
       {
         "heading": "Select video data",
-        "content": "Option (b) Video Data is correct."
+        "content": "Option (a) Video Data is correct."
       }
     ],
-    "conclusion": "The answer is (b) Video Data.",
+    "conclusion": "The answer is (a) Video Data.",
     "example": "CCTV footage at a school gate and online meeting recordings are video data examples from the handbook.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2861,8 +2861,8 @@
     ],
     "wrongFeedback": {
       "a": "Your name is text data.",
-      "b": "Your address is text data.",
-      "c": "Your age is numerical data."
+      "c": "Your address is text data.",
+      "d": "Your age is numerical data."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2884,10 +2884,10 @@
       },
       {
         "heading": "Pick the photograph",
-        "content": "A photograph is image data \u2014 option (d)."
+        "content": "A photograph is image data \u2014 option (b)."
       }
     ],
-    "conclusion": "The answer is (d) Your photograph.",
+    "conclusion": "The answer is (b) Your photograph.",
     "example": "A picture of your pet or emojis in chat are image data examples from the chapter.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2905,8 +2905,8 @@
     ],
     "wrongFeedback": {
       "a": "Random actions do not repeat predictably.",
-      "c": "This happens daily, not once.",
-      "d": "A routine is intentional, not a mistake."
+      "d": "This happens daily, not once.",
+      "b": "A routine is intentional, not a mistake."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2928,10 +2928,10 @@
       },
       {
         "heading": "Select pattern",
-        "content": "Option (b) A pattern is correct."
+        "content": "Option (c) A pattern is correct."
       }
     ],
-    "conclusion": "The answer is (b) A pattern.",
+    "conclusion": "The answer is (c) A pattern.",
     "example": "Number sequences like 2, 4, 6, 8 and daily school schedules are other patterns from the chapter.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2948,9 +2948,9 @@
       "Key findings matter."
     ],
     "wrongFeedback": {
-      "a": "Changing data is not observation.",
-      "c": "Guessing skips careful analysis.",
-      "d": "Hiding results is unethical."
+      "b": "Changing data is not observation.",
+      "a": "Guessing skips careful analysis.",
+      "c": "Hiding results is unethical."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -2972,10 +2972,10 @@
       },
       {
         "heading": "Select looking for patterns",
-        "content": "Option (b) is correct."
+        "content": "Option (d) is correct."
       }
     ],
-    "conclusion": "The answer is (b) Looking for patterns and key findings.",
+    "conclusion": "The answer is (d) Looking for patterns and key findings.",
     "example": "'Temperature is higher in the afternoon than morning' is an observation from weather data.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -2992,9 +2992,9 @@
       "ML is a bigger technique."
     ],
     "wrongFeedback": {
-      "a": "Machine learning is training models, not basic sorting.",
-      "c": "Entertainment is unrelated.",
-      "d": "Prediction comes after understanding patterns."
+      "b": "Machine learning is training models, not basic sorting.",
+      "d": "Entertainment is unrelated.",
+      "a": "Prediction comes after understanding patterns."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3016,10 +3016,10 @@
       },
       {
         "heading": "Answer sorting and filtering",
-        "content": "Option (b) is correct."
+        "content": "Option (c) is correct."
       }
     ],
-    "conclusion": "The answer is (b) Sorting and Filtering.",
+    "conclusion": "The answer is (c) Sorting and Filtering.",
     "example": "Arranging students by height or sorting products by category uses sorting and filtering.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3036,9 +3036,9 @@
       "What question were you answering?"
     ],
     "wrongFeedback": {
-      "a": "Copying data is not concluding.",
-      "c": "Conclusions reduce confusion.",
-      "d": "Repeating data is not the same as concluding."
+      "b": "Copying data is not concluding.",
+      "a": "Conclusions reduce confusion.",
+      "c": "Repeating data is not the same as concluding."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3060,10 +3060,10 @@
       },
       {
         "heading": "Select understanding and applying",
-        "content": "Option (b) is correct."
+        "content": "Option (d) is correct."
       }
     ],
-    "conclusion": "The answer is (b) Understanding and applying observations.",
+    "conclusion": "The answer is (d) Understanding and applying observations.",
     "example": "After observing low test marks, concluding 'I should revise this subject more' applies the observation.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3233,8 +3233,8 @@
     ],
     "wrongFeedback": {
       "a": "Hacking is unauthorized system access.",
-      "c": "Spamming is unwanted mass messages.",
-      "d": "Phishing steals information via fake messages."
+      "d": "Spamming is unwanted mass messages.",
+      "b": "Phishing steals information via fake messages."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3256,10 +3256,10 @@
       },
       {
         "heading": "Select plagiarism",
-        "content": "Option (b) is correct."
+        "content": "Option (c) is correct."
       }
     ],
-    "conclusion": "The answer is (b) Plagiarism.",
+    "conclusion": "The answer is (c) Plagiarism.",
     "example": "Arjun copying an online essay for his Save Water project without credit is plagiarism.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3276,9 +3276,9 @@
       "Is posting online wise?"
     ],
     "wrongFeedback": {
-      "a": "Never send passwords to strangers.",
-      "c": "Posting spreads the scam.",
-      "d": "Fake info still engages with the scammer."
+      "c": "Never send passwords to strangers.",
+      "b": "Posting spreads the scam.",
+      "a": "Fake info still engages with the scammer."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3300,10 +3300,10 @@
       },
       {
         "heading": "Choose inform parents",
-        "content": "Option (b) is correct."
+        "content": "Option (d) is correct."
       }
     ],
-    "conclusion": "The answer is (b) Inform your parents.",
+    "conclusion": "The answer is (d) Inform your parents.",
     "example": "Arjun should have told an adult before clicking suspicious gaming emails.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3320,7 +3320,7 @@
       "Which action avoids malware?"
     ],
     "wrongFeedback": {
-      "a": "Clicking may install malware.",
+      "b": "Clicking may install malware.",
       "c": "Still risky \u2014 ignore first.",
       "d": "Downloading unknown scanners is dangerous."
     },
@@ -3344,10 +3344,10 @@
       },
       {
         "heading": "Select ignore",
-        "content": "Option (b) Ignore is correct."
+        "content": "Option (a) Ignore is correct."
       }
     ],
-    "conclusion": "The answer is (b) Ignore.",
+    "conclusion": "The answer is (a) Ignore.",
     "example": "Arjun's problems started after clicking similar pop-up ads on his computer.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3366,7 +3366,7 @@
     "wrongFeedback": {
       "a": "Public Wi-Fi may expose bank details.",
       "c": "Others may not know security either.",
-      "d": "Random apps can be malware."
+      "b": "Random apps can be malware."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3388,10 +3388,10 @@
       },
       {
         "heading": "Select secure network",
-        "content": "Option (b) Use secure network is correct."
+        "content": "Option (d) Use secure network is correct."
       }
     ],
-    "conclusion": "The answer is (b) Use secure network.",
+    "conclusion": "The answer is (d) Use secure network.",
     "example": "Wait until you are on home Wi-Fi or use mobile data with a trusted connection for banking.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3408,9 +3408,9 @@
       "Which footprint type is intentional?"
     ],
     "wrongFeedback": {
-      "b": "Passive footprints are often unintentional tracking.",
-      "c": "Hacker footprint is not a standard term.",
-      "d": "Phishing footprint is not a standard term."
+      "c": "Passive footprints are often unintentional tracking.",
+      "d": "Hacker footprint is not a standard term.",
+      "b": "Phishing footprint is not a standard term."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3452,9 +3452,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'copy' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'ignore' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'memorise' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'memorise' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'ignore' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "d": "'copy' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3476,10 +3476,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'solve' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'solve' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) solve.",
+    "conclusion": "The answer is (c) solve.",
     "example": "When studying fill in the blank questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3496,7 +3496,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'rules' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'rules' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "c": "'timers' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'engines only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
@@ -3520,10 +3520,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'machines' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'machines' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) machines.",
+    "conclusion": "The answer is (b) machines.",
     "example": "When studying fill in the blank questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3540,9 +3540,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'emotions' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'rewards' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "c": "'labels' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'rewards' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "d": "'emotions' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3564,10 +3564,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'rules' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'rules' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) rules.",
+    "conclusion": "The answer is (b) rules.",
     "example": "When studying fill in the blank questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3584,9 +3584,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'copying homework' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "b": "'labelling emails' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'fixed timers' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'copying homework' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "c": "'fixed timers' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3608,10 +3608,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'clustering' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'clustering' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) clustering.",
+    "conclusion": "The answer is (d) clustering.",
     "example": "When studying fill in the blank questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3628,8 +3628,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'luck' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'fixed timers' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'fixed timers' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'luck' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'human memory only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -3652,10 +3652,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'data' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) data.",
+    "conclusion": "The answer is (b) data.",
     "example": "When studying fill in the blank questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3672,9 +3672,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'The ability to copy answers quickly' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Following fixed instructions without change' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Memorising facts without understanding' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Following fixed instructions without change' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Memorising facts without understanding' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "d": "'The ability to copy answers quickly' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3696,10 +3696,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'The ability to learn, think, and solve problems' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'The ability to learn, think, and solve problems' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) The ability to learn, think, and solve problems.",
+    "conclusion": "The answer is (b) The ability to learn, think, and solve problems.",
     "example": "When studying short answer questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3716,8 +3716,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Both always learn from experience' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Automation thinks; AI never changes' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Automation thinks; AI never changes' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Both always learn from experience' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Neither uses any instructions' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -3760,8 +3760,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Learning only from labelled examples with correct answers' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Grouping data without any labels' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "a": "'Grouping data without any labels' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Learning only from labelled examples with correct answers' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Copying data without understanding patterns' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -3784,10 +3784,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Learning through trial and error using rewards and penalties' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Learning through trial and error using rewards and penalties' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Learning through trial and error using rewards and penalties.",
+    "conclusion": "The answer is (b) Learning through trial and error using rewards and penalties.",
     "example": "When studying short answer questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3804,8 +3804,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Numerical, Text, and Image learning' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Fast, Slow, and Medium learning' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "a": "'Numerical, Text, and Image learning' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Fast, Slow, and Medium learning' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Human, Animal, and Machine learning' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -3828,10 +3828,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Supervised, Unsupervised, and Reinforcement learning' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Supervised, Unsupervised, and Reinforcement learning' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Supervised, Unsupervised, and Reinforcement learning.",
+    "conclusion": "The answer is (c) Supervised, Unsupervised, and Reinforcement learning.",
     "example": "When studying short answer questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3848,8 +3848,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Fixed washing-machine cycles only' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "b": "'Microwave timers and standard traffic lights' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Fixed washing-machine cycles only' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Manual chalkboards and paper notebooks' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -3872,10 +3872,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Voice assistants and face recognition' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Voice assistants and face recognition' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Voice assistants and face recognition.",
+    "conclusion": "The answer is (c) Voice assistants and face recognition.",
     "example": "When studying short answer questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3892,7 +3892,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Supervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "a": "'Supervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "c": "'Reinforcement learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "d": "'No machine learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
@@ -3916,10 +3916,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Unsupervised learning' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Unsupervised learning' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Unsupervised learning.",
+    "conclusion": "The answer is (b) Unsupervised learning.",
     "example": "When studying think and apply questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3936,9 +3936,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Reinforcement learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Random guessing' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Reinforcement learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Random guessing' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -3960,10 +3960,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Supervised learning' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Supervised learning' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Supervised learning.",
+    "conclusion": "The answer is (d) Supervised learning.",
     "example": "When studying think and apply questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -3980,9 +3980,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Supervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Fixed-rule automation' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Supervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Fixed-rule automation' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4004,10 +4004,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Reinforcement learning' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Reinforcement learning' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Reinforcement learning.",
+    "conclusion": "The answer is (d) Reinforcement learning.",
     "example": "When studying think and apply questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4024,9 +4024,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Reinforcement learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Automation only' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Automation only' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Reinforcement learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "d": "'Unsupervised learning' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4048,10 +4048,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Supervised learning' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Supervised learning' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Supervised learning.",
+    "conclusion": "The answer is (c) Supervised learning.",
     "example": "When studying think and apply questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4068,9 +4068,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'AI' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "a": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "c": "'Machine Learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "d": "'AI' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4092,10 +4092,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Automation' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Automation' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Automation.",
+    "conclusion": "The answer is (b) Automation.",
     "example": "When studying classify questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4112,9 +4112,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Automation' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Fixed rules only' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Manual counting' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Manual counting' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Automation' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Fixed rules only' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4136,10 +4136,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'AI' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'AI' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) AI.",
+    "conclusion": "The answer is (b) AI.",
     "example": "When studying classify questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4156,9 +4156,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'AI' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Supervised learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Unsupervised learning' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Supervised learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Unsupervised learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'AI' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4180,10 +4180,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Automation' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Automation' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Automation.",
+    "conclusion": "The answer is (b) Automation.",
     "example": "When studying classify questions in ai-intro, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4200,9 +4200,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Automation' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Fixed timer device' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Non-learning machine' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "b": "'Fixed timer device' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Non-learning machine' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Automation' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4244,9 +4244,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'stories' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'guesses' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'emotions' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'guesses' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'emotions' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "d": "'stories' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4268,10 +4268,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'information' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'information' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) information.",
+    "conclusion": "The answer is (b) information.",
     "example": "When studying fill in the blank questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4288,7 +4288,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'circles' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'circles' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "c": "'random piles' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'passwords' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
@@ -4312,10 +4312,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'columns' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'columns' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) columns.",
+    "conclusion": "The answer is (b) columns.",
     "example": "When studying fill in the blank questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4332,9 +4332,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'numbers only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'videos only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'temperatures' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "b": "'videos only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'temperatures' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "d": "'numbers only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4376,7 +4376,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'spamming' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'spamming' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "c": "'hacking' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'phishing' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
@@ -4400,10 +4400,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'classification' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'classification' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) classification.",
+    "conclusion": "The answer is (b) classification.",
     "example": "When studying fill in the blank questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4420,8 +4420,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'deletion' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'guessing' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'deletion' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'guessing' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'spamming' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -4444,10 +4444,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'storage' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'storage' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) storage.",
+    "conclusion": "The answer is (c) storage.",
     "example": "When studying fill in the blank questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4464,9 +4464,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Only numbers written on paper' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Random guesses without facts' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Entertainment content only' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Random guesses without facts' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Entertainment content only' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Only numbers written on paper' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4488,10 +4488,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Raw information that can be processed and analysed for insights' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Raw information that can be processed and analysed for insights' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Raw information that can be processed and analysed for insights.",
+    "conclusion": "The answer is (d) Raw information that can be processed and analysed for insights.",
     "example": "When studying short answer questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4508,9 +4508,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Avoiding all measurements' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "b": "'Only playing games' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Ignoring past results' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Avoiding all measurements' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "d": "'Ignoring past results' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4532,10 +4532,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Decision making and personalised user experience' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Decision making and personalised user experience' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Decision making and personalised user experience.",
+    "conclusion": "The answer is (c) Decision making and personalised user experience.",
     "example": "When studying short answer questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4552,8 +4552,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Only video and automation' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'AI, CT, and robotics only' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "a": "'Only video and automation' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'AI, CT, and robotics only' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Rows, columns, and charts only' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -4576,10 +4576,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Numerical, Text, Image, and Sound data' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Numerical, Text, Image, and Sound data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Numerical, Text, Image, and Sound data.",
+    "conclusion": "The answer is (c) Numerical, Text, Image, and Sound data.",
     "example": "When studying short answer questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4596,9 +4596,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'They are exactly the same' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Charts never use numbers' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Tables cannot organise information' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Tables cannot organise information' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'They are exactly the same' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "d": "'Charts never use numbers' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4620,10 +4620,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Tables show exact values in rows and columns; charts show visual comparisons' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Tables show exact values in rows and columns; charts show visual comparisons' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Tables show exact values in rows and columns; charts show visual comparisons.",
+    "conclusion": "The answer is (b) Tables show exact values in rows and columns; charts show visual comparisons.",
     "example": "When studying short answer questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4640,9 +4640,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Classification deletes files; labelling hides data' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Both mean copying data illegally' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Neither helps organisation' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Classification deletes files; labelling hides data' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Neither helps organisation' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "d": "'Both mean copying data illegally' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4664,10 +4664,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Classification groups similar data; labelling gives clear descriptive names' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Classification groups similar data; labelling gives clear descriptive names' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Classification groups similar data; labelling gives clear descriptive names.",
+    "conclusion": "The answer is (c) Classification groups similar data; labelling gives clear descriptive names.",
     "example": "When studying short answer questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4684,9 +4684,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Image data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Text data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Sound data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Text data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Sound data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Image data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4708,10 +4708,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Numerical data' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Numerical data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Numerical data.",
+    "conclusion": "The answer is (d) Numerical data.",
     "example": "When studying think and apply questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4728,9 +4728,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Table only \u2014 charts never help' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Neither \u2014 ignore the data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Random list with no structure' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Neither \u2014 ignore the data' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Random list with no structure' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "d": "'Table only \u2014 charts never help' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4752,10 +4752,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Bar chart \u2014 it makes visual comparison of categories easy' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Bar chart \u2014 it makes visual comparison of categories easy' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Bar chart \u2014 it makes visual comparison of categories easy.",
+    "conclusion": "The answer is (c) Bar chart \u2014 it makes visual comparison of categories easy.",
     "example": "When studying think and apply questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4772,8 +4772,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'To delete your account automatically' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Only for entertainment with no pattern' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "a": "'To delete your account automatically' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Only for entertainment with no pattern' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "d": "'To ignore your preferences' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -4796,10 +4796,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'To personalise recommendations using your past activity' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'To personalise recommendations using your past activity' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) To personalise recommendations using your past activity.",
+    "conclusion": "The answer is (c) To personalise recommendations using your past activity.",
     "example": "When studying think and apply questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4816,9 +4816,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Delete everything immediately' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Leave files random forever' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Share all files publicly online' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Leave files random forever' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Share all files publicly online' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Delete everything immediately' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4840,10 +4840,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Classify files into folders and use clear labels' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Classify files into folders and use clear labels' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Classify files into folders and use clear labels.",
+    "conclusion": "The answer is (d) Classify files into folders and use clear labels.",
     "example": "When studying think and apply questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4860,7 +4860,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Text Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "a": "'Text Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "c": "'Sound Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "d": "'Video Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
@@ -4884,10 +4884,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Numerical Data' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Numerical Data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Numerical Data.",
+    "conclusion": "The answer is (b) Numerical Data.",
     "example": "When studying classify questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4904,9 +4904,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Numerical Data only' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Video Data only' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Numerical Data only' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Video Data only' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4928,10 +4928,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Sound Data' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Sound Data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Sound Data.",
+    "conclusion": "The answer is (c) Sound Data.",
     "example": "When studying classify questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4948,9 +4948,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Numerical Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "b": "'Text Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Numerical Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Sound Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "c": "'Sound Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -4972,10 +4972,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Image Data' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Image Data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Image Data.",
+    "conclusion": "The answer is (d) Image Data.",
     "example": "When studying classify questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -4992,9 +4992,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Numerical Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Video Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Numerical Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Video Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5016,10 +5016,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Text Data' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Text Data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Text Data.",
+    "conclusion": "The answer is (d) Text Data.",
     "example": "When studying classify questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5036,9 +5036,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Text Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Sound Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Image Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Sound Data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Text Data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5060,10 +5060,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Numerical Data' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Numerical Data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Numerical Data.",
+    "conclusion": "The answer is (b) Numerical Data.",
     "example": "When studying classify questions in ai-data, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5080,8 +5080,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'password' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "b": "'accident' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'password' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'virus' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -5104,10 +5104,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'sequence' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'sequence' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) sequence.",
+    "conclusion": "The answer is (c) sequence.",
     "example": "When studying fill in the blank questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5124,9 +5124,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'errors only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'spam emails' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'deleted files' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'spam emails' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'deleted files' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "d": "'errors only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5148,10 +5148,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'sequences' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'sequences' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) sequences.",
+    "conclusion": "The answer is (b) sequences.",
     "example": "When studying fill in the blank questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5168,9 +5168,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'hidden' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'random' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "c": "'illegal' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'random' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "d": "'hidden' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5192,10 +5192,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'key' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'key' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) key.",
+    "conclusion": "The answer is (b) key.",
     "example": "When studying fill in the blank questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5212,9 +5212,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'virus' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'password' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'advertisement' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "b": "'advertisement' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'virus' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "d": "'password' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5256,8 +5256,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'weather only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'colours only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'colours only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'weather only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'noise' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -5280,10 +5280,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'information' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'information' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) information.",
+    "conclusion": "The answer is (b) information.",
     "example": "When studying fill in the blank questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5300,9 +5300,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'A one-time accident' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Copying without thinking' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "c": "'A computer virus' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Copying without thinking' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "d": "'A one-time accident' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5344,8 +5344,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Hacking and phishing' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Spamming and piracy' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Spamming and piracy' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Hacking and phishing' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Deleting all data' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -5388,7 +5388,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'It makes data impossible to read' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "a": "'It makes data impossible to read' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "c": "'It removes all observations' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'It prevents any conclusions' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
@@ -5412,10 +5412,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'It helps forecast what may happen next based on the pattern' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'It helps forecast what may happen next based on the pattern' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) It helps forecast what may happen next based on the pattern.",
+    "conclusion": "The answer is (b) It helps forecast what may happen next based on the pattern.",
     "example": "When studying short answer questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5432,8 +5432,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'To delete all observations' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'To avoid drawing conclusions' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "a": "'To delete all observations' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'To avoid drawing conclusions' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Only to hide irregularities' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -5456,10 +5456,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'To group similar data, find connections, and understand relationships' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'To group similar data, find connections, and understand relationships' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) To group similar data, find connections, and understand relationships.",
+    "conclusion": "The answer is (c) To group similar data, find connections, and understand relationships.",
     "example": "When studying short answer questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5476,9 +5476,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'They are exactly the same step' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Conclusion comes before observation' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Neither uses data' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Neither uses data' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Conclusion comes before observation' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "d": "'They are exactly the same step' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5500,10 +5500,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Observation notes what you see; conclusion explains what it means' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Observation notes what you see; conclusion explains what it means' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Observation notes what you see; conclusion explains what it means.",
+    "conclusion": "The answer is (c) Observation notes what you see; conclusion explains what it means.",
     "example": "When studying short answer questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5520,9 +5520,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Ignoring any pattern' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "b": "'Posting private information online' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Deleting all records' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Ignoring any pattern' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "c": "'Deleting all records' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5544,10 +5544,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Collecting numerical measurements to observe growth over time' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Collecting numerical measurements to observe growth over time' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Collecting numerical measurements to observe growth over time.",
+    "conclusion": "The answer is (d) Collecting numerical measurements to observe growth over time.",
     "example": "When studying think and apply questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5564,9 +5564,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Drawing a final legal verdict' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Hacking a weather server' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Random guessing' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Hacking a weather server' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Random guessing' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "d": "'Drawing a final legal verdict' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5588,10 +5588,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Making an observation from data' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Making an observation from data' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Making an observation from data.",
+    "conclusion": "The answer is (b) Making an observation from data.",
     "example": "When studying think and apply questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5608,9 +5608,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Stop practising entirely' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Act without thinking' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "c": "'Ignore all past performance' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Act without thinking' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "d": "'Stop practising entirely' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5652,9 +5652,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'The survey data should be hidden' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "b": "'No student likes any sport' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'The survey data should be hidden' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Football is equally popular' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "c": "'Football is equally popular' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5676,10 +5676,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Cricket is more popular in this class based on the survey' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Cricket is more popular in this class based on the survey' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Cricket is more popular in this class based on the survey.",
+    "conclusion": "The answer is (d) Cricket is more popular in this class based on the survey.",
     "example": "When studying think and apply questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5740,9 +5740,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Spamming' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Hacking' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Hacking' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Spamming' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5764,10 +5764,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Sorting and filtering' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Sorting and filtering' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Sorting and filtering.",
+    "conclusion": "The answer is (b) Sorting and filtering.",
     "example": "When studying classify questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5784,9 +5784,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Software piracy' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Password theft' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Plagiarism' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "b": "'Password theft' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Plagiarism' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Software piracy' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5828,9 +5828,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Copying homework' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Ignoring data' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Random clicking' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Copying homework' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Random clicking' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Ignoring data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5852,10 +5852,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Time series analysis' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Time series analysis' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Time series analysis.",
+    "conclusion": "The answer is (d) Time series analysis.",
     "example": "When studying classify questions in ai-patterns, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5872,9 +5872,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Fixed timer automation' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Deleting datasets' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "c": "'Manual guesswork only' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Deleting datasets' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "d": "'Fixed timer automation' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5916,8 +5916,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'share passwords' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'download illegally' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "a": "'share passwords' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'download illegally' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "d": "'ignore parents' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -5940,10 +5940,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'click' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'click' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) click.",
+    "conclusion": "The answer is (c) click.",
     "example": "When studying fill in the blank questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -5960,9 +5960,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'favourite colour' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'homework topic' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'class timetable only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'favourite colour' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'class timetable only' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'homework topic' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -5984,10 +5984,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'personal' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'personal' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) personal.",
+    "conclusion": "The answer is (d) personal.",
     "example": "When studying fill in the blank questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6004,9 +6004,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'teamwork' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
       "b": "'learning' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'kindness' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'teamwork' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "c": "'kindness' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6028,10 +6028,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'cybercrimes' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'cybercrimes' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) cybercrimes.",
+    "conclusion": "The answer is (d) cybercrimes.",
     "example": "When studying fill in the blank questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6048,9 +6048,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'public weather' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'classroom seating' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'sports scores' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'classroom seating' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'sports scores' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'public weather' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6072,10 +6072,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'confidential' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'confidential' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) confidential.",
+    "conclusion": "The answer is (d) confidential.",
     "example": "When studying fill in the blank questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6092,9 +6092,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'sleep' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "c": "'eat lunch' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
-      "d": "'walk in the park offline' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
+      "a": "'walk in the park offline' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "b": "'eat lunch' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text.",
+      "c": "'sleep' does not match the handbook answer for this fill in the blank \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6116,10 +6116,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'post' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'post' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) post.",
+    "conclusion": "The answer is (d) post.",
     "example": "When studying fill in the blank questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6136,9 +6136,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Copying essays without credit' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "b": "'Sharing passwords with strangers' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Clicking every pop-up ad' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Copying essays without credit' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "d": "'Clicking every pop-up ad' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6160,10 +6160,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Using technology wisely and respectfully \u2014 e.g. thinking before posting online' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Using technology wisely and respectfully \u2014 e.g. thinking before posting online' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Using technology wisely and respectfully \u2014 e.g. thinking before posting online.",
+    "conclusion": "The answer is (c) Using technology wisely and respectfully \u2014 e.g. thinking before posting online.",
     "example": "When studying short answer questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6180,8 +6180,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Share bank details in chat' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "b": "'Post your full address publicly' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Share bank details in chat' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Use weak passwords forever' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -6204,10 +6204,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Limit personal sharing and read privacy policies before signing up' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Limit personal sharing and read privacy policies before signing up' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Limit personal sharing and read privacy policies before signing up.",
+    "conclusion": "The answer is (c) Limit personal sharing and read privacy policies before signing up.",
     "example": "When studying short answer questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6224,9 +6224,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'They are identical' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Passive means you never use the internet' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Active footprints cannot be created' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'They are identical' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Active footprints cannot be created' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "c": "'Passive means you never use the internet' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6248,10 +6248,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Active footprints come from intentional posts; passive from background tracking' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Active footprints come from intentional posts; passive from background tracking' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Active footprints come from intentional posts; passive from background tracking.",
+    "conclusion": "The answer is (d) Active footprints come from intentional posts; passive from background tracking.",
     "example": "When studying short answer questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6268,8 +6268,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
+      "a": "'Because weak passwords are encouraged' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "b": "'To make login impossible for yourself' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Because weak passwords are encouraged' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
       "d": "'Passwords do not matter online' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -6292,10 +6292,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'To prevent unauthorized access and protect accounts from hacking' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'To prevent unauthorized access and protect accounts from hacking' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) To prevent unauthorized access and protect accounts from hacking.",
+    "conclusion": "The answer is (c) To prevent unauthorized access and protect accounts from hacking.",
     "example": "When studying short answer questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6312,9 +6312,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Sharing licensed copies freely is legal' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "c": "'Piracy means helping authors' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
-      "d": "'Download only from unknown sites' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
+      "a": "'Download only from unknown sites' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "b": "'Piracy means helping authors' does not match the handbook answer for this short answer \u2014 re-check the chapter text.",
+      "d": "'Sharing licensed copies freely is legal' does not match the handbook answer for this short answer \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6336,10 +6336,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Unauthorized copying of software \u2014 prevent by buying licensed copies' is the only choice fully supported by the handbook."
+        "content": "Option (c) 'Unauthorized copying of software \u2014 prevent by buying licensed copies' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Unauthorized copying of software \u2014 prevent by buying licensed copies.",
+    "conclusion": "The answer is (c) Unauthorized copying of software \u2014 prevent by buying licensed copies.",
     "example": "When studying short answer questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6356,9 +6356,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Passive digital footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Hacker footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Phishing footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Passive digital footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Phishing footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "d": "'Hacker footprint' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6380,10 +6380,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Active digital footprint' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Active digital footprint' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Active digital footprint.",
+    "conclusion": "The answer is (b) Active digital footprint.",
     "example": "When studying think and apply questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6400,9 +6400,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Reply with full bank information' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Post the email publicly' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Click every link in the email' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'Reply with full bank information' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Click every link in the email' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Post the email publicly' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6424,10 +6424,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Do not share details and inform a parent or guardian' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Do not share details and inform a parent or guardian' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Do not share details and inform a parent or guardian.",
+    "conclusion": "The answer is (d) Do not share details and inform a parent or guardian.",
     "example": "When studying think and apply questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6444,9 +6444,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'To delete your account without notice' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Only to print homework' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "d": "'Data is never collected' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
+      "a": "'To delete your account without notice' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Data is never collected' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "d": "'Only to print homework' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6468,10 +6468,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'To personalise content using your interests and activity' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'To personalise content using your interests and activity' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) To personalise content using your interests and activity.",
+    "conclusion": "The answer is (b) To personalise content using your interests and activity.",
     "example": "When studying think and apply questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6488,8 +6488,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Download from random pop-up links' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
-      "c": "'Disable antivirus first' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "b": "'Disable antivirus first' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "c": "'Download from random pop-up links' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "d": "'Share your password to unlock' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -6532,7 +6532,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Responsible digital citizenship' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
+      "a": "'Responsible digital citizenship' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "c": "'Good password hygiene' does not match the handbook answer for this think and apply \u2014 re-check the chapter text.",
       "d": "'Active digital footprint creation' does not match the handbook answer for this think and apply \u2014 re-check the chapter text."
     },
@@ -6556,10 +6556,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Plagiarism / intellectual property violation' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Plagiarism / intellectual property violation' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Plagiarism / intellectual property violation.",
+    "conclusion": "The answer is (b) Plagiarism / intellectual property violation.",
     "example": "When studying think and apply questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6576,9 +6576,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Plagiarism' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Digital footprint' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Ethics' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Digital footprint' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Ethics' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Plagiarism' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6600,10 +6600,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Phishing' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Phishing' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Phishing.",
+    "conclusion": "The answer is (b) Phishing.",
     "example": "When studying classify questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6620,9 +6620,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Phishing' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Privacy policy' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Firewall' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "a": "'Firewall' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Privacy policy' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Phishing' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [
@@ -6644,10 +6644,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Plagiarism' is the only choice fully supported by the handbook."
+        "content": "Option (d) 'Plagiarism' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Plagiarism.",
+    "conclusion": "The answer is (d) Plagiarism.",
     "example": "When studying classify questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6664,7 +6664,7 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Spam filter' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "a": "'Spam filter' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "c": "'Antivirus scan' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "d": "'Bar chart' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
@@ -6688,10 +6688,10 @@
       },
       {
         "heading": "Confirm the best answer",
-        "content": "Option (a) 'Digital footprint' is the only choice fully supported by the handbook."
+        "content": "Option (b) 'Digital footprint' is the only choice fully supported by the handbook."
       }
     ],
-    "conclusion": "The answer is (a) Digital footprint.",
+    "conclusion": "The answer is (b) Digital footprint.",
     "example": "When studying classify questions in ai-ethics, always tie your reasoning to a specific handbook example.",
     "teacherNote": "Confirm the official answer and ask students to explain the logic in their own words."
   },
@@ -6708,8 +6708,8 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Machine learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Time series analysis' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "b": "'Time series analysis' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Machine learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
       "d": "'Numerical data' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
@@ -6752,9 +6752,9 @@
       "Explain your choice using a chapter vocabulary word."
     ],
     "wrongFeedback": {
-      "b": "'Phishing email' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "c": "'Pictogram' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
-      "d": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text."
+      "b": "'Reinforcement learning' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "c": "'Phishing email' does not match the handbook answer for this classify \u2014 re-check the chapter text.",
+      "d": "'Pictogram' does not match the handbook answer for this classify \u2014 re-check the chapter text."
     },
     "hasOfficialAnswer": true,
     "detailedSteps": [

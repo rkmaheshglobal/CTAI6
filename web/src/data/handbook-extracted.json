@@ -1807,22 +1807,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Data without any tags"
+          "text": "Incorrect data"
         },
         {
           "id": "b",
-          "text": "Data with predefined labels or tags"
-        },
-        {
-          "id": "c",
           "text": "Random data"
         },
         {
+          "id": "c",
+          "text": "Data without any tags"
+        },
+        {
           "id": "d",
-          "text": "Incorrect data"
+          "text": "Data with predefined labels or tags"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-intro-mcq2",
@@ -1831,22 +1831,22 @@
       "options": [
         {
           "id": "a",
-          "text": "John McCarthy"
-        },
-        {
-          "id": "b",
-          "text": "Alan Turing"
-        },
-        {
-          "id": "c",
           "text": "Charles Babbage"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "John McCarthy"
+        },
+        {
+          "id": "c",
           "text": "Isaac Newton"
+        },
+        {
+          "id": "d",
+          "text": "Alan Turing"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-intro-mcq3",
@@ -1859,18 +1859,18 @@
         },
         {
           "id": "b",
-          "text": "Random"
+          "text": "Labelled"
         },
         {
           "id": "c",
-          "text": "Labelled"
+          "text": "Random"
         },
         {
           "id": "d",
           "text": "Deleted"
         }
       ],
-      "correct": "c"
+      "correct": "b"
     },
     {
       "id": "ai-intro-mcq4",
@@ -1879,22 +1879,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Supervised Learning"
-        },
-        {
-          "id": "b",
-          "text": "Unsupervised Learning"
-        },
-        {
-          "id": "c",
           "text": "Reinforcement Learning"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "All of the above"
+        },
+        {
+          "id": "c",
+          "text": "Unsupervised Learning"
+        },
+        {
+          "id": "d",
+          "text": "Supervised Learning"
         }
       ],
-      "correct": "a"
+      "correct": "d"
     },
     {
       "id": "ai-intro-mcq5",
@@ -1927,22 +1927,22 @@
       "options": [
         {
           "id": "a",
-          "text": "solve"
+          "text": "memorise"
         },
         {
           "id": "b",
-          "text": "copy"
-        },
-        {
-          "id": "c",
           "text": "ignore"
         },
         {
+          "id": "c",
+          "text": "solve"
+        },
+        {
           "id": "d",
-          "text": "memorise"
+          "text": "copy"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 58
     },
     {
@@ -1952,11 +1952,11 @@
       "options": [
         {
           "id": "a",
-          "text": "machines"
+          "text": "rules"
         },
         {
           "id": "b",
-          "text": "rules"
+          "text": "machines"
         },
         {
           "id": "c",
@@ -1967,7 +1967,7 @@
           "text": "engines only"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -1977,11 +1977,11 @@
       "options": [
         {
           "id": "a",
-          "text": "rules"
+          "text": "rewards"
         },
         {
           "id": "b",
-          "text": "emotions"
+          "text": "rules"
         },
         {
           "id": "c",
@@ -1989,10 +1989,10 @@
         },
         {
           "id": "d",
-          "text": "rewards"
+          "text": "emotions"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -2002,7 +2002,7 @@
       "options": [
         {
           "id": "a",
-          "text": "clustering"
+          "text": "copying homework"
         },
         {
           "id": "b",
@@ -2014,10 +2014,10 @@
         },
         {
           "id": "d",
-          "text": "copying homework"
+          "text": "clustering"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 58
     },
     {
@@ -2027,22 +2027,22 @@
       "options": [
         {
           "id": "a",
-          "text": "data"
+          "text": "fixed timers"
         },
         {
           "id": "b",
-          "text": "luck"
+          "text": "data"
         },
         {
           "id": "c",
-          "text": "fixed timers"
+          "text": "luck"
         },
         {
           "id": "d",
           "text": "human memory only"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -2052,22 +2052,22 @@
       "options": [
         {
           "id": "a",
-          "text": "The ability to learn, think, and solve problems"
-        },
-        {
-          "id": "b",
-          "text": "The ability to copy answers quickly"
-        },
-        {
-          "id": "c",
           "text": "Following fixed instructions without change"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "The ability to learn, think, and solve problems"
+        },
+        {
+          "id": "c",
           "text": "Memorising facts without understanding"
+        },
+        {
+          "id": "d",
+          "text": "The ability to copy answers quickly"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -2081,11 +2081,11 @@
         },
         {
           "id": "b",
-          "text": "Both always learn from experience"
+          "text": "Automation thinks; AI never changes"
         },
         {
           "id": "c",
-          "text": "Automation thinks; AI never changes"
+          "text": "Both always learn from experience"
         },
         {
           "id": "d",
@@ -2102,22 +2102,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Learning through trial and error using rewards and penalties"
+          "text": "Grouping data without any labels"
         },
         {
           "id": "b",
-          "text": "Learning only from labelled examples with correct answers"
+          "text": "Learning through trial and error using rewards and penalties"
         },
         {
           "id": "c",
-          "text": "Grouping data without any labels"
+          "text": "Learning only from labelled examples with correct answers"
         },
         {
           "id": "d",
           "text": "Copying data without understanding patterns"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -2127,22 +2127,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Supervised, Unsupervised, and Reinforcement learning"
-        },
-        {
-          "id": "b",
           "text": "Numerical, Text, and Image learning"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Fast, Slow, and Medium learning"
+        },
+        {
+          "id": "c",
+          "text": "Supervised, Unsupervised, and Reinforcement learning"
         },
         {
           "id": "d",
           "text": "Human, Animal, and Machine learning"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 58
     },
     {
@@ -2152,7 +2152,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Voice assistants and face recognition"
+          "text": "Fixed washing-machine cycles only"
         },
         {
           "id": "b",
@@ -2160,14 +2160,14 @@
         },
         {
           "id": "c",
-          "text": "Fixed washing-machine cycles only"
+          "text": "Voice assistants and face recognition"
         },
         {
           "id": "d",
           "text": "Manual chalkboards and paper notebooks"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 58
     },
     {
@@ -2177,11 +2177,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Unsupervised learning"
+          "text": "Supervised learning"
         },
         {
           "id": "b",
-          "text": "Supervised learning"
+          "text": "Unsupervised learning"
         },
         {
           "id": "c",
@@ -2192,7 +2192,7 @@
           "text": "No machine learning"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 58
     },
     {
@@ -2202,22 +2202,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Supervised learning"
-        },
-        {
-          "id": "b",
-          "text": "Unsupervised learning"
-        },
-        {
-          "id": "c",
           "text": "Reinforcement learning"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Random guessing"
+        },
+        {
+          "id": "c",
+          "text": "Unsupervised learning"
+        },
+        {
+          "id": "d",
+          "text": "Supervised learning"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 58
     },
     {
@@ -2227,11 +2227,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Reinforcement learning"
+          "text": "Supervised learning"
         },
         {
           "id": "b",
-          "text": "Supervised learning"
+          "text": "Fixed-rule automation"
         },
         {
           "id": "c",
@@ -2239,10 +2239,10 @@
         },
         {
           "id": "d",
-          "text": "Fixed-rule automation"
+          "text": "Reinforcement learning"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 58
     },
     {
@@ -2252,22 +2252,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Supervised learning"
+          "text": "Automation only"
         },
         {
           "id": "b",
-          "text": "Unsupervised learning"
-        },
-        {
-          "id": "c",
           "text": "Reinforcement learning"
         },
         {
+          "id": "c",
+          "text": "Supervised learning"
+        },
+        {
           "id": "d",
-          "text": "Automation only"
+          "text": "Unsupervised learning"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 58
     },
     {
@@ -2277,11 +2277,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Automation"
+          "text": "Reinforcement learning"
         },
         {
           "id": "b",
-          "text": "AI"
+          "text": "Automation"
         },
         {
           "id": "c",
@@ -2289,10 +2289,10 @@
         },
         {
           "id": "d",
-          "text": "Reinforcement learning"
+          "text": "AI"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 59
     },
     {
@@ -2302,22 +2302,22 @@
       "options": [
         {
           "id": "a",
-          "text": "AI"
+          "text": "Manual counting"
         },
         {
           "id": "b",
-          "text": "Automation"
+          "text": "AI"
         },
         {
           "id": "c",
-          "text": "Fixed rules only"
+          "text": "Automation"
         },
         {
           "id": "d",
-          "text": "Manual counting"
+          "text": "Fixed rules only"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 59
     },
     {
@@ -2327,22 +2327,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Automation"
-        },
-        {
-          "id": "b",
-          "text": "AI"
-        },
-        {
-          "id": "c",
           "text": "Supervised learning"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Automation"
+        },
+        {
+          "id": "c",
           "text": "Unsupervised learning"
+        },
+        {
+          "id": "d",
+          "text": "AI"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 59
     },
     {
@@ -2356,15 +2356,15 @@
         },
         {
           "id": "b",
-          "text": "Automation"
-        },
-        {
-          "id": "c",
           "text": "Fixed timer device"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Non-learning machine"
+        },
+        {
+          "id": "d",
+          "text": "Automation"
         }
       ],
       "correct": "a",
@@ -2379,22 +2379,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Guesswork"
-        },
-        {
-          "id": "b",
-          "text": "Using data for decision-making"
-        },
-        {
-          "id": "c",
           "text": "Random selection"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Entertainment"
+        },
+        {
+          "id": "c",
+          "text": "Guesswork"
+        },
+        {
+          "id": "d",
+          "text": "Using data for decision-making"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-data-mcq2",
@@ -2403,22 +2403,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Image Data"
-        },
-        {
-          "id": "b",
           "text": "Text Data"
         },
         {
+          "id": "b",
+          "text": "Image Data"
+        },
+        {
           "id": "c",
-          "text": "Numerical Data"
+          "text": "Sound Data"
         },
         {
           "id": "d",
-          "text": "Sound Data"
+          "text": "Numerical Data"
         }
       ],
-      "correct": "c"
+      "correct": "d"
     },
     {
       "id": "ai-data-mcq3",
@@ -2427,22 +2427,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Playing games"
+          "text": "Sending messages"
         },
         {
           "id": "b",
-          "text": "Making future predictions"
-        },
-        {
-          "id": "c",
           "text": "Writing stories"
         },
         {
+          "id": "c",
+          "text": "Playing games"
+        },
+        {
           "id": "d",
-          "text": "Sending messages"
+          "text": "Making future predictions"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-data-mcq4",
@@ -2451,22 +2451,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Text Data"
-        },
-        {
-          "id": "b",
           "text": "Video Data"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Image Data"
+        },
+        {
+          "id": "c",
+          "text": "Text Data"
         },
         {
           "id": "d",
           "text": "Numerical Data"
         }
       ],
-      "correct": "b"
+      "correct": "a"
     },
     {
       "id": "ai-data-mcq5",
@@ -2479,18 +2479,18 @@
         },
         {
           "id": "b",
-          "text": "Your address"
+          "text": "Your photograph"
         },
         {
           "id": "c",
-          "text": "Your age"
+          "text": "Your address"
         },
         {
           "id": "d",
-          "text": "Your photograph"
+          "text": "Your age"
         }
       ],
-      "correct": "d"
+      "correct": "b"
     },
     {
       "id": "ai-data-fib1",
@@ -2499,22 +2499,22 @@
       "options": [
         {
           "id": "a",
-          "text": "information"
-        },
-        {
-          "id": "b",
-          "text": "stories"
-        },
-        {
-          "id": "c",
           "text": "guesses"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "information"
+        },
+        {
+          "id": "c",
           "text": "emotions"
+        },
+        {
+          "id": "d",
+          "text": "stories"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 68
     },
     {
@@ -2524,11 +2524,11 @@
       "options": [
         {
           "id": "a",
-          "text": "columns"
+          "text": "circles"
         },
         {
           "id": "b",
-          "text": "circles"
+          "text": "columns"
         },
         {
           "id": "c",
@@ -2539,7 +2539,7 @@
           "text": "passwords"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 68
     },
     {
@@ -2553,15 +2553,15 @@
         },
         {
           "id": "b",
-          "text": "numbers only"
-        },
-        {
-          "id": "c",
           "text": "videos only"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "temperatures"
+        },
+        {
+          "id": "d",
+          "text": "numbers only"
         }
       ],
       "correct": "a",
@@ -2574,11 +2574,11 @@
       "options": [
         {
           "id": "a",
-          "text": "classification"
+          "text": "spamming"
         },
         {
           "id": "b",
-          "text": "spamming"
+          "text": "classification"
         },
         {
           "id": "c",
@@ -2589,7 +2589,7 @@
           "text": "phishing"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 68
     },
     {
@@ -2599,22 +2599,22 @@
       "options": [
         {
           "id": "a",
-          "text": "storage"
-        },
-        {
-          "id": "b",
           "text": "deletion"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "guessing"
+        },
+        {
+          "id": "c",
+          "text": "storage"
         },
         {
           "id": "d",
           "text": "spamming"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2624,22 +2624,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Raw information that can be processed and analysed for insights"
-        },
-        {
-          "id": "b",
-          "text": "Only numbers written on paper"
-        },
-        {
-          "id": "c",
           "text": "Random guesses without facts"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Entertainment content only"
+        },
+        {
+          "id": "c",
+          "text": "Only numbers written on paper"
+        },
+        {
+          "id": "d",
+          "text": "Raw information that can be processed and analysed for insights"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 68
     },
     {
@@ -2649,7 +2649,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Decision making and personalised user experience"
+          "text": "Avoiding all measurements"
         },
         {
           "id": "b",
@@ -2657,14 +2657,14 @@
         },
         {
           "id": "c",
-          "text": "Ignoring past results"
+          "text": "Decision making and personalised user experience"
         },
         {
           "id": "d",
-          "text": "Avoiding all measurements"
+          "text": "Ignoring past results"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2674,22 +2674,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Numerical, Text, Image, and Sound data"
-        },
-        {
-          "id": "b",
           "text": "Only video and automation"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "AI, CT, and robotics only"
+        },
+        {
+          "id": "c",
+          "text": "Numerical, Text, Image, and Sound data"
         },
         {
           "id": "d",
           "text": "Rows, columns, and charts only"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2699,22 +2699,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Tables show exact values in rows and columns; charts show visual comparisons"
+          "text": "Tables cannot organise information"
         },
         {
           "id": "b",
-          "text": "They are exactly the same"
+          "text": "Tables show exact values in rows and columns; charts show visual comparisons"
         },
         {
           "id": "c",
-          "text": "Charts never use numbers"
+          "text": "They are exactly the same"
         },
         {
           "id": "d",
-          "text": "Tables cannot organise information"
+          "text": "Charts never use numbers"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 68
     },
     {
@@ -2724,22 +2724,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Classification groups similar data; labelling gives clear descriptive names"
-        },
-        {
-          "id": "b",
           "text": "Classification deletes files; labelling hides data"
         },
         {
+          "id": "b",
+          "text": "Neither helps organisation"
+        },
+        {
           "id": "c",
-          "text": "Both mean copying data illegally"
+          "text": "Classification groups similar data; labelling gives clear descriptive names"
         },
         {
           "id": "d",
-          "text": "Neither helps organisation"
+          "text": "Both mean copying data illegally"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2749,22 +2749,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Numerical data"
-        },
-        {
-          "id": "b",
-          "text": "Image data"
-        },
-        {
-          "id": "c",
           "text": "Text data"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Sound data"
+        },
+        {
+          "id": "c",
+          "text": "Image data"
+        },
+        {
+          "id": "d",
+          "text": "Numerical data"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 68
     },
     {
@@ -2774,22 +2774,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Bar chart \u2014 it makes visual comparison of categories easy"
-        },
-        {
-          "id": "b",
-          "text": "Table only \u2014 charts never help"
-        },
-        {
-          "id": "c",
           "text": "Neither \u2014 ignore the data"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Random list with no structure"
+        },
+        {
+          "id": "c",
+          "text": "Bar chart \u2014 it makes visual comparison of categories easy"
+        },
+        {
+          "id": "d",
+          "text": "Table only \u2014 charts never help"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2799,22 +2799,22 @@
       "options": [
         {
           "id": "a",
-          "text": "To personalise recommendations using your past activity"
-        },
-        {
-          "id": "b",
           "text": "To delete your account automatically"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Only for entertainment with no pattern"
+        },
+        {
+          "id": "c",
+          "text": "To personalise recommendations using your past activity"
         },
         {
           "id": "d",
           "text": "To ignore your preferences"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 68
     },
     {
@@ -2824,22 +2824,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Classify files into folders and use clear labels"
-        },
-        {
-          "id": "b",
-          "text": "Delete everything immediately"
-        },
-        {
-          "id": "c",
           "text": "Leave files random forever"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Share all files publicly online"
+        },
+        {
+          "id": "c",
+          "text": "Delete everything immediately"
+        },
+        {
+          "id": "d",
+          "text": "Classify files into folders and use clear labels"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 68
     },
     {
@@ -2849,11 +2849,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Numerical Data"
+          "text": "Text Data"
         },
         {
           "id": "b",
-          "text": "Text Data"
+          "text": "Numerical Data"
         },
         {
           "id": "c",
@@ -2864,7 +2864,7 @@
           "text": "Video Data"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 69
     },
     {
@@ -2874,22 +2874,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Sound Data"
-        },
-        {
-          "id": "b",
-          "text": "Image Data"
-        },
-        {
-          "id": "c",
           "text": "Numerical Data only"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "Video Data only"
+        },
+        {
+          "id": "c",
+          "text": "Sound Data"
+        },
+        {
+          "id": "d",
+          "text": "Image Data"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 69
     },
     {
@@ -2899,7 +2899,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Image Data"
+          "text": "Numerical Data"
         },
         {
           "id": "b",
@@ -2907,14 +2907,14 @@
         },
         {
           "id": "c",
-          "text": "Numerical Data"
+          "text": "Sound Data"
         },
         {
           "id": "d",
-          "text": "Sound Data"
+          "text": "Image Data"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 69
     },
     {
@@ -2924,22 +2924,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Text Data"
-        },
-        {
-          "id": "b",
           "text": "Image Data"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "Numerical Data"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Video Data"
+        },
+        {
+          "id": "d",
+          "text": "Text Data"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 69
     },
     {
@@ -2949,22 +2949,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Numerical Data"
-        },
-        {
-          "id": "b",
-          "text": "Text Data"
-        },
-        {
-          "id": "c",
           "text": "Image Data"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Numerical Data"
+        },
+        {
+          "id": "c",
           "text": "Sound Data"
+        },
+        {
+          "id": "d",
+          "text": "Text Data"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 69
     }
   ],
@@ -2980,18 +2980,18 @@
         },
         {
           "id": "b",
-          "text": "A pattern"
+          "text": "A mistake"
         },
         {
           "id": "c",
-          "text": "A single event"
+          "text": "A pattern"
         },
         {
           "id": "d",
-          "text": "A mistake"
+          "text": "A single event"
         }
       ],
-      "correct": "b"
+      "correct": "c"
     },
     {
       "id": "ai-patterns-mcq2",
@@ -3000,22 +3000,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Changing the data"
-        },
-        {
-          "id": "b",
-          "text": "Looking for patterns and key findings"
-        },
-        {
-          "id": "c",
           "text": "Making guesses"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Changing the data"
+        },
+        {
+          "id": "c",
           "text": "Hiding results"
+        },
+        {
+          "id": "d",
+          "text": "Looking for patterns and key findings"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-patterns-mcq3",
@@ -3024,22 +3024,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Machine learning"
+          "text": "Prediction"
         },
         {
           "id": "b",
-          "text": "Sorting and Filtering"
+          "text": "Machine learning"
         },
         {
           "id": "c",
-          "text": "Entertainment"
+          "text": "Sorting and Filtering"
         },
         {
           "id": "d",
-          "text": "Prediction"
+          "text": "Entertainment"
         }
       ],
-      "correct": "b"
+      "correct": "c"
     },
     {
       "id": "ai-patterns-mcq4",
@@ -3048,22 +3048,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Copying data"
-        },
-        {
-          "id": "b",
-          "text": "Understanding and applying observations"
-        },
-        {
-          "id": "c",
           "text": "Creating confusion"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Copying data"
+        },
+        {
+          "id": "c",
           "text": "Repeating the same data"
+        },
+        {
+          "id": "d",
+          "text": "Understanding and applying observations"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-patterns-mcq5",
@@ -3096,7 +3096,7 @@
       "options": [
         {
           "id": "a",
-          "text": "sequence"
+          "text": "password"
         },
         {
           "id": "b",
@@ -3104,14 +3104,14 @@
         },
         {
           "id": "c",
-          "text": "password"
+          "text": "sequence"
         },
         {
           "id": "d",
           "text": "virus"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 74
     },
     {
@@ -3121,22 +3121,22 @@
       "options": [
         {
           "id": "a",
-          "text": "sequences"
-        },
-        {
-          "id": "b",
-          "text": "errors only"
-        },
-        {
-          "id": "c",
           "text": "spam emails"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "sequences"
+        },
+        {
+          "id": "c",
           "text": "deleted files"
+        },
+        {
+          "id": "d",
+          "text": "errors only"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 74
     },
     {
@@ -3146,11 +3146,11 @@
       "options": [
         {
           "id": "a",
-          "text": "key"
+          "text": "random"
         },
         {
           "id": "b",
-          "text": "hidden"
+          "text": "key"
         },
         {
           "id": "c",
@@ -3158,10 +3158,10 @@
         },
         {
           "id": "d",
-          "text": "random"
+          "text": "hidden"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 74
     },
     {
@@ -3175,15 +3175,15 @@
         },
         {
           "id": "b",
-          "text": "virus"
+          "text": "advertisement"
         },
         {
           "id": "c",
-          "text": "password"
+          "text": "virus"
         },
         {
           "id": "d",
-          "text": "advertisement"
+          "text": "password"
         }
       ],
       "correct": "a",
@@ -3196,22 +3196,22 @@
       "options": [
         {
           "id": "a",
-          "text": "information"
+          "text": "colours only"
         },
         {
           "id": "b",
-          "text": "weather only"
+          "text": "information"
         },
         {
           "id": "c",
-          "text": "colours only"
+          "text": "weather only"
         },
         {
           "id": "d",
           "text": "noise"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 74
     },
     {
@@ -3225,7 +3225,7 @@
         },
         {
           "id": "b",
-          "text": "A one-time accident"
+          "text": "Copying without thinking"
         },
         {
           "id": "c",
@@ -3233,7 +3233,7 @@
         },
         {
           "id": "d",
-          "text": "Copying without thinking"
+          "text": "A one-time accident"
         }
       ],
       "correct": "a",
@@ -3250,11 +3250,11 @@
         },
         {
           "id": "b",
-          "text": "Hacking and phishing"
+          "text": "Spamming and piracy"
         },
         {
           "id": "c",
-          "text": "Spamming and piracy"
+          "text": "Hacking and phishing"
         },
         {
           "id": "d",
@@ -3271,11 +3271,11 @@
       "options": [
         {
           "id": "a",
-          "text": "It helps forecast what may happen next based on the pattern"
+          "text": "It makes data impossible to read"
         },
         {
           "id": "b",
-          "text": "It makes data impossible to read"
+          "text": "It helps forecast what may happen next based on the pattern"
         },
         {
           "id": "c",
@@ -3286,7 +3286,7 @@
           "text": "It prevents any conclusions"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 74
     },
     {
@@ -3296,22 +3296,22 @@
       "options": [
         {
           "id": "a",
-          "text": "To group similar data, find connections, and understand relationships"
-        },
-        {
-          "id": "b",
           "text": "To delete all observations"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "To avoid drawing conclusions"
+        },
+        {
+          "id": "c",
+          "text": "To group similar data, find connections, and understand relationships"
         },
         {
           "id": "d",
           "text": "Only to hide irregularities"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 74
     },
     {
@@ -3321,22 +3321,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Observation notes what you see; conclusion explains what it means"
+          "text": "Neither uses data"
         },
         {
           "id": "b",
-          "text": "They are exactly the same step"
-        },
-        {
-          "id": "c",
           "text": "Conclusion comes before observation"
         },
         {
+          "id": "c",
+          "text": "Observation notes what you see; conclusion explains what it means"
+        },
+        {
           "id": "d",
-          "text": "Neither uses data"
+          "text": "They are exactly the same step"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 74
     },
     {
@@ -3346,7 +3346,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Collecting numerical measurements to observe growth over time"
+          "text": "Ignoring any pattern"
         },
         {
           "id": "b",
@@ -3358,10 +3358,10 @@
         },
         {
           "id": "d",
-          "text": "Ignoring any pattern"
+          "text": "Collecting numerical measurements to observe growth over time"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 74
     },
     {
@@ -3371,22 +3371,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Making an observation from data"
-        },
-        {
-          "id": "b",
-          "text": "Drawing a final legal verdict"
-        },
-        {
-          "id": "c",
           "text": "Hacking a weather server"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Making an observation from data"
+        },
+        {
+          "id": "c",
           "text": "Random guessing"
+        },
+        {
+          "id": "d",
+          "text": "Drawing a final legal verdict"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 74
     },
     {
@@ -3400,7 +3400,7 @@
         },
         {
           "id": "b",
-          "text": "Stop practising entirely"
+          "text": "Act without thinking"
         },
         {
           "id": "c",
@@ -3408,7 +3408,7 @@
         },
         {
           "id": "d",
-          "text": "Act without thinking"
+          "text": "Stop practising entirely"
         }
       ],
       "correct": "a",
@@ -3421,7 +3421,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Cricket is more popular in this class based on the survey"
+          "text": "The survey data should be hidden"
         },
         {
           "id": "b",
@@ -3429,14 +3429,14 @@
         },
         {
           "id": "c",
-          "text": "The survey data should be hidden"
+          "text": "Football is equally popular"
         },
         {
           "id": "d",
-          "text": "Football is equally popular"
+          "text": "Cricket is more popular in this class based on the survey"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 74
     },
     {
@@ -3471,22 +3471,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Sorting and filtering"
-        },
-        {
-          "id": "b",
           "text": "Reinforcement learning"
         },
         {
+          "id": "b",
+          "text": "Sorting and filtering"
+        },
+        {
           "id": "c",
-          "text": "Spamming"
+          "text": "Hacking"
         },
         {
           "id": "d",
-          "text": "Hacking"
+          "text": "Spamming"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 75
     },
     {
@@ -3500,15 +3500,15 @@
         },
         {
           "id": "b",
-          "text": "Software piracy"
-        },
-        {
-          "id": "c",
           "text": "Password theft"
         },
         {
-          "id": "d",
+          "id": "c",
           "text": "Plagiarism"
+        },
+        {
+          "id": "d",
+          "text": "Software piracy"
         }
       ],
       "correct": "a",
@@ -3521,11 +3521,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Time series analysis"
+          "text": "Copying homework"
         },
         {
           "id": "b",
-          "text": "Copying homework"
+          "text": "Random clicking"
         },
         {
           "id": "c",
@@ -3533,10 +3533,10 @@
         },
         {
           "id": "d",
-          "text": "Random clicking"
+          "text": "Time series analysis"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 75
     },
     {
@@ -3550,7 +3550,7 @@
         },
         {
           "id": "b",
-          "text": "Fixed timer automation"
+          "text": "Deleting datasets"
         },
         {
           "id": "c",
@@ -3558,7 +3558,7 @@
         },
         {
           "id": "d",
-          "text": "Deleting datasets"
+          "text": "Fixed timer automation"
         }
       ],
       "correct": "a",
@@ -3651,18 +3651,18 @@
         },
         {
           "id": "b",
-          "text": "Plagiarism"
+          "text": "Phishing"
         },
         {
           "id": "c",
-          "text": "Spamming"
+          "text": "Plagiarism"
         },
         {
           "id": "d",
-          "text": "Phishing"
+          "text": "Spamming"
         }
       ],
-      "correct": "b"
+      "correct": "c"
     },
     {
       "id": "ai-ethics-mcq2",
@@ -3671,22 +3671,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Send it"
+          "text": "Give fake information"
         },
         {
           "id": "b",
-          "text": "Inform your parents"
-        },
-        {
-          "id": "c",
           "text": "Post online"
         },
         {
+          "id": "c",
+          "text": "Send it"
+        },
+        {
           "id": "d",
-          "text": "Give fake information"
+          "text": "Inform your parents"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-ethics-mcq3",
@@ -3695,11 +3695,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Click"
+          "text": "Ignore"
         },
         {
           "id": "b",
-          "text": "Ignore"
+          "text": "Click"
         },
         {
           "id": "c",
@@ -3710,7 +3710,7 @@
           "text": "Download scanner"
         }
       ],
-      "correct": "b"
+      "correct": "a"
     },
     {
       "id": "ai-ethics-mcq4",
@@ -3723,7 +3723,7 @@
         },
         {
           "id": "b",
-          "text": "Use secure network"
+          "text": "Install random app"
         },
         {
           "id": "c",
@@ -3731,10 +3731,10 @@
         },
         {
           "id": "d",
-          "text": "Install random app"
+          "text": "Use secure network"
         }
       ],
-      "correct": "b"
+      "correct": "d"
     },
     {
       "id": "ai-ethics-mcq5",
@@ -3747,15 +3747,15 @@
         },
         {
           "id": "b",
-          "text": "Passive footprint"
+          "text": "Phishing footprint"
         },
         {
           "id": "c",
-          "text": "Hacker footprint"
+          "text": "Passive footprint"
         },
         {
           "id": "d",
-          "text": "Phishing footprint"
+          "text": "Hacker footprint"
         }
       ],
       "correct": "a"
@@ -3767,22 +3767,22 @@
       "options": [
         {
           "id": "a",
-          "text": "click"
-        },
-        {
-          "id": "b",
           "text": "share passwords"
         },
         {
-          "id": "c",
+          "id": "b",
           "text": "download illegally"
+        },
+        {
+          "id": "c",
+          "text": "click"
         },
         {
           "id": "d",
           "text": "ignore parents"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 81
     },
     {
@@ -3792,11 +3792,11 @@
       "options": [
         {
           "id": "a",
-          "text": "personal"
+          "text": "favourite colour"
         },
         {
           "id": "b",
-          "text": "favourite colour"
+          "text": "class timetable only"
         },
         {
           "id": "c",
@@ -3804,10 +3804,10 @@
         },
         {
           "id": "d",
-          "text": "class timetable only"
+          "text": "personal"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -3817,7 +3817,7 @@
       "options": [
         {
           "id": "a",
-          "text": "cybercrimes"
+          "text": "teamwork"
         },
         {
           "id": "b",
@@ -3829,10 +3829,10 @@
         },
         {
           "id": "d",
-          "text": "teamwork"
+          "text": "cybercrimes"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -3842,22 +3842,22 @@
       "options": [
         {
           "id": "a",
-          "text": "confidential"
-        },
-        {
-          "id": "b",
-          "text": "public weather"
-        },
-        {
-          "id": "c",
           "text": "classroom seating"
         },
         {
-          "id": "d",
+          "id": "b",
           "text": "sports scores"
+        },
+        {
+          "id": "c",
+          "text": "public weather"
+        },
+        {
+          "id": "d",
+          "text": "confidential"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -3867,22 +3867,22 @@
       "options": [
         {
           "id": "a",
-          "text": "post"
+          "text": "walk in the park offline"
         },
         {
           "id": "b",
-          "text": "sleep"
-        },
-        {
-          "id": "c",
           "text": "eat lunch"
         },
         {
+          "id": "c",
+          "text": "sleep"
+        },
+        {
           "id": "d",
-          "text": "walk in the park offline"
+          "text": "post"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -3892,7 +3892,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Using technology wisely and respectfully \u2014 e.g. thinking before posting online"
+          "text": "Copying essays without credit"
         },
         {
           "id": "b",
@@ -3900,14 +3900,14 @@
         },
         {
           "id": "c",
-          "text": "Clicking every pop-up ad"
+          "text": "Using technology wisely and respectfully \u2014 e.g. thinking before posting online"
         },
         {
           "id": "d",
-          "text": "Copying essays without credit"
+          "text": "Clicking every pop-up ad"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 81
     },
     {
@@ -3917,7 +3917,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Limit personal sharing and read privacy policies before signing up"
+          "text": "Share bank details in chat"
         },
         {
           "id": "b",
@@ -3925,14 +3925,14 @@
         },
         {
           "id": "c",
-          "text": "Share bank details in chat"
+          "text": "Limit personal sharing and read privacy policies before signing up"
         },
         {
           "id": "d",
           "text": "Use weak passwords forever"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 81
     },
     {
@@ -3942,11 +3942,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Active footprints come from intentional posts; passive from background tracking"
+          "text": "They are identical"
         },
         {
           "id": "b",
-          "text": "They are identical"
+          "text": "Active footprints cannot be created"
         },
         {
           "id": "c",
@@ -3954,10 +3954,10 @@
         },
         {
           "id": "d",
-          "text": "Active footprints cannot be created"
+          "text": "Active footprints come from intentional posts; passive from background tracking"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -3967,7 +3967,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To prevent unauthorized access and protect accounts from hacking"
+          "text": "Because weak passwords are encouraged"
         },
         {
           "id": "b",
@@ -3975,14 +3975,14 @@
         },
         {
           "id": "c",
-          "text": "Because weak passwords are encouraged"
+          "text": "To prevent unauthorized access and protect accounts from hacking"
         },
         {
           "id": "d",
           "text": "Passwords do not matter online"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 81
     },
     {
@@ -3992,22 +3992,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Unauthorized copying of software \u2014 prevent by buying licensed copies"
+          "text": "Download only from unknown sites"
         },
         {
           "id": "b",
-          "text": "Sharing licensed copies freely is legal"
-        },
-        {
-          "id": "c",
           "text": "Piracy means helping authors"
         },
         {
+          "id": "c",
+          "text": "Unauthorized copying of software \u2014 prevent by buying licensed copies"
+        },
+        {
           "id": "d",
-          "text": "Download only from unknown sites"
+          "text": "Sharing licensed copies freely is legal"
         }
       ],
-      "correct": "a",
+      "correct": "c",
       "handbookPage": 81
     },
     {
@@ -4017,22 +4017,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Active digital footprint"
-        },
-        {
-          "id": "b",
           "text": "Passive digital footprint"
         },
         {
+          "id": "b",
+          "text": "Active digital footprint"
+        },
+        {
           "id": "c",
-          "text": "Hacker footprint"
+          "text": "Phishing footprint"
         },
         {
           "id": "d",
-          "text": "Phishing footprint"
+          "text": "Hacker footprint"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 81
     },
     {
@@ -4042,11 +4042,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Do not share details and inform a parent or guardian"
+          "text": "Reply with full bank information"
         },
         {
           "id": "b",
-          "text": "Reply with full bank information"
+          "text": "Click every link in the email"
         },
         {
           "id": "c",
@@ -4054,10 +4054,10 @@
         },
         {
           "id": "d",
-          "text": "Click every link in the email"
+          "text": "Do not share details and inform a parent or guardian"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 81
     },
     {
@@ -4067,22 +4067,22 @@
       "options": [
         {
           "id": "a",
-          "text": "To personalise content using your interests and activity"
-        },
-        {
-          "id": "b",
           "text": "To delete your account without notice"
         },
         {
+          "id": "b",
+          "text": "To personalise content using your interests and activity"
+        },
+        {
           "id": "c",
-          "text": "Only to print homework"
+          "text": "Data is never collected"
         },
         {
           "id": "d",
-          "text": "Data is never collected"
+          "text": "Only to print homework"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 81
     },
     {
@@ -4096,11 +4096,11 @@
         },
         {
           "id": "b",
-          "text": "Download from random pop-up links"
+          "text": "Disable antivirus first"
         },
         {
           "id": "c",
-          "text": "Disable antivirus first"
+          "text": "Download from random pop-up links"
         },
         {
           "id": "d",
@@ -4117,11 +4117,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Plagiarism / intellectual property violation"
+          "text": "Responsible digital citizenship"
         },
         {
           "id": "b",
-          "text": "Responsible digital citizenship"
+          "text": "Plagiarism / intellectual property violation"
         },
         {
           "id": "c",
@@ -4132,7 +4132,7 @@
           "text": "Active digital footprint creation"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 81
     },
     {
@@ -4142,22 +4142,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Phishing"
-        },
-        {
-          "id": "b",
-          "text": "Plagiarism"
-        },
-        {
-          "id": "c",
           "text": "Digital footprint"
         },
         {
-          "id": "d",
+          "id": "b",
+          "text": "Phishing"
+        },
+        {
+          "id": "c",
           "text": "Ethics"
+        },
+        {
+          "id": "d",
+          "text": "Plagiarism"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 82
     },
     {
@@ -4167,22 +4167,22 @@
       "options": [
         {
           "id": "a",
-          "text": "Plagiarism"
+          "text": "Firewall"
         },
         {
           "id": "b",
-          "text": "Phishing"
-        },
-        {
-          "id": "c",
           "text": "Privacy policy"
         },
         {
+          "id": "c",
+          "text": "Phishing"
+        },
+        {
           "id": "d",
-          "text": "Firewall"
+          "text": "Plagiarism"
         }
       ],
-      "correct": "a",
+      "correct": "d",
       "handbookPage": 82
     },
     {
@@ -4192,11 +4192,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Digital footprint"
+          "text": "Spam filter"
         },
         {
           "id": "b",
-          "text": "Spam filter"
+          "text": "Digital footprint"
         },
         {
           "id": "c",
@@ -4207,7 +4207,7 @@
           "text": "Bar chart"
         }
       ],
-      "correct": "a",
+      "correct": "b",
       "handbookPage": 82
     },
     {
@@ -4221,11 +4221,11 @@
         },
         {
           "id": "b",
-          "text": "Machine learning"
+          "text": "Time series analysis"
         },
         {
           "id": "c",
-          "text": "Time series analysis"
+          "text": "Machine learning"
         },
         {
           "id": "d",
@@ -4246,15 +4246,15 @@
         },
         {
           "id": "b",
-          "text": "Phishing email"
+          "text": "Reinforcement learning"
         },
         {
           "id": "c",
-          "text": "Pictogram"
+          "text": "Phishing email"
         },
         {
           "id": "d",
-          "text": "Reinforcement learning"
+          "text": "Pictogram"
         }
       ],
       "correct": "a",

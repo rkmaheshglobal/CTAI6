@@ -53,11 +53,51 @@ export interface QuizQuestion {
   guide?: QuestionGuide;
 }
 
+export type LearnAccent = "violet" | "blue" | "emerald" | "amber" | "rose" | "cyan" | "indigo";
+
+export type LearnVisual =
+  | {
+      type: "cards";
+      items: { emoji: string; title: string; subtitle?: string; description: string }[];
+    }
+  | {
+      type: "compare";
+      left: { label: string; emoji: string; points: string[] };
+      right: { label: string; emoji: string; points: string[] };
+    }
+  | {
+      type: "timeline";
+      events: { emoji: string; label: string; text: string }[];
+    }
+  | {
+      type: "grid";
+      items: { emoji: string; label: string }[];
+    }
+  | {
+      type: "steps";
+      items: { emoji: string; title: string; text: string }[];
+    }
+  | {
+      type: "table";
+      headers: string[];
+      rows: string[][];
+    }
+  | {
+      type: "diagram";
+      nodes: { emoji: string; label: string }[];
+      flow?: string[];
+    };
+
 export interface LearnSection {
   id: string;
   title: string;
   content: string[];
   bullets?: string[];
+  emoji?: string;
+  accent?: LearnAccent;
+  visual?: LearnVisual;
+  funFact?: string;
+  practiceTip?: string;
 }
 
 export interface ChapterContent {

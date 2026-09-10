@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
-import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
-import { ArrowLeft, CheckCircle2, Lightbulb } from "lucide-react";
+import { ArrowLeft, CheckCircle2 } from "lucide-react";
+import { LearnSectionLayout } from "@/components/LearnSectionView";
+import { isAiLearnChapter } from "@/data/ai-learn-visuals";
 import { useAppStore } from "@/lib/store";
 import { getChapterContent } from "@/data/chapter-registry";
 import { ALL_CHAPTERS } from "@/data/curriculum";
@@ -149,64 +150,33 @@ export default function LearnChapterPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl px-4 py-6">
+      <main
+        className={`mx-auto px-4 py-6 ${
+          tab === "learn" && content?.learn ? "max-w-5xl" : "max-w-3xl"
+        }`}
+      >
         {tab === "learn" && content?.learn && (
-          <div className="space-y-6">
-            {content.learn.map((section, i) => {
-              const isRead =
-                readSections.has(section.id) || chProgress?.sectionsRead.includes(section.id);
-              return (
-                <motion.article
-                  key={section.id}
-                  initial={{ opacity: 0, y: 12 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.08 }}
-                  className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
-                >
-                  <h2 className="text-lg font-bold text-slate-800">{section.title}</h2>
-                  {section.content.map((p) => (
-                    <p key={p.slice(0, 40)} className="mt-3 text-slate-600 leading-relaxed">
-                      {p}
-                    </p>
-                  ))}
-                  {section.bullets && (
-                    <ul className="mt-3 space-y-2">
-                      {section.bullets.map((b) => (
-                        <li key={b} className="flex gap-2 text-sm text-slate-600">
-                          <span className="text-violet-500">•</span> {b}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                  {!isRead && (
-                    <button
-                      type="button"
-                      onClick={() => handleSectionRead(section.id)}
-                      className="mt-4 rounded-full bg-violet-100 px-4 py-2 text-sm font-semibold text-violet-700"
-                    >
-                      I read this section ✓
-                    </button>
-                  )}
-                  {isRead && (
-                    <p className="mt-4 text-sm text-emerald-600 font-medium">✓ Section read (+10 XP)</p>
-                  )}
-                </motion.article>
-              );
-            })}
-
-            {content.keyPoints && (
-              <div className="rounded-2xl bg-gradient-to-br from-violet-50 to-indigo-50 p-6 border border-violet-100">
-                <h3 className="flex items-center gap-2 font-bold text-violet-900">
-                  <Lightbulb className="h-5 w-5" /> Points to remember
-                </h3>
-                <ul className="mt-3 space-y-2">
-                  {content.keyPoints.map((p) => (
-                    <li key={p} className="text-sm text-violet-800">✓ {p}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
+          <LearnSectionLayout
+            sections={content.learn}
+            readIds={
+              new Set([
+                ...readSections,
+                ...(chProgress?.sectionsRead ?? []),
+              ])
+            }
+            readCount={content.learn.filter(
+              (s) =>
+                readSections.has(s.id) || chProgress?.sectionsRead.includes(s.id)
+            ).length}
+            showProgress={isAiLearnChapter(chapterId)}
+            keyPoints={content.keyPoints}
+            showPracticeLink={!!content.exercises?.length}
+            onMarkRead={handleSectionRead}
+            onGoToPractice={() => setTab("practice")}
+            isSectionRead={(id) =>
+              readSections.has(id) || chProgress?.sectionsRead.includes(id)
+            }
+          />
         )}
 
         {tab === "explore" && chapterId === "ai-intro" && (

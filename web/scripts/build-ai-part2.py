@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Add AI Part 2 exercises and Sachin-style detailed guides for all AI questions."""
 
+import hashlib
 import json
+import random
+import re
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -37,6 +41,65 @@ def mcq(
         "correct": correct,
         "handbookPage": page,
     }
+
+
+OPTION_IDS = ("a", "b", "c", "d")
+
+
+def shuffle_question_options(q: dict[str, Any]) -> dict[str, Any]:
+    """Deterministically shuffle MCQ options so the correct answer is not always (a)."""
+    options = list(q["options"])
+    correct_id = q["correct"]
+    correct_text = next(o["text"] for o in options if o["id"] == correct_id)
+
+    rng = random.Random(int(hashlib.md5(q["id"].encode()).hexdigest(), 16))
+    rng.shuffle(options)
+
+    shuffled: list[dict[str, str]] = []
+    new_correct = "a"
+    for idx, opt in enumerate(options):
+        oid = OPTION_IDS[idx]
+        shuffled.append({"id": oid, "text": opt["text"]})
+        if opt["text"] == correct_text:
+            new_correct = oid
+
+    return {**q, "options": shuffled, "correct": new_correct}
+
+
+def _option_id_map(before: dict[str, Any], after: dict[str, Any]) -> dict[str, str]:
+    after_by_text = {o["text"]: o["id"] for o in after["options"]}
+    return {o["id"]: after_by_text[o["text"]] for o in before["options"]}
+
+
+def _remap_option_refs(text: str, id_map: dict[str, str]) -> str:
+    def repl(match: re.Match[str]) -> str:
+        old = match.group(1)
+        return f"({id_map.get(old, old)})"
+
+    return re.sub(r"\(([abcd])\)", repl, text)
+
+
+def remap_existing_guide(
+    guide: dict[str, Any], before: dict[str, Any], after: dict[str, Any]
+) -> dict[str, Any]:
+    """Keep rich guide content but update option letters after a shuffle."""
+    id_map = _option_id_map(before, after)
+    g = deepcopy(guide)
+
+    wf = g.get("wrongFeedback", {})
+    g["wrongFeedback"] = {
+        id_map[oid]: msg for oid, msg in wf.items() if oid in id_map
+    }
+
+    for key in ("explanation", "conclusion", "example"):
+        if key in g and isinstance(g[key], str):
+            g[key] = _remap_option_refs(g[key], id_map)
+
+    for step in g.get("detailedSteps", []):
+        if isinstance(step.get("content"), str):
+            step["content"] = _remap_option_refs(step["content"], id_map)
+
+    return g
 
 
 def make_guide(
@@ -964,21 +1027,25 @@ def main() -> None:
 
     for chapter in AI_CHAPTERS:
         per_chapter[chapter] = 0
+        shuffled_questions: list[dict[str, Any]] = []
         for q in handbook.get(chapter, []):
-            qid = q["id"]
+            before = q
+            after = shuffle_question_options(q)
+            shuffled_questions.append(after)
+
+            qid = after["id"]
             per_chapter[chapter] += 1
             if qid in EXISTING_AI_GUIDES:
-                guides[qid] = EXISTING_AI_GUIDES[qid]
-            elif qid not in guides or "-fib" in qid or "-saq" in qid or "-apply" in qid or "-class" in qid:
-                guides[qid] = build_guide_for_new_question(q, chapter)
+                guides[qid] = remap_existing_guide(EXISTING_AI_GUIDES[qid], before, after)
             else:
-                # Upgrade any existing AI guide missing detailedSteps
-                if not guides[qid].get("detailedSteps"):
-                    guides[qid] = build_guide_for_new_question(q, chapter)
+                guides[qid] = build_guide_for_new_question(after, chapter)
+
             if qid.startswith("ai-") or qid in EXISTING_AI_GUIDES:
                 ai_guide_count += 1
                 if guides[qid].get("detailedSteps"):
                     detailed_count += 1
+
+        handbook[chapter] = shuffled_questions
 
     HANDBOOK_PATH.write_text(json.dumps(handbook, indent=2) + "\n")
     GUIDES_PATH.write_text(json.dumps(guides, indent=2) + "\n")

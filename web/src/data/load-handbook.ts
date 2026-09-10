@@ -1,5 +1,7 @@
 import type { ChapterContent, QuizQuestion, QuestionGuide } from "@/lib/types";
 import { ALL_CHAPTERS, CT_SKILLS } from "@/data/curriculum";
+import { AI_LEARN_CONTENT } from "@/data/ai-learn-content";
+import { enrichLearnSections } from "@/data/ai-learn-visuals";
 import extracted from "./handbook-extracted.json";
 import diagramManifest from "./diagram-manifest.json";
 import questionGuides from "./question-guides.json";
@@ -80,10 +82,14 @@ for (const meta of ALL_CHAPTERS) {
   const rawList = (extracted as Record<string, RawExercise[]>)[meta.id];
   if (!rawList?.length) continue;
 
+  const aiLearn = AI_LEARN_CONTENT[meta.id];
+
   registry[meta.id] = {
     meta,
-    learn: buildLearn(meta),
-    keyPoints: [
+    learn: aiLearn
+      ? enrichLearnSections(meta.id, aiLearn.learn)
+      : buildLearn(meta),
+    keyPoints: aiLearn?.keyPoints ?? [
       `${rawList.length} practice questions from the handbook`,
       "Diagrams shown from the official PDF when needed",
       meta.sourcePages,
